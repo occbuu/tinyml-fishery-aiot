@@ -1,0 +1,102 @@
+{
+  "snapshot": {
+    "id": "34rczh25kc",
+    "version": 4,
+    "name": "KU-MWQ: A Dataset for Monitoring Water Quality Using Digital Sensors.",
+    "description": "Water quality depends on many factors. Among them some factors have direct effect in maintaining minimum sustainable environment. The following dataset contains parameters of three basic water quality factors. Temperature, pH factor and Water Turbidity. Two sets of Arduino based digital sensors were used to measure data from two different depths of the water label. Data were collected from a fish pond within the premises of Khan Jahan Ali Hall, Khulna University. Data were recorded 24 hours continuously from 15 January 2020 to 22 January 2020. Recording rate was 1 set of data per minute in average. All the sensors collected data in parallel at the same time. An Arduino Mega microcontroller board acted as the central processing unit and recorded all the sensors’ data altogether.\nData file contents:\nData 1:: Sensor data for 30 cm.xlsx:\nContains raw data from pH sensor, Temperature sensor and Turbidity sensor. This set of sensors was 30 cm underwater. This file has 9623 sets of data each set having 3 data samples from the corresponding sensors. Data arrangement is described below:\nColumn 1: Date and time of data recording in the format of YYYY-MM-DD [hh]:[mm]:[ss]. Time is in 24-hour format. Data are identical for all files.\nColumn 2: Data from Temperature sensor in °C. Temperature values have maximum two decimal places.\nColumn 3: Data from pH sensor. pH values have maximum two decimal places.\nColumn 4: Data from turbidity sensor in “NTU” unit.\nData 2:: Sensor data for 60 cm.xlsx:\nContains raw data from Temperature sensor and Turbidity sensor. This set of sensors was 60 cm underwater. This file has 9623 sets of data each set having 2 data samples from the corresponding sensors. Data arrangement is described below:\nColumn 1: Date and time of data recording, same as the previous file.\nColumn 2: Data from Temperature sensor in °C. Temperature values have maximum two decimal places.\nColumn 3: Data from turbidity sensor in “NTU” unit.\nRow-wise data categorisation:\nEach row represents one set of data for that consecutive time of the day. Considering when the data were taken the rows can be divided into two groups, day time data and night time data.\nRow 2-116, 811-1445, 2170-2855, 3634-4410, 5156-5885, 6554-7189, 7833-8476, 9078-9624:: Contains day time data from 6:00am to 6:00pm.\nRow 117-810, 1446-2169, 2856-3633, 4411-5155, 5886-6553, 7190-7832, 8477-9077:: Contains night time data from 6:00pm to 6:00am.\nThese data can also be categorised row-wise based on the weather condition of the day. There are two groups of data that were collected under two different weather conditions. \nRow 2-6148, 7462-9624:: Contains sensor data from dry day.\nRow 6149-7461:: Contains sensor data from rainy day.\n\nThis dataset can be used to determine environmental suitability of the local area for fish farming. Machine learning based projects can use this data for detecting anomalies and forecasting near future aquatic environmental condition.\n",
+    "doi": "10.17632/34rczh25kc.4",
+    "publish_date": "2020-08-30T11:34:16.149Z",
+    "last_modification_date": "2020-08-29T15:22:56.329Z",
+    "is_confidential": false,
+    "customer": {
+      "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+      "name": "Mendeley Guests",
+      "chief_id": 810289,
+      "config": {
+        "repository_id": "MENDELEY_DATA",
+        "dataset_size_limit": 10737418240,
+        "doi_prefix": "10.17632"
+      },
+      "is_user_mendeley_admin": false,
+      "customer_roles": [],
+      "is_guest": true,
+      "is_user_customer_moderator": false
+    },
+    "owner": {
+      "id": "7a2ade0a-e765-3e3b-83cb-90cf3c8e2b9b",
+      "first_name": "Abdullah-Al",
+      "last_name": "Nahid",
+      "display_name": "Abdullah-Al Nahid",
+      "$ref": "/profiles/7a2ade0a-e765-3e3b-83cb-90cf3c8e2b9b"
+    },
+    "categories": [
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249568319",
+        "label": "Computer Engineering"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-252588323",
+        "label": "Sensor"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253221907",
+        "label": "Water Quality Assessment"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-257948179",
+        "label": "pH"
+      }
+    ],
+    "licence": {
+      "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+      "short_name": "CC BY 4.0",
+      "full_name": "Creative Commons Attribution 4.0 International",
+      "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+      "url": "http://creativecommons.org/licenses/by/4.0",
+      "category": "Creative",
+      "customer_id": null
+    },
+    "institutions": [
+      {
+        "id": "f0203e58-06c3-5f1e-8fea-abb1c8d5ad81",
+        "name": "Khulna University"
+      }
+    ],
+    "organisational_unit_names": [],
+    "contributors": [
+      {
+        "id": "7a2ade0a-e765-3e3b-83cb-90cf3c8e2b9b",
+        "first_name": "Abdullah-Al",
+        "last_name": "Nahid",
+        "$ref": "/profiles/7a2ade0a-e765-3e3b-83cb-90cf3c8e2b9b"
+      },
+      {
+        "first_name": "Arif  Istiaq",
+        "last_name": "Arafat",
+        "institution": "Khulna University"
+      },
+      {
+        "first_name": "Tasmima ",
+        "last_name": "Akter",
+        "institution": "Khulna University "
+      },
+      {
+        "first_name": "Md. Ferdous ",
+        "last_name": "Ahammed",
+        "institution": "Khulna University "
+      },
+      {
+        "first_name": "Md Younus ",
+        "last_name": "Ali",
+        "institution": "Khulna University"
+      }
+    ],
+    "related_links": [],
+    "custom_metadata": {},
+    "is_metadata_only": false
+  },
+  "contributors": [],
+  "doi": "",
+  "status": 200,
+  "loading": false
+}

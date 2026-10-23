@@ -1,0 +1,51 @@
+[
+  {
+    "key": "tilapia_do",
+    "source": "10.17632/dgdr2kfbyt.1",
+    "target": "do",
+    "unit": "mg/L",
+    "step_minutes": 60,
+    "horizon_steps": 1,
+    "extras": [
+      "temperature",
+      "ph",
+      "turbidity"
+    ]
+  },
+  {
+    "key": "pond_ph",
+    "source": "10.17632/34rczh25kc.4",
+    "target": "ph",
+    "unit": "pH units",
+    "step_minutes": 5,
+    "horizon_steps": 6,
+    "extras": [
+      "temperature",
+      "turbidity",
+      "bottom_temperature"
+    ]
+  },
+  {
+    "key": "aquaponic_ph",
+    "source": "10.17632/yd36bx6f8f.2",
+    "target": "ph",
+    "unit": "pH units",
+    "step_minutes": 5,
+    "horizon_steps": 6,
+    "extras": [
+      "temperature",
+      "tds"
+    ]
+  },
+  {
+    "key": "marine_temperature",
+    "source": "Marine Institute sbe37_macehead, 2019-05 to 2019-07",
+    "target": "temperature",
+    "unit": "degC",
+    "step_minutes": 30,
+    "horizon_steps": 2,
+    "extras": [
+      "salinity"
+    ]
+  }
+]

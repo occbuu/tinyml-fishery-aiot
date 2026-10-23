@@ -1,0 +1,153 @@
+[
+  {
+    "raw_rows": 4345,
+    "invalid_counts": {
+      "do": 0,
+      "temperature": 0,
+      "ph": 0,
+      "turbidity": 0
+    },
+    "grid_rows": 4345,
+    "observed_per_column": {
+      "do": 4345,
+      "temperature": 4345,
+      "ph": 4345,
+      "turbidity": 4345
+    },
+    "start": "2024-01-01 00:00:00",
+    "end": "2024-06-30 00:00:00",
+    "key": "tilapia_do",
+    "source": "10.17632/dgdr2kfbyt.1",
+    "target": "do",
+    "unit": "mg/L",
+    "step_minutes": 60,
+    "horizon_steps": 1,
+    "extras": [
+      "temperature",
+      "ph",
+      "turbidity"
+    ]
+  },
+  {
+    "raw_rows": 9623,
+    "invalid_counts": {
+      "temperature": 0,
+      "ph": 0,
+      "turbidity": 0
+    },
+    "grid_rows": 2022,
+    "observed_per_column": {
+      "temperature": 2004,
+      "ph": 2004,
+      "turbidity": 2004
+    },
+    "start": "2020-01-15 16:05:00",
+    "end": "2020-01-22 16:30:00",
+    "key": "pond_ph",
+    "source": "10.17632/34rczh25kc.4",
+    "target": "ph",
+    "unit": "pH units",
+    "step_minutes": 5,
+    "horizon_steps": 6,
+    "extras": [
+      "temperature",
+      "turbidity",
+      "bottom_temperature"
+    ]
+  },
+  {
+    "raw_rows": 505730,
+    "invalid_counts": {
+      "ph": 219,
+      "tds": 0,
+      "temperature": 0
+    },
+    "grid_rows": 15928,
+    "observed_per_column": {
+      "ph": 11110,
+      "tds": 11112,
+      "temperature": 11112
+    },
+    "start": "2023-01-26 10:40:00",
+    "end": "2023-03-22 17:55:00",
+    "key": "aquaponic_ph",
+    "source": "10.17632/yd36bx6f8f.2",
+    "target": "ph",
+    "unit": "pH units",
+    "step_minutes": 5,
+    "horizon_steps": 6,
+    "extras": [
+      "temperature",
+      "tds"
+    ]
+  },
+  {
+    "raw_rows": 4416,
+    "invalid_counts": {
+      "temperature": 0,
+      "salinity": 0
+    },
+    "grid_rows": 4416,
+    "observed_per_column": {
+      "temperature": 4416,
+      "salinity": 4409
+    },
+    "start": "2019-05-01 00:30:00+00:00",
+    "end": "2019-08-01 00:00:00+00:00",
+    "oxygen_qc_counts": {
+      "0": 4416
+    },
+    "oxygen_excluded_reason": "All oxygen flags are 0 (no_quality_control); no validated DO test from this slice.",
+    "key": "marine_temperature",
+    "source": "Marine Institute sbe37_macehead, 2019-05 to 2019-07",
+    "target": "temperature",
+    "unit": "degC",
+    "step_minutes": 30,
+    "horizon_steps": 2,
+    "extras": [
+      "salinity"
+    ]
+  },
+  {
+    "key": "biochemistry_inventory",
+    "raw_rows": 4300,
+    "columns": [
+      "Temp",
+      "Turbidity (cm)",
+      "DO(mg/L)",
+      "BOD (mg/L)",
+      "CO2",
+      "pH`",
+      "Alkalinity (mg L-1 )",
+      "Hardness (mg L-1 )",
+      "Calcium (mg L-1 )",
+      "Ammonia (mg L-1 )",
+      "Nitrite (mg L-1 )",
+      "Phosphorus (mg L-1 )",
+      "H2S (mg L-1 )",
+      "Plankton (No. L-1)",
+      "Water Quality"
+    ],
+    "invalid_temperature_if_celsius": 100,
+    "use": "Inventory and provenance stress audit only; exclude threshold-derived quality labels from predictive validation.",
+    "source": "10.17632/y78ty2g293.1",
+    "ammonia_basis": "Ammonia unit basis (TAN-N vs NH3) unverified; no free-ammonia conversion."
+  },
+  {
+    "key": "related_transformed_colombia",
+    "raw_rows": 37284,
+    "columns": [
+      "id",
+      "temperatura",
+      "oxigeno",
+      "ph",
+      "turbidez",
+      "hour",
+      "day",
+      "month",
+      "temperatura_scaled",
+      "oxigeno_scaled"
+    ],
+    "use": "Excluded: mixed scaled/unscaled features, no complete DateTime; not an independent replication of Monteria."
+  }
+]

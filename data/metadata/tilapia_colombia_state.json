@@ -1,0 +1,116 @@
+{
+  "snapshot": {
+    "id": "dgdr2kfbyt",
+    "version": 1,
+    "name": "Water Quality Monitoring Dataset for Tilapia (Oreochromis niloticus) Aquaculture in Montería, Colombia (2024)",
+    "description": "This dataset contains comprehensive water quality measurements for a tilapia (Oreochromis niloticus) aquaculture pond located in Montería, Colombia, collected over a six-month period in 2024. The dataset is part of a study aimed at enhancing water quality management in aquaculture systems, particularly in rural environments with limited technological infrastructure.\n\nData Collection and Parameters: The data was gathered through an Internet of Things (IoT) system designed to continuously monitor key water quality parameters. Parameters include:\n\nTemperature (°C): Essential for maintaining optimal conditions for fish metabolism and growth.\nDissolved Oxygen (DO) (mg/L): Crucial for fish respiration and overall pond health.\npH: Indicates the acidity or alkalinity of the water, which affects fish health and nutrient availability.\nTurbidity (NTU): Reflects the clarity of the water, which can impact light penetration and fish behavior.\n\nPurpose and Applications: This dataset supports predictive modeling for water quality management using Machine Learning (ML) algorithms, including Random Forest and Support Vector Machines (SVM), with optimizations implemented via the Quantum Approximate Optimization Algorithm (QAOA). The dataset was utilized to train and validate models for real-time water quality prediction, achieving high accuracy in managing aquaculture conditions and reducing fish mortality.\n\nSignificance: The dataset provides valuable insights into water quality dynamics in tropical aquaculture settings, making it suitable for researchers, aquaculture managers, and data scientists focused on sustainable aquaculture practices. The data can aid in developing predictive models to stabilize water quality, support rural and urban aquaculture management, and contribute to global food security initiatives.\n\nAcknowledgments: The collection of this dataset was made possible by an IoT-based monitoring system tailored for the environmental conditions of Montería, with an emphasis on adaptability for resource-limited rural regions.\n\n",
+    "method": "Set Up Study Site and Environment:\nIdentify a controlled aquaculture environment with stable water flow and similar climate characteristics to Montería, Córdoba, Colombia.\nEstablish ponds for tilapia (Oreochromis niloticus) and ensure natural spring water supply if possible.\n\nDeploy IoT System Architecture:\nInstall sensors in the pond to measure temperature, dissolved oxygen (DO), pH, and turbidity.\nConnect sensors to a Raspberry Pi configured as the central processing unit for data collection and transmission.\nEnsure the Raspberry Pi is capable of storing data locally and transmitting it to a remote server over Wi-Fi.\nSet up a Django-based web interface for real-time data visualization and alert threshold configuration.\n\nCalibrate Sensors:\nCalibrate DO and pH sensors according to ISO 5814:2012 and ISO 10523:2008 standards.\nRepeat calibration every 15 days to ensure measurement accuracy, especially in varying environmental conditions.\n\nImplement IoT Data Management System:\nUse the \"IoT Data Management\" algorithm provided in the study to initialize and monitor sensor data.\nProgram the Raspberry Pi to manage data collection, send alerts for threshold deviations, and update data on the web interface.\nEnsure continuous operation by maintaining the Wi-Fi connection and local database on the Raspberry Pi.\n\nData Collection and Recording:\nCollect data on temperature (°C), dissolved oxygen (mg/L), pH, and turbidity (NTU) every hour.\nEnsure data normalization for variables (temperature and DO) using Min-Max Scaling for predictive modeling integration.\n\nApply Fuzzy Comprehensive Evaluation (FCE):\nUse FCE to categorize the water quality parameters into \"Good,\" \"Moderate,\" and \"Poor\" based on local conditions and thresholds.\nApply these categories for real-time decision-making and alert generation on water quality status.\n\nTrain Machine Learning Models:\nSelect Random Forest (RF) and Support Vector Machine (SVM) models.\nTrain the RF model with 100 decision trees and a maximum depth of 10.\nTrain the SVM with an RBF kernel and penalty parameter 𝐶 = 1.0, specifically for pH and DO predictions.\n\nOptimize with Quantum Approximate Optimization Algorithm (QAOA):\nUse QAOA to optimize model processing time, reducing it by approximately 50%.\nFollow the provided pseudocode for QAOA and adjust parameters iteratively using gradient descent to minimize the cost function.\n\nEvaluate Model Performance:\nCalculate performance metrics such as RRMSPE, MAPE, RRMSE, and R² to assess model accuracy.\nValidate the model's robustness in predicting water quality variables with real-time accuracy requirements.\n\nMaintain and Update System:\nRegularly update the Django interface for enhanced visualization.\nPerform periodic sensor maintenance, especially for pH and DO electrodes, to ensure long-term accuracy.\nImplement inline calibration in future steps if possible for enhanced reliability.",
+    "doi": "10.17632/dgdr2kfbyt.1",
+    "publish_date": "2024-11-15T13:58:53.406Z",
+    "last_modification_date": "2024-11-15T13:30:07.706Z",
+    "is_confidential": false,
+    "customer": {
+      "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+      "name": "Mendeley Guests",
+      "chief_id": 810289,
+      "config": {
+        "repository_id": "MENDELEY_DATA",
+        "dataset_size_limit": 10737418240,
+        "doi_prefix": "10.17632"
+      },
+      "is_user_mendeley_admin": false,
+      "customer_roles": [],
+      "is_guest": true,
+      "is_user_customer_moderator": false
+    },
+    "owner": {
+      "id": "db6eec3e-1108-3a09-82ef-150c63125496",
+      "first_name": "Rubén",
+      "last_name": "Baena-Navarro",
+      "display_name": "Rubén Baena-Navarro",
+      "$ref": "/profiles/db6eec3e-1108-3a09-82ef-150c63125496"
+    },
+    "categories": [
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-189723297",
+        "label": "Environmental Monitoring"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-210636186",
+        "label": "Aquaculture"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249523402",
+        "label": "Machine Learning"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249602224",
+        "label": "Internet of Things"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253056764",
+        "label": "Technology for Rural Development"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253220994",
+        "label": "Sustainable Agriculture"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253221908",
+        "label": "Water Quality Management"
+      }
+    ],
+    "licence": {
+      "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+      "short_name": "CC BY 4.0",
+      "full_name": "Creative Commons Attribution 4.0 International",
+      "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+      "url": "http://creativecommons.org/licenses/by/4.0",
+      "category": "Creative",
+      "customer_id": null
+    },
+    "institutions": [
+      {
+        "id": "a96fae95-4d57-5e87-95d2-fc35ad11b0ca",
+        "name": "Universidad Cooperativa de Colombia"
+      },
+      {
+        "id": "e7db6c2c-8baf-5f50-806e-07138f111caa",
+        "name": "Universidad de Cordoba"
+      }
+    ],
+    "funders": [],
+    "organisational_unit_names": [],
+    "contributors": [
+      {
+        "id": "db6eec3e-1108-3a09-82ef-150c63125496",
+        "first_name": "Rubén",
+        "last_name": "Baena-Navarro",
+        "$ref": "/profiles/db6eec3e-1108-3a09-82ef-150c63125496"
+      },
+      {
+        "id": "036bd234-0f08-4e73-a728-a23296bd4efc",
+        "first_name": "Yulieth",
+        "last_name": "Carriazo-Regino",
+        "$ref": "/profiles/036bd234-0f08-4e73-a728-a23296bd4efc"
+      },
+      {
+        "first_name": "Francisco",
+        "last_name": "Torres-Hoyos",
+        "institution": "Universidad de Cordoba"
+      },
+      {
+        "first_name": "Jhon",
+        "last_name": "Pinedo-López",
+        "institution": "Universidad Cooperativa de Colombia"
+      }
+    ],
+    "related_links": [],
+    "custom_metadata": {},
+    "is_metadata_only": false
+  },
+  "contributors": [],
+  "doi": "",
+  "status": 200,
+  "loading": false
+}

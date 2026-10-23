@@ -1,0 +1,515 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 3653752,
+    "identifier": "DVN/HFMRNF",
+    "persistentUrl": "https://doi.org/10.7910/DVN/HFMRNF",
+    "protocol": "doi",
+    "authority": "10.7910",
+    "separator": "/",
+    "publisher": "Harvard Dataverse",
+    "publicationDate": "2020-01-02",
+    "storageIdentifier": "s3://10.7910/DVN/HFMRNF",
+    "guestbookId": 218,
+    "effectiveDatasetFileCountLimit": 1000,
+    "datasetFileUploadsAvailable": 992,
+    "datasetType": "dataset",
+    "locks": [],
+    "latestVersion": {
+      "id": 438524,
+      "datasetId": 3653752,
+      "datasetPersistentId": "doi:10.7910/DVN/HFMRNF",
+      "datasetType": "dataset",
+      "storageIdentifier": "s3://10.7910/DVN/HFMRNF",
+      "versionNumber": 2,
+      "internalVersionNumber": 5,
+      "versionMinorNumber": 1,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "deaccessionLink": "",
+      "productionDate": "2019-12-01",
+      "UNF": "UNF:6:bJtKqTH0jLB47zWAP3COcQ==",
+      "lastUpdateTime": "2025-03-04T03:50:45Z",
+      "releaseTime": "2025-03-04T03:50:45Z",
+      "createTime": "2025-03-04T03:50:01Z",
+      "publicationDate": "2020-01-02",
+      "citationDate": "2020-01-02",
+      "guestbookId": 218,
+      "effectiveDatasetFileCountLimit": 1000,
+      "datasetFileUploadsAvailable": 992,
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "fileAccessRequest": true,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Nutritious Pond On-farm field experiment in Vietnam- 2017"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Joffre, Olivier"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-7857-5766"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Verdegem, Marc"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Wageningen University"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Marc.Verdegem@wur.nl"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Data set and protocols for 2017 experiments in Vietnam. The data comprise:\n-\tExperimental protocol\n-\tGrowth data\n-\tInput and output pond data\n-\tMonitoring form\n-\tWater quality data"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Medicine, Health and Life Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Fish feed"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Olivier Joffre, Marc Verdegem. (1/6/2019). Feeding both pond and fish: A pathway to ecological intensification of aquaculture systems. Infofish International, 3, pp. 55-58."
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "20.500.12348/3847"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://hdl.handle.net/20.500.12348/3847"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "language",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "English",
+                "Vietnamese"
+              ]
+            },
+            {
+              "typeName": "producer",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "producerAffiliation": {
+                    "typeName": "producerAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/sites/default/files/logo.svg"
+                  }
+                },
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Wageningen University"
+                  },
+                  "producerAffiliation": {
+                    "typeName": "producerAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Wageningen University"
+                  },
+                  "producerAbbreviation": {
+                    "typeName": "producerAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WUR"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.wur.nl/en/wageningen-university.htm"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.wur.nl/upload/58340fb4-e33a-4d0b-af17-8d596fa93663_WUR_RGB_standard.png"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "productionDate",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2019-12-01"
+            },
+            {
+              "typeName": "contributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Funder"
+                  },
+                  "contributorName": {
+                    "typeName": "contributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "FISH CRP"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "distributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "distributorAffiliation": {
+                    "typeName": "distributorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/"
+                  },
+                  "distributorLogoURL": {
+                    "typeName": "distributorLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/sites/default/files/logo.svg"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "WorldFish RDM Team"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2019-12-30"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "description": "Methodology",
+          "label": "Experimental_protocol_2017.docx",
+          "restricted": false,
+          "directoryLabel": "NPP/1. Method Documentation",
+          "version": 2,
+          "datasetVersionId": 438524,
+          "categories": [
+            "Documentation",
+            "1. Method documentation"
+          ],
+          "dataFile": {
+            "id": 3653757,
+            "persistentId": "doi:10.7910/DVN/HFMRNF/QBRML3",
+            "pidURL": "https://doi.org/10.7910/DVN/HFMRNF/QBRML3",
+            "filename": "Experimental_protocol_2017.docx",
+            "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "friendlyType": "MS Word",
+            "filesize": 60150,
+            "description": "Methodology",
+            "categories": [
+              "Documentation",
+              "1. Method documentation"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:16f59c85739-5c2aa27311d0",
+            "rootDataFileId": -1,
+            "md5": "9a716fc6931cc8828f870ca4d77c32a5",
+            "checksum": {
+              "type": "MD5",
+              "value": "9a716fc6931cc8828f870ca4d77c32a5"
+            },
+            "tabularData": false,
+            "creationDate": "2019-12-30",
+            "publicationDate": "2020-01-02",
+            "directoryLabel": "NPP/1. Method Documentation",
+            "lastUpdateTime": "2025-03-04T03:50:45Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Growth_data_2017.xlsx",
+          "restricted": false,
+          "directoryLabel": "NPP/6. Raw and Verified Data",
+          "version": 1,
+          "datasetVersionId": 438524,
+          "categories": [
+            "6. Raw and Verified Data"
+          ],
+          "dataFile": {
+            "id": 7266258,
+            "persistentId": "",
+            "filename": "Growth_data_2017.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 30501,
+            "categories": [
+              "6. Raw and Verified Data"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:189aaf811d9-712bca8c4227",
+            "rootDataFileId": -1,
+            "md5": "1ec9999b7cc6d7e9d8cbe55ed8f8f067",
+            "checksum": {
+              "type": "MD5",
+              "value": "1ec9999b7cc6d7e9d8cbe55ed8f8f067"
+            },
+            "tabularData": false,
+            "creationDate": "2023-07-31",
+            "publicationDate": "2023-07-31",
+            "directoryLabel": "NPP/6. Raw and Verified Data",
+            "lastUpdateTime": "2025-03-04T03:50:45Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Input_Output_Data_2017.xlsx",
+          "restricted": false,
+          "directoryLabel": "NPP/6. Raw and Verified Data",
+          "version": 1,
+          "datasetVersionId": 438524,
+          "categories": [
+            "6. Raw and Verified Data"
+          ],
+          "dataFile": {
+            "id": 7266257,
+            "persistentId": "",
+            "filename": "Input_Output_Data_2017.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 64794,
+            "categories": [
+              "6. Raw and Verified Data"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:189aaf81411-f26f1f44aab8",
+            "rootDataFileId": -1,
+            "md5": "5b03a928d68935566f1b3c4b60603fc7",
+            "checksum": {
+              "type": "MD5",
+              "value": "5b03a928d68935566f1b3c4b60603fc7"
+            },
+            "tabularData": false,
+            "creationDate": "2023-07-31",
+            "publicationDate": "2023-07-31",
+            "directoryLabel": "NPP/6. Raw and Verified Data",
+            "lastUpdateTime": "2025-03-04T03:50:45Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "Questionnaire",
+          "label": "Monitoring_form_2017.pdf",
+          "restricted": false,
+          "directoryLabel": "NPP/2. Questionnaires",
+          "version": 2,
+          "datasetVersionId": 438524,
+          "categories": [
+            "Documentation",
+            "2. Questionnaires "
+          ],
+          "dataFile": {
+            "id": 3653754,
+            "persistentId": "doi:10.7910/DVN/HFMRNF/CKWBAC",
+            "pidURL": "https://doi.org/10.7910/DVN/HFMRNF/CKWBAC",
+            "filename": "Monitoring_form_2017.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 244125,
+            "description": "Questionnaire",
+            "categories": [
+              "Documentation",
+              "2. Questionnaires "
+            ],
+            "storageIdentifier": "s3://dvn-cloud:16f59c86071-6764ea3654a6",
+            "rootDataFileId": -1,
+            "md5": "8c0a32e79bfa4d493bda30207fc1451a",
+            "checksum": {
+              "type": "MD5",
+              "value": "8c0a32e79bfa4d493bda30207fc1451a"
+            },
+            "tabularData": false,
+            "creationDate": "2019-12-30",
+            "publicationDate": "2020-01-02",
+            "directoryLabel": "NPP/2. Questionnaires",
+            "lastUpdateTime": "2025-03-04T03:50:45Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Water_Quality_data_2017.xlsx",
+          "restricted": false,
+          "directoryLabel": "NPP/6. Raw and Verified Data",
+          "version": 1,
+          "datasetVersionId": 438524,
+          "categories": [
+            "6. Raw and Verified Data"
+          ],
+          "dataFile": {
+            "id": 7266259,
+            "persistentId": "",
+            "filename": "Water_Quality_data_2017.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 76225,
+            "categories": [
+              "6. Raw and Verified Data"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:189aaf81739-bbbd4f506609",
+            "rootDataFileId": -1,
+            "md5": "d1fd6247a3e6a95e65dc708e6adb6f01",
+            "checksum": {
+              "type": "MD5",
+              "value": "d1fd6247a3e6a95e65dc708e6adb6f01"
+            },
+            "tabularData": false,
+            "creationDate": "2023-07-31",
+            "publicationDate": "2023-07-31",
+            "directoryLabel": "NPP/6. Raw and Verified Data",
+            "lastUpdateTime": "2025-03-04T03:50:45Z",
+            "fileAccessRequest": true
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3519 @@
+{
+  "seed": 20261021,
+  "daily_audit": [
+    {
+      "year": 2018,
+      "pond": "T1",
+      "grid_rows": 85,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 66,
+        "ph": 66,
+        "temperature": 66
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2018,
+      "pond": "T2",
+      "grid_rows": 82,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 82,
+        "ph": 82,
+        "temperature": 82
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 1
+    },
+    {
+      "year": 2018,
+      "pond": "T3",
+      "grid_rows": 85,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 67,
+        "ph": 67,
+        "temperature": 67
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2018,
+      "pond": "C1",
+      "grid_rows": 85,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 49,
+        "ph": 58,
+        "temperature": 58
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2018,
+      "pond": "C2",
+      "grid_rows": 85,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 82,
+        "ph": 82,
+        "temperature": 82
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 1
+    },
+    {
+      "year": 2018,
+      "pond": "C3",
+      "grid_rows": 85,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 58,
+        "ph": 58,
+        "temperature": 58
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2019,
+      "pond": "T1",
+      "grid_rows": 80,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 80,
+        "ph": 80,
+        "temperature": 80
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2019,
+      "pond": "T2",
+      "grid_rows": 80,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 50,
+        "ph": 77,
+        "temperature": 77
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2019,
+      "pond": "T3",
+      "grid_rows": 80,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 78,
+        "ph": 78,
+        "temperature": 78
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2019,
+      "pond": "C1",
+      "grid_rows": 80,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 80,
+        "ph": 80,
+        "temperature": 80
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2019,
+      "pond": "C2",
+      "grid_rows": 80,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 80,
+        "ph": 80,
+        "temperature": 80
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    },
+    {
+      "year": 2019,
+      "pond": "C3",
+      "grid_rows": 80,
+      "duplicate_dates": 0,
+      "observed": {
+        "do": 78,
+        "ph": 78,
+        "temperature": 78
+      },
+      "masked": {
+        "do": 0,
+        "ph": 0,
+        "temperature": 0
+      },
+      "domain_flagged_rows": 0
+    }
+  ],
+  "daily": {
+    "trials": [
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Ridge",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.1612462968094209,
+        "test_mae": 0.2206122255420364,
+        "test_rmse": 0.29659632893092464,
+        "parameter_bytes": 148,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Tree4",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.19754932849043508,
+        "test_mae": 0.26290486959737763,
+        "test_rmse": 0.35671896377961776,
+        "parameter_bytes": 380,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Forest16",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.1576193081491956,
+        "test_mae": 0.21893776611156832,
+        "test_rmse": 0.30245423129510646,
+        "parameter_bytes": 3948,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "MLP8",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.18974582830057254,
+        "test_mae": 0.26653017727929884,
+        "test_rmse": 0.36522390800725657,
+        "parameter_bytes": 472,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "HistBoost",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.18088212096021844,
+        "test_mae": 0.22768442958025945,
+        "test_rmse": 0.31865984881067605,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Ridge",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.1609984833049699,
+        "test_mae": 0.2205039252295456,
+        "test_rmse": 0.2962552913151574,
+        "parameter_bytes": 180,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Tree4",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.194640855936893,
+        "test_mae": 0.26308607491158315,
+        "test_rmse": 0.3568709779643365,
+        "parameter_bytes": 404,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Forest16",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.15930565417737036,
+        "test_mae": 0.21901400734144214,
+        "test_rmse": 0.30239310444625256,
+        "parameter_bytes": 3940,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "MLP8",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.20167881540185628,
+        "test_mae": 0.26067587057923086,
+        "test_rmse": 0.3474420200115779,
+        "parameter_bytes": 560,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "HistBoost",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.18499240085294638,
+        "test_mae": 0.23154780309226786,
+        "test_rmse": 0.3182270618520693,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Ridge",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3648443966319059,
+        "test_mae": 0.300044395261797,
+        "test_rmse": 0.3926972438546669,
+        "parameter_bytes": 68,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Tree4",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.4631380879885663,
+        "test_mae": 0.3540810908229455,
+        "test_rmse": 0.48527108672692354,
+        "parameter_bytes": 352,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Forest16",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.47295861807909134,
+        "test_mae": 0.34737686753773855,
+        "test_rmse": 0.47953807828834505,
+        "parameter_bytes": 4624,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "MLP8",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.5532809281470431,
+        "test_mae": 0.3996120295662635,
+        "test_rmse": 0.5534010647440897,
+        "parameter_bytes": 252,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "HistBoost",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.4082742301537152,
+        "test_mae": 0.3302063302513559,
+        "test_rmse": 0.4510105853425807,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.14674122174122178,
+        "test_mae": 0.238110689036615,
+        "test_rmse": 0.30077457415760067,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19454798459428088,
+        "test_rmse": 0.2763932825175001,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Ridge",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1124254320849978,
+        "test_mae": 0.18187455559861795,
+        "test_rmse": 0.236646027894659,
+        "parameter_bytes": 148,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Tree4",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.20067841122462993,
+        "test_mae": 0.23339681377153093,
+        "test_rmse": 0.322316328010413,
+        "parameter_bytes": 508,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Forest16",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13245485947011698,
+        "test_mae": 0.19564940262907504,
+        "test_rmse": 0.2600987123156733,
+        "parameter_bytes": 4748,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "MLP8",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.158063989532677,
+        "test_mae": 0.24975469310001652,
+        "test_rmse": 0.32475492730330413,
+        "parameter_bytes": 472,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "HistBoost",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.17729434621501827,
+        "test_mae": 0.22762148446132902,
+        "test_rmse": 0.3084817767912932,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.14674122174122178,
+        "test_mae": 0.238110689036615,
+        "test_rmse": 0.30077457415760067,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19454798459428088,
+        "test_rmse": 0.2763932825175001,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Ridge",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.12202666709860192,
+        "test_mae": 0.1772882972180634,
+        "test_rmse": 0.23160690483547425,
+        "parameter_bytes": 180,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Tree4",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.14876772350456563,
+        "test_mae": 0.2372863994511262,
+        "test_rmse": 0.32702809144660105,
+        "parameter_bytes": 532,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Forest16",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.121941350559114,
+        "test_mae": 0.20183800211235348,
+        "test_rmse": 0.26452685400705284,
+        "parameter_bytes": 4772,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "MLP8",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1653392015211103,
+        "test_mae": 0.3268963224738766,
+        "test_rmse": 0.42907361522304993,
+        "parameter_bytes": 560,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "HistBoost",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13426374231159,
+        "test_mae": 0.26228536277822484,
+        "test_rmse": 0.3562068081052267,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.14674122174122178,
+        "test_mae": 0.238110689036615,
+        "test_rmse": 0.30077457415760067,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Ridge",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1819498964037954,
+        "test_mae": 0.20196415759705505,
+        "test_rmse": 0.26568117192942897,
+        "parameter_bytes": 68,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Tree4",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1658884766027626,
+        "test_mae": 0.24543196001529347,
+        "test_rmse": 0.314829827035514,
+        "parameter_bytes": 288,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Forest16",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1846288712680309,
+        "test_mae": 0.21600820076075725,
+        "test_rmse": 0.276953842106367,
+        "parameter_bytes": 3504,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "MLP8",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.22369641149224867,
+        "test_mae": 0.23987059826215687,
+        "test_rmse": 0.30150057903905625,
+        "parameter_bytes": 252,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "HistBoost",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.19855478775919042,
+        "test_mae": 0.2365077855341379,
+        "test_rmse": 0.29933842972344504,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Ridge",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.1612462968094209,
+        "test_mae": 0.2206122255420364,
+        "test_rmse": 0.29659632893092464,
+        "parameter_bytes": 148,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Tree4",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.19754932849043508,
+        "test_mae": 0.26290486959737763,
+        "test_rmse": 0.35671896377961776,
+        "parameter_bytes": 380,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Forest16",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.1576193081491956,
+        "test_mae": 0.21893776611156832,
+        "test_rmse": 0.30245423129510646,
+        "parameter_bytes": 3948,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "MLP8",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.18974582830057254,
+        "test_mae": 0.26653017727929884,
+        "test_rmse": 0.36522390800725657,
+        "parameter_bytes": 472,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "HistBoost",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.18088212096021844,
+        "test_mae": 0.22768442958025945,
+        "test_rmse": 0.31865984881067605,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Ridge",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16236533089827812,
+        "test_mae": 0.21810023471735268,
+        "test_rmse": 0.2947411524755637,
+        "parameter_bytes": 180,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Tree4",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.19464085593689368,
+        "test_mae": 0.2630860749115834,
+        "test_rmse": 0.3568709779643365,
+        "parameter_bytes": 404,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Forest16",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.15930565417737036,
+        "test_mae": 0.21902643262645632,
+        "test_rmse": 0.3024039208131975,
+        "parameter_bytes": 3940,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "MLP8",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.230202077248974,
+        "test_mae": 0.31549668204604187,
+        "test_rmse": 0.42864374108455555,
+        "parameter_bytes": 560,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "HistBoost",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.18403163985746476,
+        "test_mae": 0.2290226224595322,
+        "test_rmse": 0.3180980710725713,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Ridge",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3475817215626648,
+        "test_mae": 0.2781404231015827,
+        "test_rmse": 0.3706515399510247,
+        "parameter_bytes": 68,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Tree4",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.4631380879885662,
+        "test_mae": 0.35638454631820404,
+        "test_rmse": 0.4874682860048839,
+        "parameter_bytes": 352,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Forest16",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.4728041662197309,
+        "test_mae": 0.3458513339020716,
+        "test_rmse": 0.47787826805362266,
+        "parameter_bytes": 4624,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "MLP8",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.5414125511856356,
+        "test_mae": 0.3832564830510834,
+        "test_rmse": 0.5342295867332487,
+        "parameter_bytes": 252,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "HistBoost",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.4197764358893194,
+        "test_mae": 0.3323986980193597,
+        "test_rmse": 0.4537685052722152,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13645611354589718,
+        "test_mae": 0.2260088380831419,
+        "test_rmse": 0.288724708041849,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19449670556481702,
+        "test_rmse": 0.27636796450521667,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Ridge",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.10087063504831155,
+        "test_mae": 0.18572626706186152,
+        "test_rmse": 0.25363800793029107,
+        "parameter_bytes": 148,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Tree4",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.11596600839401512,
+        "test_mae": 0.18149048092485376,
+        "test_rmse": 0.2506478307293499,
+        "parameter_bytes": 476,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Forest16",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1109757087190699,
+        "test_mae": 0.183320265304974,
+        "test_rmse": 0.2512427687938304,
+        "parameter_bytes": 5068,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "MLP8",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13072999622306106,
+        "test_mae": 0.23141660344048753,
+        "test_rmse": 0.29952975181001235,
+        "parameter_bytes": 472,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "HistBoost",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.11868491239201552,
+        "test_mae": 0.19435676678606514,
+        "test_rmse": 0.2590342557373592,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13645611354589718,
+        "test_mae": 0.2260088380831419,
+        "test_rmse": 0.288724708041849,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19449670556481702,
+        "test_rmse": 0.27636796450521667,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Ridge",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.10322639432593049,
+        "test_mae": 0.1848274053032554,
+        "test_rmse": 0.252334104561664,
+        "parameter_bytes": 180,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Tree4",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.11459717520700054,
+        "test_mae": 0.1867006588537344,
+        "test_rmse": 0.2576171489904475,
+        "parameter_bytes": 500,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Forest16",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.10816021962401695,
+        "test_mae": 0.18147124982965238,
+        "test_rmse": 0.2501222132902407,
+        "parameter_bytes": 5092,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "MLP8",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1309741144844629,
+        "test_mae": 0.22075056256377668,
+        "test_rmse": 0.29257523838698674,
+        "parameter_bytes": 560,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "HistBoost",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.1126413604037525,
+        "test_mae": 0.19376533817369565,
+        "test_rmse": 0.26146568045368684,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13645611354589718,
+        "test_mae": 0.2260088380831419,
+        "test_rmse": 0.288724708041849,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Ridge",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.17657621715944896,
+        "test_mae": 0.20028631996551485,
+        "test_rmse": 0.26056329548871815,
+        "parameter_bytes": 68,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Tree4",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.15525788960363646,
+        "test_mae": 0.21007548420305894,
+        "test_rmse": 0.2706953330761914,
+        "parameter_bytes": 352,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Forest16",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.18979143405475565,
+        "test_mae": 0.21927580240332742,
+        "test_rmse": 0.27868892857913863,
+        "parameter_bytes": 3888,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "MLP8",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.19518778496180447,
+        "test_mae": 0.2459046624306452,
+        "test_rmse": 0.32510262101043425,
+        "parameter_bytes": 252,
+        "warnings": [],
+        "cut": "2018-06-04"
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "HistBoost",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.20154724719051206,
+        "test_mae": 0.21686221267167752,
+        "test_rmse": 0.2776701350390094,
+        "parameter_bytes": null,
+        "warnings": [],
+        "cut": "2018-06-04"
+      }
+    ],
+    "selection": [
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.15517758665028433,
+          0.26234042553191494
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2088607594936709,
+            "rmse": 0.31482363959943177
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.10759493670886078,
+            "rmse": 0.19126494315742407
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2532467532467533,
+            "rmse": 0.33555536442948225
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2860759493670886,
+            "rmse": 0.4072134388869388
+          },
+          {
+            "pond": "T2",
+            "n": 50,
+            "eligible_targets": 50,
+            "prediction_coverage": 1.0,
+            "mae": 0.118873417721519,
+            "rmse": 0.1677405052544804
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2701298701298701,
+            "rmse": 0.36360389465432325
+          }
+        ]
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.15517758665028433,
+          0.26234042553191494
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2088607594936709,
+            "rmse": 0.31482363959943177
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.10759493670886078,
+            "rmse": 0.19126494315742407
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2532467532467533,
+            "rmse": 0.33555536442948225
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2860759493670886,
+            "rmse": 0.4072134388869388
+          },
+          {
+            "pond": "T2",
+            "n": 50,
+            "eligible_targets": 50,
+            "prediction_coverage": 1.0,
+            "mae": 0.118873417721519,
+            "rmse": 0.1677405052544804
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2701298701298701,
+            "rmse": 0.36360389465432325
+          }
+        ]
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.3023292861448377,
+          0.38240047759010637
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2922848902419484,
+            "rmse": 0.33725151379990403
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.31220157026117606,
+            "rmse": 0.3575635698128356
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2973121814893967,
+            "rmse": 0.3580917263941335
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.4438791860278801,
+            "rmse": 0.5682067553630896
+          },
+          {
+            "pond": "T2",
+            "n": 50,
+            "eligible_targets": 50,
+            "prediction_coverage": 1.0,
+            "mae": 0.33392405063291136,
+            "rmse": 0.35589545750178575
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.3372102580963339,
+            "rmse": 0.4063973810379386
+          }
+        ]
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19454798459428088,
+        "test_rmse": 0.2763932825175001,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.17986640266967338,
+          0.20896776406035666
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.20000000000000015,
+            "rmse": 0.2590146860603405
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.22278481012658233,
+            "rmse": 0.31462253856351735
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.17792207792207787,
+            "rmse": 0.24361988701797171
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.16582278481012658,
+            "rmse": 0.2660065669694755
+          },
+          {
+            "pond": "T2",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.20712281545614866,
+            "rmse": 0.2768571158167341
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.1935064935064935,
+            "rmse": 0.29210387762690754
+          }
+        ]
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": false,
+        "method": "Persistence",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19454798459428088,
+        "test_rmse": 0.2763932825175001,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.17986640266967338,
+          0.20896776406035666
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.20000000000000015,
+            "rmse": 0.2590146860603405
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.22278481012658233,
+            "rmse": 0.31462253856351735
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.17792207792207787,
+            "rmse": 0.24361988701797171
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.16582278481012658,
+            "rmse": 0.2660065669694755
+          },
+          {
+            "pond": "T2",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.20712281545614866,
+            "rmse": 0.2768571158167341
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.1935064935064935,
+            "rmse": 0.29210387762690754
+          }
+        ]
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": false,
+        "method": "Mean",
+        "train_n": 324,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.14674122174122178,
+        "test_mae": 0.238110689036615,
+        "test_rmse": 0.30077457415760067,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.19968337590464033,
+          0.2811801570132621
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.22510939209251438,
+            "rmse": 0.2857506268087648
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.33100875136740127,
+            "rmse": 0.39936761215529276
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.19271685105018438,
+            "rmse": 0.23363199926005987
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.1826965150804814,
+            "rmse": 0.23040498504490156
+          },
+          {
+            "pond": "T2",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2863596280262947,
+            "rmse": 0.3561480123053919
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.21013708513708515,
+            "rmse": 0.25795189092836596
+          }
+        ]
+      },
+      {
+        "task": "do",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.15517758665028433,
+          0.26234042553191494
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2088607594936709,
+            "rmse": 0.31482363959943177
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.10759493670886078,
+            "rmse": 0.19126494315742407
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2532467532467533,
+            "rmse": 0.33555536442948225
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2860759493670886,
+            "rmse": 0.4072134388869388
+          },
+          {
+            "pond": "T2",
+            "n": 50,
+            "eligible_targets": 50,
+            "prediction_coverage": 1.0,
+            "mae": 0.118873417721519,
+            "rmse": 0.1677405052544804
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2701298701298701,
+            "rmse": 0.36360389465432325
+          }
+        ]
+      },
+      {
+        "task": "do",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.16363636363636366,
+        "test_mae": 0.21279743965096584,
+        "test_rmse": 0.3161447322588773,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.15517758665028433,
+          0.26234042553191494
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2088607594936709,
+            "rmse": 0.31482363959943177
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.10759493670886078,
+            "rmse": 0.19126494315742407
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2532467532467533,
+            "rmse": 0.33555536442948225
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2860759493670886,
+            "rmse": 0.4072134388869388
+          },
+          {
+            "pond": "T2",
+            "n": 50,
+            "eligible_targets": 50,
+            "prediction_coverage": 1.0,
+            "mae": 0.118873417721519,
+            "rmse": 0.1677405052544804
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2701298701298701,
+            "rmse": 0.36360389465432325
+          }
+        ]
+      },
+      {
+        "task": "do",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 316,
+        "validation_n": 77,
+        "test_n": 441,
+        "validation_mae": 0.3622472464244616,
+        "test_mae": 0.3364519647521455,
+        "test_rmse": 0.4082912845042159,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.3023292861448377,
+          0.38240047759010637
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2922848902419484,
+            "rmse": 0.33725151379990403
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.31220157026117606,
+            "rmse": 0.3575635698128356
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2973121814893967,
+            "rmse": 0.3580917263941335
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.4438791860278801,
+            "rmse": 0.5682067553630896
+          },
+          {
+            "pond": "T2",
+            "n": 50,
+            "eligible_targets": 50,
+            "prediction_coverage": 1.0,
+            "mae": 0.33392405063291136,
+            "rmse": 0.35589545750178575
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.3372102580963339,
+            "rmse": 0.4063973810379386
+          }
+        ]
+      },
+      {
+        "task": "ph",
+        "package": "TargetOnly",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19449670556481702,
+        "test_rmse": 0.27636796450521667,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.17986640266967338,
+          0.2088652060014289
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.20000000000000015,
+            "rmse": 0.2590146860603405
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.22278481012658233,
+            "rmse": 0.31462253856351735
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.17792207792207787,
+            "rmse": 0.24361988701797171
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.16582278481012658,
+            "rmse": 0.2660065669694755
+          },
+          {
+            "pond": "T2",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2068111455108358,
+            "rmse": 0.27670345711060923
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.1935064935064935,
+            "rmse": 0.29210387762690754
+          }
+        ]
+      },
+      {
+        "task": "ph",
+        "package": "MultiSensor",
+        "domain_qc": true,
+        "method": "Persistence",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.09740259740259737,
+        "test_mae": 0.19449670556481702,
+        "test_rmse": 0.27636796450521667,
+        "parameter_bytes": 0,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.17986640266967338,
+          0.2088652060014289
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.20000000000000015,
+            "rmse": 0.2590146860603405
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.22278481012658233,
+            "rmse": 0.31462253856351735
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.17792207792207787,
+            "rmse": 0.24361988701797171
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.16582278481012658,
+            "rmse": 0.2660065669694755
+          },
+          {
+            "pond": "T2",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.2068111455108358,
+            "rmse": 0.27670345711060923
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.1935064935064935,
+            "rmse": 0.29210387762690754
+          }
+        ]
+      },
+      {
+        "task": "ph",
+        "package": "NoTarget",
+        "domain_qc": true,
+        "method": "Mean",
+        "train_n": 323,
+        "validation_n": 77,
+        "test_n": 468,
+        "validation_mae": 0.13645611354589718,
+        "test_mae": 0.2260088380831419,
+        "test_rmse": 0.288724708041849,
+        "parameter_bytes": 4,
+        "warnings": [],
+        "cut": "2018-06-04",
+        "pond_bootstrap_mae_95": [
+          0.19228514552537276,
+          0.2652116020359978
+        ],
+        "per_pond": [
+          {
+            "pond": "C1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.2120468707136423,
+            "rmse": 0.27025570439624985
+          },
+          {
+            "pond": "C2",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.3112630795156177,
+            "rmse": 0.3806105348648554
+          },
+          {
+            "pond": "C3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.19053516143299432,
+            "rmse": 0.23080379600839215
+          },
+          {
+            "pond": "T1",
+            "n": 79,
+            "eligible_targets": 79,
+            "prediction_coverage": 1.0,
+            "mae": 0.17935493984402573,
+            "rmse": 0.23016735225758442
+          },
+          {
+            "pond": "T2",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.26610108158095835,
+            "rmse": 0.3379099019462497
+          },
+          {
+            "pond": "T3",
+            "n": 77,
+            "eligible_targets": 77,
+            "prediction_coverage": 1.0,
+            "mae": 0.1961119375980062,
+            "rmse": 0.24758557691474753
+          }
+        ]
+      }
+    ],
+    "protocol": "Train early 65% calendar dates of 2018, purge label boundary, validate remaining 2018, frozen-model test all eligible 2019 origins. No final refit; group lags by year and pond.",
+    "uncertainty": "Descriptive percentile bootstrap of six 2019 pond identifiers, 2000 resamples; not national population confidence."
+  },
+  "vibrio": {
+    "rows": 679,
+    "censored_counts": {
+      "N-NO2-": 64,
+      "P-PO43-": 165,
+      "TSS": 1,
+      "Vibrio_CFU": 13
+    },
+    "trials": [
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "Mean",
+        "validation_mae": 0.6015361177776665,
+        "test_mae": 0.9328804874095914,
+        "test_rmse": 1.1428284718968909,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "Ridge",
+        "validation_mae": 0.586678822507982,
+        "test_mae": 0.8868234215608704,
+        "test_rmse": 1.1005430624469754,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 68,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "Tree4",
+        "validation_mae": 0.6228717612768608,
+        "test_mae": 1.0198946057571467,
+        "test_rmse": 1.2279616688789656,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 288,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "Forest16",
+        "validation_mae": 0.5939771168280815,
+        "test_mae": 0.9255619865527619,
+        "test_rmse": 1.1353263207156459,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 3792,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "MLP8",
+        "validation_mae": 0.7382885949432838,
+        "test_mae": 0.9183100738410565,
+        "test_rmse": 1.1580361489755777,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 252,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "HistBoost",
+        "validation_mae": 0.616684635467157,
+        "test_mae": 0.9828176824661728,
+        "test_rmse": 1.2236240452788505,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "Mean",
+        "validation_mae": 0.6015361177776665,
+        "test_mae": 0.9328804874095914,
+        "test_rmse": 1.1428284718968909,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "Ridge",
+        "validation_mae": 0.5891597545208455,
+        "test_mae": 0.8696130291747618,
+        "test_rmse": 1.0835266771036816,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 84,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "Tree4",
+        "validation_mae": 0.6366139141372978,
+        "test_mae": 1.0009074286360997,
+        "test_rmse": 1.2157833560269424,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 300,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "Forest16",
+        "validation_mae": 0.6051307775898982,
+        "test_mae": 0.9310333176719183,
+        "test_rmse": 1.1429841795289417,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 3644,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "MLP8",
+        "validation_mae": 0.6995990675340525,
+        "test_mae": 1.0625495615330334,
+        "test_rmse": 1.3608295966931345,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 296,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "HistBoost",
+        "validation_mae": 0.652310856503721,
+        "test_mae": 0.9308314024915015,
+        "test_rmse": 1.1714326838943798,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "Mean",
+        "validation_mae": 0.6015361177776665,
+        "test_mae": 0.9328804874095914,
+        "test_rmse": 1.1428284718968909,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "Ridge",
+        "validation_mae": 0.6411674299963347,
+        "test_mae": 0.8505958051484791,
+        "test_rmse": 1.0535956586893054,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 164,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "Tree4",
+        "validation_mae": 0.6424672022402775,
+        "test_mae": 0.8733559986775611,
+        "test_rmse": 1.0654729406491814,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 520,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "Forest16",
+        "validation_mae": 0.5719058570310839,
+        "test_mae": 0.8015734558072234,
+        "test_rmse": 0.9952642964300338,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4952,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "MLP8",
+        "validation_mae": 0.8317676231931403,
+        "test_mae": 1.2325918350301797,
+        "test_rmse": 1.5375059450750774,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 516,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "HistBoost",
+        "validation_mae": 0.6425609652361041,
+        "test_mae": 0.8539045252100707,
+        "test_rmse": 1.0613372276906698,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "Mean",
+        "validation_mae": 0.6048114556245731,
+        "test_mae": 0.9373299880767368,
+        "test_rmse": 1.150080595960458,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "Ridge",
+        "validation_mae": 0.5897434122457047,
+        "test_mae": 0.8904106038239353,
+        "test_rmse": 1.1075215926761253,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 68,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "Tree4",
+        "validation_mae": 0.6283718680911032,
+        "test_mae": 1.0246443230138096,
+        "test_rmse": 1.2356787782772374,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 288,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "Forest16",
+        "validation_mae": 0.5946418778721875,
+        "test_mae": 0.923031535400337,
+        "test_rmse": 1.1379321061217023,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 3696,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "MLP8",
+        "validation_mae": 0.7842247785669582,
+        "test_mae": 0.9663668712662705,
+        "test_rmse": 1.2170678357078393,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 252,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "HistBoost",
+        "validation_mae": 0.617052221248543,
+        "test_mae": 0.9987815115572042,
+        "test_rmse": 1.2425011645253434,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "Mean",
+        "validation_mae": 0.6048114556245731,
+        "test_mae": 0.9373299880767368,
+        "test_rmse": 1.150080595960458,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "Ridge",
+        "validation_mae": 0.5920751724546194,
+        "test_mae": 0.8742749685959755,
+        "test_rmse": 1.0916225957548893,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 84,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "Tree4",
+        "validation_mae": 0.6421140209515402,
+        "test_mae": 1.005657145892763,
+        "test_rmse": 1.2235772765301127,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 300,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "Forest16",
+        "validation_mae": 0.6055794703186964,
+        "test_mae": 0.9425132892882614,
+        "test_rmse": 1.1576427592266951,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 3548,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "MLP8",
+        "validation_mae": 0.6522773480858395,
+        "test_mae": 1.0301860078495257,
+        "test_rmse": 1.3006868006374206,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 296,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "HistBoost",
+        "validation_mae": 0.6650971295224819,
+        "test_mae": 0.9499296008846277,
+        "test_rmse": 1.1949480766649125,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "Mean",
+        "validation_mae": 0.6048114556245731,
+        "test_mae": 0.9373299880767368,
+        "test_rmse": 1.150080595960458,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "Ridge",
+        "validation_mae": 0.6462382417857273,
+        "test_mae": 0.8561921101557909,
+        "test_rmse": 1.061028286035261,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 164,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "Tree4",
+        "validation_mae": 0.6472183408698303,
+        "test_mae": 0.8799541679118014,
+        "test_rmse": 1.075123203140315,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 520,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "Forest16",
+        "validation_mae": 0.5777195619337536,
+        "test_mae": 0.7958329496831819,
+        "test_rmse": 0.9935756393545585,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4952,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "MLP8",
+        "validation_mae": 0.8896691083188162,
+        "test_mae": 1.2011754729430397,
+        "test_rmse": 1.5030482768391333,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 516,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "HistBoost",
+        "validation_mae": 0.6511693717912407,
+        "test_mae": 0.8598196664564716,
+        "test_rmse": 1.0654662739470544,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "Mean",
+        "validation_mae": 0.5992122285922953,
+        "test_mae": 0.9297235164453759,
+        "test_rmse": 1.1378295741200295,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "Ridge",
+        "validation_mae": 0.5845044614857078,
+        "test_mae": 0.88427827524109,
+        "test_rmse": 1.0957504270839258,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 68,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "Tree4",
+        "validation_mae": 0.6190429578033214,
+        "test_mae": 1.0165246277328177,
+        "test_rmse": 1.2226266634418734,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 288,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "Forest16",
+        "validation_mae": 0.5915062961651876,
+        "test_mae": 0.9227785369858891,
+        "test_rmse": 1.130703123541958,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 3792,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "MLP8",
+        "validation_mae": 0.9832379372341026,
+        "test_mae": 1.0986044394755117,
+        "test_rmse": 1.3756877146074826,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 252,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "HistBoost",
+        "validation_mae": 0.6125215064995666,
+        "test_mae": 0.9994055585482032,
+        "test_rmse": 1.24092963082092,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "Mean",
+        "validation_mae": 0.5992122285922953,
+        "test_mae": 0.9297235164453759,
+        "test_rmse": 1.1378295741200295,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "Ridge",
+        "validation_mae": 0.5870912325778243,
+        "test_mae": 0.866305330515814,
+        "test_rmse": 1.0779356057221903,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 84,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "Tree4",
+        "validation_mae": 0.6327851106637584,
+        "test_mae": 0.9975374506117709,
+        "test_rmse": 1.2103946739452915,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 300,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "Forest16",
+        "validation_mae": 0.6031301928891059,
+        "test_mae": 0.9276918403708209,
+        "test_rmse": 1.1376418628365774,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 3644,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "MLP8",
+        "validation_mae": 0.7219586760862121,
+        "test_mae": 0.9597007434172382,
+        "test_rmse": 1.2245911797976377,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 296,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "HistBoost",
+        "validation_mae": 0.6517310411600884,
+        "test_mae": 0.9313828916337793,
+        "test_rmse": 1.1730282416912747,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "Mean",
+        "validation_mae": 0.5992122285922953,
+        "test_mae": 0.9297235164453759,
+        "test_rmse": 1.1378295741200295,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "Ridge",
+        "validation_mae": 0.637660964706866,
+        "test_mae": 0.8464754445316706,
+        "test_rmse": 1.0482490547875956,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 164,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "Tree4",
+        "validation_mae": 0.6597329425668512,
+        "test_mae": 0.8913892773906165,
+        "test_rmse": 1.0916789080648759,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 520,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "Forest16",
+        "validation_mae": 0.574247960439941,
+        "test_mae": 0.7893291678133879,
+        "test_rmse": 0.9858005621178861,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 5016,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "MLP8",
+        "validation_mae": 0.8654549745961484,
+        "test_mae": 1.2390638841226145,
+        "test_rmse": 1.5488726086942695,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 516,
+        "warnings": [
+          "lbfgs failed to converge after 300 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=300).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "HistBoost",
+        "validation_mae": 0.6372263338458122,
+        "test_mae": 0.8318910200018229,
+        "test_rmse": 1.0496152100576563,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": null,
+        "warnings": []
+      }
+    ],
+    "selection": [
+      {
+        "package": "Field4",
+        "censor": "half",
+        "method": "Mean",
+        "validation_mae": 0.6015361177776665,
+        "test_mae": 0.9328804874095914,
+        "test_rmse": 1.1428284718968909,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "half",
+        "method": "Mean",
+        "validation_mae": 0.6015361177776665,
+        "test_mae": 0.9328804874095914,
+        "test_rmse": 1.1428284718968909,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "half",
+        "method": "Mean",
+        "validation_mae": 0.6015361177776665,
+        "test_mae": 0.9328804874095914,
+        "test_rmse": 1.1428284718968909,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "zero",
+        "method": "Mean",
+        "validation_mae": 0.6048114556245731,
+        "test_mae": 0.9373299880767368,
+        "test_rmse": 1.150080595960458,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "zero",
+        "method": "Mean",
+        "validation_mae": 0.6048114556245731,
+        "test_mae": 0.9373299880767368,
+        "test_rmse": 1.150080595960458,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "zero",
+        "method": "Mean",
+        "validation_mae": 0.6048114556245731,
+        "test_mae": 0.9373299880767368,
+        "test_rmse": 1.150080595960458,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field4",
+        "censor": "loq",
+        "method": "Mean",
+        "validation_mae": 0.5992122285922953,
+        "test_mae": 0.9297235164453759,
+        "test_rmse": 1.1378295741200295,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Field5",
+        "censor": "loq",
+        "method": "Mean",
+        "validation_mae": 0.5992122285922953,
+        "test_mae": 0.9297235164453759,
+        "test_rmse": 1.1378295741200295,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      },
+      {
+        "package": "Laboratory10",
+        "censor": "loq",
+        "method": "Mean",
+        "validation_mae": 0.5992122285922953,
+        "test_mae": 0.9297235164453759,
+        "test_rmse": 1.1378295741200295,
+        "train_n": 303,
+        "validation_n": 184,
+        "test_n": 192,
+        "parameter_bytes": 4,
+        "warnings": []
+      }
+    ],
+    "do_below3": 8,
+    "salinity_range": [
+      1.0,
+      32.0
+    ],
+    "protocol": "Train 2022-2023; validate 2024; frozen test 2025. No random splits. All sampling dates/campaigns stay within a year block. Pond IDs unavailable; cannot certify unseen-pond generalization.",
+    "target": "Contemporaneous total genus-level log10(CFU/mL+1), not disease, species-specific pathogen, future outbreak or sensor-failure label."
+  },
+  "economics": {
+    "crops": [
+      {
+        "year": 2018,
+        "pond": "T1",
+        "operating_vnd": 40407500.0,
+        "energy_vnd": 3380000.0,
+        "feed_vnd": 19113300.0,
+        "gross_vnd": 48750000.0,
+        "net_vnd": 8342500.0,
+        "energy_share": 0.08364783765390088,
+        "feed_share": 0.4730136732042319
+      },
+      {
+        "year": 2018,
+        "pond": "T2",
+        "operating_vnd": 31169812.0,
+        "energy_vnd": 3420000.0,
+        "feed_vnd": 9312300.0,
+        "gross_vnd": 24000000.0,
+        "net_vnd": -7169812.0,
+        "energy_share": 0.10972154724577741,
+        "feed_share": 0.29876022351369974
+      },
+      {
+        "year": 2018,
+        "pond": "T3",
+        "operating_vnd": 36214794.0,
+        "energy_vnd": 2180000.0,
+        "feed_vnd": 16863390.0,
+        "gross_vnd": 36400000.0,
+        "net_vnd": 185206.0,
+        "energy_share": 0.060196393772114234,
+        "feed_share": 0.4656492040241897
+      },
+      {
+        "year": 2018,
+        "pond": "C1",
+        "operating_vnd": 25176000.0,
+        "energy_vnd": 3650000.0,
+        "feed_vnd": 10656000.0,
+        "gross_vnd": 18000000.0,
+        "net_vnd": -7176000.0,
+        "energy_share": 0.14497934540832538,
+        "feed_share": 0.4232602478551001
+      },
+      {
+        "year": 2018,
+        "pond": "C2",
+        "operating_vnd": 26520450.0,
+        "energy_vnd": 4875000.0,
+        "feed_vnd": 9396450.0,
+        "gross_vnd": 15050000.0,
+        "net_vnd": -11470450.0,
+        "energy_share": 0.18382041028715576,
+        "feed_share": 0.3543095988190246
+      },
+      {
+        "year": 2018,
+        "pond": "C3",
+        "operating_vnd": 15405200.0,
+        "energy_vnd": 1050000.0,
+        "feed_vnd": 3726200.0,
+        "gross_vnd": 7212000.0,
+        "net_vnd": -8193200.0,
+        "energy_share": 0.06815880352088904,
+        "feed_share": 0.24187936540908264
+      },
+      {
+        "year": 2019,
+        "pond": "T1",
+        "operating_vnd": 54596150.0,
+        "energy_vnd": 7890000.0,
+        "feed_vnd": 33282150.0,
+        "gross_vnd": 85836000.0,
+        "net_vnd": 31239850.0,
+        "energy_share": 0.14451568471403203,
+        "feed_share": 0.609606171863767
+      },
+      {
+        "year": 2019,
+        "pond": "T2",
+        "operating_vnd": 49531510.0,
+        "energy_vnd": 7022000.0,
+        "feed_vnd": 32124510.0,
+        "gross_vnd": 76188000.0,
+        "net_vnd": 26656490.0,
+        "energy_share": 0.141768341001516,
+        "feed_share": 0.6485671444298791
+      },
+      {
+        "year": 2019,
+        "pond": "T3",
+        "operating_vnd": 46265590.0,
+        "energy_vnd": 4620000.0,
+        "feed_vnd": 29014590.0,
+        "gross_vnd": 59332500.0,
+        "net_vnd": 13066910.0,
+        "energy_share": 0.09985823157123902,
+        "feed_share": 0.6271310924598605
+      },
+      {
+        "year": 2019,
+        "pond": "C1",
+        "operating_vnd": 38880000.0,
+        "energy_vnd": 4250000.0,
+        "feed_vnd": 23694000.0,
+        "gross_vnd": 52572000.0,
+        "net_vnd": 13692000.0,
+        "energy_share": 0.10931069958847736,
+        "feed_share": 0.6094135802469136
+      },
+      {
+        "year": 2019,
+        "pond": "C2",
+        "operating_vnd": 49891850.0,
+        "energy_vnd": 7272000.0,
+        "feed_vnd": 32981850.0,
+        "gross_vnd": 58017000.0,
+        "net_vnd": 8125150.0,
+        "energy_share": 0.1457552686460815,
+        "feed_share": 0.6610668876780477
+      },
+      {
+        "year": 2019,
+        "pond": "C3",
+        "operating_vnd": 31263200.0,
+        "energy_vnd": 4620000.0,
+        "feed_vnd": 15193200.0,
+        "gross_vnd": 26280000.0,
+        "net_vnd": -4983200.0,
+        "energy_share": 0.1477775787507357,
+        "feed_share": 0.48597712326313364
+      }
+    ],
+    "summary": [
+      {
+        "year": 2018,
+        "pond_crops": 6,
+        "operating_median_vnd": 28845131.0,
+        "energy_share_median": 0.09668469244983915,
+        "feed_share_median": 0.3887849233370623,
+        "negative_net_count": 4
+      },
+      {
+        "year": 2019,
+        "pond_crops": 6,
+        "operating_median_vnd": 47898550.0,
+        "energy_share_median": 0.143142012857774,
+        "feed_share_median": 0.6183686321618138,
+        "negative_net_count": 1
+      }
+    ],
+    "break_even_scenarios": [
+      {
+        "assumed_annual_monitoring_vnd": 300000,
+        "assumed_crops_per_year": 1,
+        "allocated_vnd_per_crop": 300000.0,
+        "median_required_energy_reduction": 0.06776165011459129,
+        "crops_requiring_over_100pct_energy_reduction": 0
+      },
+      {
+        "assumed_annual_monitoring_vnd": 300000,
+        "assumed_crops_per_year": 2,
+        "allocated_vnd_per_crop": 150000.0,
+        "median_required_energy_reduction": 0.033880825057295644,
+        "crops_requiring_over_100pct_energy_reduction": 0
+      },
+      {
+        "assumed_annual_monitoring_vnd": 600000,
+        "assumed_crops_per_year": 1,
+        "allocated_vnd_per_crop": 600000.0,
+        "median_required_energy_reduction": 0.13552330022918258,
+        "crops_requiring_over_100pct_energy_reduction": 0
+      },
+      {
+        "assumed_annual_monitoring_vnd": 600000,
+        "assumed_crops_per_year": 2,
+        "allocated_vnd_per_crop": 300000.0,
+        "median_required_energy_reduction": 0.06776165011459129,
+        "crops_requiring_over_100pct_energy_reduction": 0
+      },
+      {
+        "assumed_annual_monitoring_vnd": 1200000,
+        "assumed_crops_per_year": 1,
+        "allocated_vnd_per_crop": 1200000.0,
+        "median_required_energy_reduction": 0.27104660045836515,
+        "crops_requiring_over_100pct_energy_reduction": 1
+      },
+      {
+        "assumed_annual_monitoring_vnd": 1200000,
+        "assumed_crops_per_year": 2,
+        "allocated_vnd_per_crop": 600000.0,
+        "median_required_energy_reduction": 0.13552330022918258,
+        "crops_requiring_over_100pct_energy_reduction": 0
+      }
+    ],
+    "basis": "2018-2019 nominal VND. Energy includes crop fuel and electricity; excludes sensor-specific attribution. No inflation conversion, causal trial/control claim, measured monitoring cost or asserted savings."
+  },
+  "mangrove": {
+    "parameters": [
+      {
+        "sheet": "1. Salinity (%o)",
+        "n": 180,
+        "minimum": 11.0,
+        "median": 20.0,
+        "maximum": 30.0
+      },
+      {
+        "sheet": "2. pH",
+        "n": 180,
+        "minimum": 6.736666666666667,
+        "median": 7.19,
+        "maximum": 7.87
+      },
+      {
+        "sheet": "3. DO (mgL)",
+        "n": 180,
+        "minimum": 0.0,
+        "median": 2.38,
+        "maximum": 5.24
+      },
+      {
+        "sheet": "4. H2S (ug.L-1)",
+        "n": 180,
+        "minimum": 0.16005368912039034,
+        "median": 2.7753294059280638,
+        "maximum": 179.82954396009285
+      },
+      {
+        "sheet": "5. N-NO2 (mgL)",
+        "n": 180,
+        "minimum": 0.0016,
+        "median": 0.017100977198697066,
+        "maximum": 0.3928
+      },
+      {
+        "sheet": "6. N-NO3 (mgL)",
+        "n": 180,
+        "minimum": 0.0059,
+        "median": 0.04675,
+        "maximum": 0.257
+      },
+      {
+        "sheet": "7. N-NH4 (mgL)",
+        "n": 180,
+        "minimum": 0.02746457032311995,
+        "median": 0.11002008006576075,
+        "maximum": 0.4843498178641803
+      },
+      {
+        "sheet": "8. N-NH3 (ugL)",
+        "n": 180,
+        "minimum": 0.21798361062585492,
+        "median": 1.3773327890485128,
+        "maximum": 7.671160151306944
+      },
+      {
+        "sheet": "9. TN (mgL)",
+        "n": 180,
+        "minimum": 0.3055,
+        "median": 0.7542625,
+        "maximum": 2.054
+      },
+      {
+        "sheet": "10. TOC (mgL)",
+        "n": 180,
+        "minimum": 1.677,
+        "median": 4.1594999999999995,
+        "maximum": 7.224950000000001
+      }
+    ],
+    "households": 5,
+    "household_mean_do_after_minus_before": [
+      0.19599999999999995,
+      0.09333333333333328,
+      0.38,
+      -0.8755555555555554,
+      0.5377777777777778
+    ],
+    "median_household_do_difference": 0.19599999999999995,
+    "basis": "Repeated before/after water exchange at three tides; household, age and replicate nesting. Descriptive only, no causal intervention or independent n=180 claim."
+  },
+  "weekly_audit": [
+    {
+      "year": 2018,
+      "pond": "T1",
+      "observation_rows": 10,
+      "parseable_dates": 0,
+      "salinity_numeric_count": 10,
+      "tan_numeric_count": 10,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2018,
+      "pond": "T2",
+      "observation_rows": 12,
+      "parseable_dates": 0,
+      "salinity_numeric_count": 12,
+      "tan_numeric_count": 12,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2018,
+      "pond": "T3",
+      "observation_rows": 10,
+      "parseable_dates": 0,
+      "salinity_numeric_count": 10,
+      "tan_numeric_count": 10,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2018,
+      "pond": "C1",
+      "observation_rows": 8,
+      "parseable_dates": 0,
+      "salinity_numeric_count": 8,
+      "tan_numeric_count": 8,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2018,
+      "pond": "C2",
+      "observation_rows": 12,
+      "parseable_dates": 0,
+      "salinity_numeric_count": 12,
+      "tan_numeric_count": 12,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2018,
+      "pond": "C3",
+      "observation_rows": 9,
+      "parseable_dates": 0,
+      "salinity_numeric_count": 9,
+      "tan_numeric_count": 9,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2019,
+      "pond": "T1",
+      "observation_rows": 11,
+      "parseable_dates": 11,
+      "salinity_numeric_count": 11,
+      "tan_numeric_count": 11,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2019,
+      "pond": "T2",
+      "observation_rows": 11,
+      "parseable_dates": 11,
+      "salinity_numeric_count": 11,
+      "tan_numeric_count": 11,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2019,
+      "pond": "T3",
+      "observation_rows": 11,
+      "parseable_dates": 11,
+      "salinity_numeric_count": 11,
+      "tan_numeric_count": 11,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2019,
+      "pond": "C1",
+      "observation_rows": 11,
+      "parseable_dates": 11,
+      "salinity_numeric_count": 11,
+      "tan_numeric_count": 11,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2019,
+      "pond": "C2",
+      "observation_rows": 11,
+      "parseable_dates": 11,
+      "salinity_numeric_count": 11,
+      "tan_numeric_count": 11,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    },
+    {
+      "year": 2019,
+      "pond": "C3",
+      "observation_rows": 11,
+      "parseable_dates": 11,
+      "salinity_numeric_count": 11,
+      "tan_numeric_count": 11,
+      "forecasting_use": false,
+      "nitrogen_basis": "TAN header lacks an explicit unit/basis; no inferred free-ammonia conversion."
+    }
+  ],
+  "source_manifest": "data/vietnam_manifest.json",
+  "local_file_count": 21
+}

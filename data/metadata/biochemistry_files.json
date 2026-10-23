@@ -1,0 +1,19 @@
+[
+  {
+    "filename": "WQD.xlsx",
+    "id": "c62340d2-0cdc-44eb-b68d-603f6b3e1193",
+    "content_details": {
+      "id": "d10d66ec-c1a9-4954-ba69-96bf1b501549",
+      "sha256_hash": "5f50c56347c6314e1ac9bd3ce27e7edabd9a005eecd02713ad059cb388ece261",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 925902,
+      "created_date": "2024-09-30T03:46:35.38Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/y78ty2g293/files/c62340d2-0cdc-44eb-b68d-603f6b3e1193/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/y78ty2g293/files/c62340d2-0cdc-44eb-b68d-603f6b3e1193/file_viewed",
+      "download_expiry_time": "2126-10-21T07:49:10.745001928Z"
+    },
+    "size": 925902,
+    "last_modified_date": "2024-09-30T03:46:35.38Z",
+    "status": "COMPLETED"
+  }
+]

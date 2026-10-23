@@ -1,0 +1,3759 @@
+{
+  "pff": {
+    "doi": "10.1016/j.biosystemseng.2017.10.014",
+    "title": "Precision fish farming: A new framework to improve production in aquaculture",
+    "authors": [
+      {
+        "given": "Martin",
+        "family": "Føre",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kevin",
+        "family": "Frank",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tomas",
+        "family": "Norton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eirik",
+        "family": "Svendsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jo Arve",
+        "family": "Alfredsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tim",
+        "family": "Dempster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harkaitz",
+        "family": "Eguiraun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Win",
+        "family": "Watson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Annette",
+        "family": "Stahl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leif Magne",
+        "family": "Sunde",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian",
+        "family": "Schellewald",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristoffer R.",
+        "family": "Skøien",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Morten O.",
+        "family": "Alver",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Berckmans",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2018,
+    "venue": [
+      "Biosystems Engineering"
+    ],
+    "volume": "173",
+    "page": "176-193",
+    "url": "https://doi.org/10.1016/j.biosystemseng.2017.10.014",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "camargo": {
+    "doi": "10.3390/s23094424",
+    "title": "Low-Cost Water Quality Sensors for IoT: A Systematic Review",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6520-9142",
+        "authenticated-orcid": false,
+        "given": "Edson Tavares",
+        "family": "de Camargo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          },
+          {
+            "name": "Graduate Program in Computer Science, Western Paraná State University (UNIOESTE), Cascavel 85819-110, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9603-8067",
+        "authenticated-orcid": false,
+        "given": "Fabio Alexandre",
+        "family": "Spanhol",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          },
+          {
+            "name": "Graduate Program in Computer Science, Western Paraná State University (UNIOESTE), Cascavel 85819-110, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5188-9696",
+        "authenticated-orcid": false,
+        "given": "Juliano Scholz",
+        "family": "Slongo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4417-4358",
+        "authenticated-orcid": false,
+        "given": "Marcos Vinicius Rocha",
+        "family": "da Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaqueline",
+        "family": "Pazinato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adriana Vechai",
+        "family": "de Lima Lobo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sanitation Company of Paraná (SANEPAR), Curitiba 80215-900, Brazil"
+          },
+          {
+            "name": "Federal University of Parana (UFPR), Curitiba 80210-170, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3016-989X",
+        "authenticated-orcid": false,
+        "given": "Fábio Rizental",
+        "family": "Coutinho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0586-1585",
+        "authenticated-orcid": false,
+        "given": "Felipe Walter Dafico",
+        "family": "Pfrimer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Toledo 85902-490, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2465-0764",
+        "authenticated-orcid": false,
+        "given": "Cleber Antonio",
+        "family": "Lindino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Paraná State University (UNIOESTE), Toledo 85903-000, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6354-8917",
+        "authenticated-orcid": false,
+        "given": "Marcio Seiji",
+        "family": "Oyamada",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate Program in Computer Science, Western Paraná State University (UNIOESTE), Cascavel 85819-110, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2176-6534",
+        "authenticated-orcid": false,
+        "given": "Leila Droprinchinski",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal University of Technology—Parana (UTFPR), Londrina 86036-370, Brazil"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2023,
+    "venue": [
+      "Sensors"
+    ],
+    "volume": "23",
+    "page": "4424",
+    "url": "https://doi.org/10.3390/s23094424",
+    "abstract": "<jats:p>In many countries, water quality monitoring is limited due to the high cost of logistics and professional equipment such as multiparametric probes. However, low-cost sensors integrated with the Internet of Things can enable real-time environmental monitoring networks, providing valuable water quality information to the public. To facilitate the widespread adoption of these sensors, it is crucial to identify which sensors can accurately measure key water quality parameters, their manufacturers, and their reliability in different environments. Although there is an increasing body of work utilizing low-cost water quality sensors, many questions remain unanswered. To address this issue, a systematic literature review was conducted to determine which low-cost sensors are being used for remote water quality monitoring. The results show that there are three primary vendors for the sensors used in the selected papers. Most sensors range in price from US$6.9 to US$169.00 but can cost up to US$500.00. While many papers suggest that low-cost sensors are suitable for water quality monitoring, few compare low-cost sensors to reference devices. Therefore, further research is necessary to determine the reliability and accuracy of low-cost sensors compared to professional devices.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "jais": {
+    "doi": "10.1016/j.heliyon.2024.e29022",
+    "title": "Improved accuracy in IoT-Based water quality monitoring for aquaculture tanks using low-cost sensors: Asian seabass fish farming",
+    "authors": [
+      {
+        "given": "Nurshahida Azreen",
+        "family": "Mohd Jais",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmad Fikri",
+        "family": "Abdullah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhamad Saufi",
+        "family": "Mohd Kassim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Murni Marlina",
+        "family": "Abd Karim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdulsalam",
+        "family": "M",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nur ‘Atirah",
+        "family": "Muhadi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2024,
+    "venue": [
+      "Heliyon"
+    ],
+    "volume": "10",
+    "page": "e29022",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e29022",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "parra": {
+    "doi": "10.3390/s18030750",
+    "title": "Design and Deployment of Low-Cost Sensors for Monitoring the Water Quality and Fish Behavior in Aquaculture Tanks during the Feeding Process",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9215-8734",
+        "authenticated-orcid": false,
+        "given": "Lorena",
+        "family": "Parra",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Instituto de Investigación para la Gestión Integrada de Zonas Costeras, Universitat Politècnica de València, 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9556-9088",
+        "authenticated-orcid": false,
+        "given": "Sandra",
+        "family": "Sendra",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Departamento de Teoría de la Señal, Telemática y Comunicaciones, ETS Ingenierías Informática y de Telecomunicación, Universidad de Granada, C/Periodista Daniel Saucedo Aranda, s/n, E-18071 Granada, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laura",
+        "family": "García",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Investigación para la Gestión Integrada de Zonas Costeras, Universitat Politècnica de València, 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0862-0533",
+        "authenticated-orcid": false,
+        "given": "Jaime",
+        "family": "Lloret",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto de Investigación para la Gestión Integrada de Zonas Costeras, Universitat Politècnica de València, 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2018,
+    "venue": [
+      "Sensors"
+    ],
+    "volume": "18",
+    "page": "750",
+    "url": "https://doi.org/10.3390/s18030750",
+    "abstract": "<jats:p>The monitoring of farming processes can optimize the use of resources and improve its sustainability and profitability. In fish farms, the water quality, tank environment, and fish behavior must be monitored. Wireless sensor networks (WSNs) are a promising option to perform this monitoring. Nevertheless, its high cost is slowing the expansion of its use. In this paper, we propose a set of sensors for monitoring the water quality and fish behavior in aquaculture tanks during the feeding process. The WSN is based on physical sensors, composed of simple electronic components. The system proposed can monitor water quality parameters, tank status, the feed falling and fish swimming depth and velocity. In addition, the system includes a smart algorithm to reduce the energy waste when sending the information from the node to the database. The system is composed of three nodes in each tank that send the information though the local area network to a database on the Internet and a smart algorithm that detects abnormal values and sends alarms when they happen. All the sensors are designed, calibrated, and deployed to ensure its suitability. The greatest efforts have been accomplished with the fish presence sensor. The total cost of the sensors and nodes for the proposed system is less than 90 €.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "garcia": {
+    "doi": "10.3390/electronics10182192",
+    "title": "A Custom Sensor Network for Autonomous Water Quality Assessment in Fish Farms",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2384-9085",
+        "authenticated-orcid": false,
+        "given": "Juan Francisco",
+        "family": "Fuentes-Pérez",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Hydraulics and Hydrology, ETSIIAA, University of Valladolid, 34004 Palencia, Spain"
+          },
+          {
+            "name": "Centro Tecnológico Agrario y Agroalimentario Itagra.ct., Avda. Madrid 44, 34004 Palencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francisco Javier",
+        "family": "Sanz-Ronda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Hydraulics and Hydrology, ETSIIAA, University of Valladolid, 34004 Palencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2021,
+    "venue": [
+      "Electronics"
+    ],
+    "volume": "10",
+    "page": "2192",
+    "url": "https://doi.org/10.3390/electronics10182192",
+    "abstract": "<jats:p>The control of water quality is crucial to ensure the survival of fish in aquaculture production facilities. Today, the combination of sensors with communication technologies permits to monitor these crucial parameters in real-time, allowing to take fast management decisions. However, out-of-the-box solutions are expensive, due to the small market and the industrial nature of sensors, besides being little customizable. To solve this, the present work describes a low-cost hardware and software architecture developed to achieve the autonomous water quality assessment and management on a remote facility for fish conservation aquaculture within the framework of the Smart Comunidad Rural Digital (smartCRD) project. The developed sensor network has been working uninterruptedly since its installation (20 April 2021). It is based on open source technology and includes a central gateway for on-site data monitoring of water quality nodes as well as an online management platform for data visualization and sensor network configuration. Likewise, the system can detect autonomously water quality parameters outside configurable thresholds and deliver management alarms. The described architecture, besides low-cost, is highly customizable, compatible with other sensor network projects, machine-learning applications, and is capable of edge computing. Thus, it contributes to making open sensorization more accessible to real-world applications.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "nuangpirom": {
+    "doi": "10.3390/s25196159",
+    "title": "Machine Learning on Low-Cost Edge Devices for Real-Time Water Quality Prediction in Tilapia Aquaculture",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-0559-6066",
+        "authenticated-orcid": false,
+        "given": "Pinit",
+        "family": "Nuangpirom",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Education and Technology, Faculty of Engineering, Rajamangala University of Technology Lanna, Chiang Mai 50300, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4842-5871",
+        "authenticated-orcid": false,
+        "given": "Siwasit",
+        "family": "Pitjamit",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Engineering, Faculty of Engineering, Rajamangala University of Technology Lanna, Chiang Mai 50300, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-8143-498X",
+        "authenticated-orcid": false,
+        "given": "Veerachai",
+        "family": "Jaikampan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Technology Preparatory Education, College of Integrated Science and Technology, Rajamangala University of Technology Lanna, Chiang Mai 50300, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-0871-8881",
+        "authenticated-orcid": false,
+        "given": "Chanotnon",
+        "family": "Peerakam",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Robotics Engineering and Artificial Intelligence Program, Faculty of Engineering, Chiang Mai University, Chiang Mai 50200, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7906-0158",
+        "authenticated-orcid": false,
+        "given": "Wasawat",
+        "family": "Nakkiew",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Engineering, Faculty of Engineering, Chiang Mai University, Chiang Mai 50200, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9929-404X",
+        "authenticated-orcid": false,
+        "given": "Parida",
+        "family": "Jewpanya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Engineering, Faculty of Engineering, Chiang Mai University, Chiang Mai 50200, Thailand"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2025,
+    "venue": [
+      "Sensors"
+    ],
+    "volume": "25",
+    "page": "6159",
+    "url": "https://doi.org/10.3390/s25196159",
+    "abstract": "<jats:p>This study presents the deployment of Machine Learning (ML) models on low-cost edge devices (ESP32) for real-time water quality prediction in tilapia aquaculture. A compact monitoring and control system was developed with low-cost sensors to capture key environmental parameters under field conditions in Northern Thailand. Three ML models—Multiple Linear Regression (MLR), Decision Tree Regression (DTR), and Random Forest Regression (RFR)—were evaluated. RFR achieved the highest accuracy (R2 &gt; 0.80), while MLR, with moderate performance (R2 ≈ 0.65–0.72), was identified as the most practical choice for ESP32 deployment due to its computational efficiency and offline operability. The system integrates sensing, prediction, and actuation, enabling autonomous regulation of dissolved oxygen and pH without constant cloud connectivity. Field validation demonstrated the system’s ability to maintain DO within biologically safe ranges and stabilize pH within an hour, supporting fish health and reducing production risks. These findings underline the potential of Edge AIoT as a scalable solution for small-scale aquaculture in resource-limited contexts. Future work will expand seasonal data coverage, explore federated learning approaches, and include economic assessments to ensure long-term robustness and sustainability.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "slongo": {
+    "doi": "10.1007/s10661-024-12884-9",
+    "title": "Evaluation of low-cost sensors to integrate in a water quality monitor for real-time measurements",
+    "authors": [
+      {
+        "given": "Juliano",
+        "family": "Slongo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cleber",
+        "family": "Lindino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leila D.",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fabio A.",
+        "family": "Spanhol",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edipo",
+        "family": "Carneiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edson T.",
+        "family": "Camargo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2024,
+    "venue": [
+      "Environmental Monitoring and Assessment"
+    ],
+    "volume": "196",
+    "page": null,
+    "url": "https://doi.org/10.1007/s10661-024-12884-9",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "samuelsson": {
+    "doi": "10.1016/j.watres.2019.115029",
+    "title": "Automated active fault detection in fouled dissolved oxygen sensors",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4476-8025",
+        "authenticated-orcid": false,
+        "given": "Oscar",
+        "family": "Samuelsson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8034-4043",
+        "authenticated-orcid": false,
+        "given": "Jesús",
+        "family": "Zambrano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Anders",
+        "family": "Björk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Bengt",
+        "family": "Carlsson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "year": 2019,
+    "venue": [
+      "Water Research"
+    ],
+    "volume": "166",
+    "page": "115029",
+    "url": "https://doi.org/10.1016/j.watres.2019.115029",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "roberts": {
+    "doi": "10.1111/ecog.02881",
+    "title": "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+    "authors": [
+      {
+        "given": "David R.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Bahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Ciuti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark S.",
+        "family": "Boyce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jane",
+        "family": "Elith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera‐Arroita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Severin",
+        "family": "Hauenstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José J.",
+        "family": "Lahoz‐Monfort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boris",
+        "family": "Schröder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wilfried",
+        "family": "Thuiller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David I.",
+        "family": "Warton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brendan A.",
+        "family": "Wintle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Hartig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          },
+          {
+            "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carsten F.",
+        "family": "Dormann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2017,
+    "venue": [
+      "Ecography"
+    ],
+    "volume": "40",
+    "page": "913-929",
+    "url": "https://doi.org/10.1111/ecog.02881",
+    "abstract": "<jats:p>Ecological data often show temporal, spatial, hierarchical (random effects), or phylogenetic structure. Modern statistical approaches are increasingly accounting for such dependencies. However, when performing cross‐validation, these structures are regularly ignored, resulting in serious underestimation of predictive error. One cause for the poor performance of uncorrected (random) cross‐validation, noted often by modellers, are dependence structures in the data that persist as dependence structures in model residuals, violating the assumption of independence. Even more concerning, because often overlooked, is that structured data also provides ample opportunity for overfitting with non‐causal predictors. This problem can persist even if remedies such as autoregressive models, generalized least squares, or mixed models are used. Block cross‐validation, where data are split strategically rather than randomly, can address these issues. However, the blocking strategy must be carefully considered. Blocking in space, time, random effects or phylogenetic distance, while accounting for dependencies in the data, may also unwittingly induce extrapolations by restricting the ranges or combinations of predictor variables available for model training, thus overestimating interpolation errors. On the other hand, deliberate blocking in predictor space may also improve error estimates when extrapolation is the modelling goal. Here, we review the ecological literature on non‐random and blocked cross‐validation approaches. We also provide a series of simulations and case studies, in which we show that, for all instances tested, block cross‐validation is nearly universally more appropriate than random cross‐validation if the goal is predicting to new data or predictor space, or for selecting causal predictors. We recommend that block cross‐validation be used wherever dependence structures exist in a dataset, even if no correlation structure is visible in the fitted model residuals, or if the fitted models account for such correlations.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "bergmeir": {
+    "doi": "10.1016/j.csda.2017.11.003",
+    "title": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3665-9021",
+        "authenticated-orcid": false,
+        "given": "Christoph",
+        "family": "Bergmeir",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rob J.",
+        "family": "Hyndman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bonsoo",
+        "family": "Koo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2018,
+    "venue": [
+      "Computational Statistics &amp; Data Analysis"
+    ],
+    "volume": "120",
+    "page": "70-83",
+    "url": "https://doi.org/10.1016/j.csda.2017.11.003",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "hewamalage": {
+    "doi": "10.1007/s10618-022-00894-5",
+    "title": "Forecast evaluation for data scientists: common pitfalls and best practices",
+    "authors": [
+      {
+        "given": "Hansika",
+        "family": "Hewamalage",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Klaus",
+        "family": "Ackermann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3665-9021",
+        "authenticated-orcid": false,
+        "given": "Christoph",
+        "family": "Bergmeir",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2022,
+    "venue": [
+      "Data Mining and Knowledge Discovery"
+    ],
+    "volume": "37",
+    "page": "788-832",
+    "url": "https://doi.org/10.1007/s10618-022-00894-5",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Recent trends in the Machine Learning (ML) and in particular Deep Learning (DL) domains have demonstrated that with the availability of massive amounts of time series, ML and DL techniques are competitive in time series forecasting. Nevertheless, the different forms of non-stationarities associated with time series challenge the capabilities of data-driven ML models. Furthermore, due to the domain of forecasting being fostered mainly by statisticians and econometricians over the years, the concepts related to forecast evaluation are not the mainstream knowledge among ML researchers. We demonstrate in our work that as a consequence, ML researchers oftentimes adopt flawed evaluation practices which results in spurious conclusions suggesting methods that are not competitive in reality to be seemingly competitive. Therefore, in this work we provide a tutorial-like compilation of the details associated with forecast evaluation. This way, we intend to impart the information associated with forecast evaluation to fit the context of ML, as means of bridging the knowledge gap between traditional methods of forecasting and adopting current state-of-the-art ML techniques.We elaborate the details of the different problematic characteristics of time series such as non-normality and non-stationarities and how they are associated with common pitfalls in forecast evaluation. Best practices in forecast evaluation are outlined with respect to the different steps such as data partitioning, error calculation, statistical testing, and others. Further guidelines are also provided along selecting valid and suitable error measures depending on the specific characteristics of the dataset at hand.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "cerqueira": {
+    "doi": "10.1007/s10994-020-05910-7",
+    "title": "Evaluating time series forecasting models: an empirical study on performance estimation methods",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9694-8423",
+        "authenticated-orcid": false,
+        "given": "Vitor",
+        "family": "Cerqueira",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luis",
+        "family": "Torgo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Igor",
+        "family": "Mozetič",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2020,
+    "venue": [
+      "Machine Learning"
+    ],
+    "volume": "109",
+    "page": "1997-2028",
+    "url": "https://doi.org/10.1007/s10994-020-05910-7",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "hyndman": {
+    "doi": "10.1016/j.ijforecast.2006.03.001",
+    "title": "Another look at measures of forecast accuracy",
+    "authors": [
+      {
+        "given": "Rob J.",
+        "family": "Hyndman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anne B.",
+        "family": "Koehler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2006,
+    "venue": [
+      "International Journal of Forecasting"
+    ],
+    "volume": "22",
+    "page": "679-688",
+    "url": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "efron": {
+    "doi": "10.1214/aos/1176344552",
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "authors": [
+      {
+        "given": "B.",
+        "family": "Efron",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 1979,
+    "venue": [
+      "The Annals of Statistics"
+    ],
+    "volume": "7",
+    "page": "1-26",
+    "url": "https://doi.org/10.1214/aos/1176344552",
+    "abstract": "<jats:p>We discuss the following problem: given a random sample $\\mathbf{X} = (X_1, X_2, \\cdots, X_n)$ from an unknown probability distribution $F$, estimate the sampling distribution of some prespecified random variable $R(\\mathbf{X}, F)$, on the basis of the observed data $\\mathbf{x}$. (Standard jackknife theory gives an approximate mean and variance in the case $R(\\mathbf{X}, F) = \\theta(\\hat{F}) - \\theta(F), \\theta$ some parameter of interest.) A general method, called the \"bootstrap,\" is introduced, and shown to work satisfactorily on a variety of estimation problems. The jackknife is shown to be a linear approximation method for the bootstrap. The exposition proceeds by a series of examples: variance of the sample median, error rates in a linear discriminant analysis, ratio estimation, estimating regression parameters, etc.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "kapoor": {
+    "doi": "10.1016/j.patter.2023.100804",
+    "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5695-280X",
+        "authenticated-orcid": false,
+        "given": "Sayash",
+        "family": "Kapoor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arvind",
+        "family": "Narayanan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2023,
+    "venue": [
+      "Patterns"
+    ],
+    "volume": "4",
+    "page": "100804",
+    "url": "https://doi.org/10.1016/j.patter.2023.100804",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "hoerl": {
+    "doi": "10.1080/00401706.1970.10488634",
+    "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+    "authors": [
+      {
+        "given": "Arthur E.",
+        "family": "Hoerl",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert W.",
+        "family": "Kennard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Delaware and E. 1. du Pont de Nemours & Co"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 1970,
+    "venue": [
+      "Technometrics"
+    ],
+    "volume": "12",
+    "page": "55-67",
+    "url": "https://doi.org/10.1080/00401706.1970.10488634",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "breiman": {
+    "doi": "10.1023/a:1010933404324",
+    "title": "Random Forests",
+    "authors": [
+      {
+        "given": "Leo",
+        "family": "Breiman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2001,
+    "venue": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "page": "5-32",
+    "url": "https://doi.org/10.1023/a:1010933404324",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "friedman": {
+    "doi": "10.1214/aos/1013203451",
+    "title": "Greedy function approximation: A gradient boosting machine.",
+    "authors": [
+      {
+        "given": "Jerome H.",
+        "family": "Friedman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2001,
+    "venue": [
+      "The Annals of Statistics"
+    ],
+    "volume": "29",
+    "page": "1189-1232",
+    "url": "https://doi.org/10.1214/aos/1013203451",
+    "abstract": "<jats:p>Function estimation/approximation is viewed from the perspective of numerical optimization in function space, rather than parameter space. A connection is made between stagewise additive expansions and steepest-descent minimization. A general gradient descent “boosting” paradigm is developed for additive expansions based on any fitting criterion.Specific algorithms are presented for least-squares, least absolute deviation, and Huber-M loss functions for regression, and multiclass logistic likelihood for classification. Special enhancements are derived for the particular case where the individual additive components are regression trees, and tools for interpreting such “TreeBoost” models are presented. Gradient boosting of regression trees produces competitive, highly robust, interpretable procedures for both regression and classification, especially appropriate for mining less than clean data. Connections between this approach and the boosting methods of Freund and Shapire and Friedman, Hastie and Tibshirani are discussed.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "boyd": {
+    "doi": "10.1007/978-1-4615-5407-3",
+    "title": "Pond Aquaculture Water Quality Management",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4956-7115",
+        "authenticated-orcid": false,
+        "given": "Claude E.",
+        "family": "Boyd",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Craig S.",
+        "family": "Tucker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 1998,
+    "venue": [],
+    "volume": null,
+    "page": null,
+    "url": "https://doi.org/10.1007/978-1-4615-5407-3",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "leigh2017": {
+    "doi": "10.1111/are.13338",
+    "title": "Concurrent rice-shrimp-crab farming systems in the Mekong Delta: Are conditions (sub) optimal for crop production and survival?",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4186-1678",
+        "authenticated-orcid": false,
+        "given": "Catherine",
+        "family": "Leigh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Australian Rivers Institute; Griffith University; Nathan QLD Australia"
+          },
+          {
+            "name": "The Griffith School of Environment; Griffith University; Nathan QLD Australia"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Le Huu",
+        "family": "Hiep",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Institute for Aquaculture 2 (RIA2); Ho Chi Minh City Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Stewart-Koster",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Australian Rivers Institute; Griffith University; Nathan QLD Australia"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Duong Minh",
+        "family": "Vien",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Can Tho University; Can Tho City Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Condon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graham Centre for Agricultural Innovation; School of Agricultural & Wine Sciences; Charles Sturt University; Wagga Wagga NSW Australia"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nguyen Van",
+        "family": "Sang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Institute for Aquaculture 2 (RIA2); Ho Chi Minh City Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jesmond",
+        "family": "Sammut",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Ecosystem Science; The School of Biological; Earth & Environmental Sciences; The University of New South Wales; Sydney NSW Australia"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Michele Astrid",
+        "family": "Burford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Australian Rivers Institute; Griffith University; Nathan QLD Australia"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "year": 2017,
+    "venue": [
+      "Aquaculture Research"
+    ],
+    "volume": "48",
+    "page": "5251-5262",
+    "url": "https://doi.org/10.1111/are.13338",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "tran2013": {
+    "doi": "10.3354/dao02621",
+    "title": "Determination of the infectious nature of the agent of acute hepatopancreatic necrosis syndrome affecting penaeid shrimp",
+    "authors": [
+      {
+        "given": "L",
+        "family": "Tran",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L",
+        "family": "Nunan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "RM",
+        "family": "Redman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "LL",
+        "family": "Mohney",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "CR",
+        "family": "Pantoja",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K",
+        "family": "Fitzsimmons",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "DV",
+        "family": "Lightner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2013,
+    "venue": [
+      "Diseases of Aquatic Organisms"
+    ],
+    "volume": "105",
+    "page": "45-55",
+    "url": "https://doi.org/10.3354/dao02621",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "lee2015": {
+    "doi": "10.1073/pnas.1503129112",
+    "title": "The opportunistic marine pathogen\n                    <i>Vibrio parahaemolyticus</i>\n                    becomes virulent by acquiring a plasmid that expresses a deadly toxin",
+    "authors": [
+      {
+        "given": "Chung-Te",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          },
+          {
+            "name": "Department of Microbiology and Immunology, College of Medicine, National Cheng Kung University, Tainan 701, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "I-Tung",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          },
+          {
+            "name": "Department of Life Science, National Taiwan University, Taipei 104, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi-Ting",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          },
+          {
+            "name": "Department of Life Science, National Taiwan University, Taipei 104, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tzu-Ping",
+        "family": "Ko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biological Chemistry, Academia Sinica, Taipei 115, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yun-Tzu",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiun-Yan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Fen",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate Institute of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 110, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shin-Jen",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chien-Yu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Genome and Systems Biology Degree Program, National Taiwan University and Academia Sinica, Taipei 115, Taiwan;"
+          },
+          {
+            "name": "Department of Bio-Industrial Mechatronics Engineering, National Taiwan University, Taipei 104, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shih-Shun",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biotechnology, National Taiwan University, Taipei 104, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Donald V.",
+        "family": "Lightner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Aquaculture Pathology Laboratory, School of Animal and Comparative Biomedical Sciences, University of Arizona, Tucson, AZ 85721;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Han-Ching",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biotechnology, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew H.-J.",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biological Chemistry, Academia Sinica, Taipei 115, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hao-Ching",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate Institute of Translational Medicine, College of Medical Science and Technology, Taipei Medical University, Taipei 110, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lien-I",
+        "family": "Hor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Microbiology and Immunology, College of Medicine, National Cheng Kung University, Tainan 701, Taiwan;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chu-Fang",
+        "family": "Lo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Bioinformatics and Biosignal Transduction, College of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan;"
+          },
+          {
+            "name": "Department of Life Science, National Taiwan University, Taipei 104, Taiwan;"
+          },
+          {
+            "name": "Center of Bioscience and Biotechnology, National Cheng Kung University, Tainan 701, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2015,
+    "venue": [
+      "Proceedings of the National Academy of Sciences"
+    ],
+    "volume": "112",
+    "page": "10798-10803",
+    "url": "https://doi.org/10.1073/pnas.1503129112",
+    "abstract": "<jats:title>Significance</jats:title>\n                  <jats:p>\n                    Since 2009, an emergent shrimp disease, acute hepatopancreatic necrosis disease (AHPND), has been causing global losses to the shrimp farming industry. The causative agent of AHPND is a specific strain of\n                    <jats:italic>Vibrio parahaemolyticus</jats:italic>\n                    . We present evidence here that the opportunistic\n                    <jats:italic>V. parahaemolyticus</jats:italic>\n                    becomes highly virulent by acquiring a unique AHPND-associated plasmid. This virulence plasmid, which encodes a binary toxin [\n                    <jats:italic>V. parahaemolyticus Photorhabdus</jats:italic>\n                    insect-related toxins (PirA\n                    <jats:sup>\n                      <jats:italic>vp</jats:italic>\n                    </jats:sup>\n                    and PirB\n                    <jats:sup>\n                      <jats:italic>vp</jats:italic>\n                    </jats:sup>\n                    )] that induces cell death, is stably inherited via a postsegregational killing system and disseminated by conjugative transfer. The cytotoxicity of the PirA\n                    <jats:sup>\n                      <jats:italic>vp</jats:italic>\n                    </jats:sup>\n                    /PirB\n                    <jats:sup>\n                      <jats:italic>vp</jats:italic>\n                    </jats:sup>\n                    system is analogous to the structurally similar insecticidal pore-forming Cry toxin. These findings will significantly increase our understanding of this emerging disease, which is essential for developing anti-AHPND measures.\n                  </jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "aeration": {
+    "doi": "10.1016/j.aquaculture.2024.741376",
+    "title": "Effects of minimum dissolved oxygen setpoints for aeration in semi-intensive pond production of Pacific white shrimp (Litopenaeus vannamei)",
+    "authors": [
+      {
+        "given": "Adela N.",
+        "family": "Araujo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian F.",
+        "family": "San Andres",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Khanh Q.",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Trenton L.",
+        "family": "Corby",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Melanie A.",
+        "family": "Rhodes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julio",
+        "family": "García",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luke A.",
+        "family": "Roy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. Allen",
+        "family": "Davis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2025,
+    "venue": [
+      "Aquaculture"
+    ],
+    "volume": "594",
+    "page": "741376",
+    "url": "https://doi.org/10.1016/j.aquaculture.2024.741376",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "gama": {
+    "doi": "10.1145/2523813",
+    "title": "A survey on concept drift adaptation",
+    "authors": [
+      {
+        "given": "João",
+        "family": "Gama",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Porto, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Indrė",
+        "family": "Žliobaitė",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Aalto University and HIIT, Finland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Albert",
+        "family": "Bifet",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yahoo! Research Barcelona, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Eindhoven University of Technology, the Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdelhamid",
+        "family": "Bouchachia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bournemouth University, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2014,
+    "venue": [
+      "ACM Computing Surveys"
+    ],
+    "volume": "46",
+    "page": "1-37",
+    "url": "https://doi.org/10.1145/2523813",
+    "abstract": "<jats:p>Concept drift primarily refers to an online supervised learning scenario when the relation between the input data and the target variable changes over time. Assuming a general knowledge of supervised learning in this article, we characterize adaptive learning processes; categorize existing strategies for handling concept drift; overview the most representative, distinct, and popular techniques and algorithms; discuss evaluation methodology of adaptive algorithms; and present a set of illustrative applications. The survey covers the different facets of concept drift in an integrated way to reflect on the existing scattered state of the art. Thus, it aims at providing a comprehensive introduction to the concept drift adaptation for researchers, industry analysts, and practitioners.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "helsel": {
+    "doi": "10.1016/j.chemosphere.2006.04.051",
+    "title": "Fabricating data: How substituting values for nondetects can ruin results, and what can be done about it",
+    "authors": [
+      {
+        "given": "Dennis R.",
+        "family": "Helsel",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2006,
+    "venue": [
+      "Chemosphere"
+    ],
+    "volume": "65",
+    "page": "2434-2439",
+    "url": "https://doi.org/10.1016/j.chemosphere.2006.04.051",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "fair": {
+    "doi": "10.1038/sdata.2016.18",
+    "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6960-357X",
+        "authenticated-orcid": false,
+        "given": "Mark D.",
+        "family": "Wilkinson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4727-9435",
+        "authenticated-orcid": false,
+        "given": "Michel",
+        "family": "Dumontier",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0209-4480",
+        "authenticated-orcid": false,
+        "given": "IJsbrand Jan",
+        "family": "Aalbersberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0179-7384",
+        "authenticated-orcid": false,
+        "given": "Gabrielle",
+        "family": "Appleton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8042-4131",
+        "authenticated-orcid": false,
+        "given": "Myles",
+        "family": "Axton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2829-6715",
+        "authenticated-orcid": false,
+        "given": "Arie",
+        "family": "Baak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4155-5910",
+        "authenticated-orcid": false,
+        "given": "Niklas",
+        "family": "Blomberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0327-638X",
+        "authenticated-orcid": false,
+        "given": "Jan-Willem",
+        "family": "Boiten",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1164-1351",
+        "authenticated-orcid": false,
+        "given": "Luiz Bonino",
+        "family": "da Silva Santos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7618-7292",
+        "authenticated-orcid": false,
+        "given": "Philip E.",
+        "family": "Bourne",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jildau",
+        "family": "Bouwman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8686-0017",
+        "authenticated-orcid": false,
+        "given": "Anthony J.",
+        "family": "Brookes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4060-7360",
+        "authenticated-orcid": false,
+        "given": "Tim",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1304-1939",
+        "authenticated-orcid": false,
+        "given": "Mercè",
+        "family": "Crosas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5654-2392",
+        "authenticated-orcid": false,
+        "given": "Ingrid",
+        "family": "Dillo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8599-7345",
+        "authenticated-orcid": false,
+        "given": "Olivier",
+        "family": "Dumon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6444-1436",
+        "authenticated-orcid": false,
+        "given": "Scott",
+        "family": "Edmunds",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5301-3142",
+        "authenticated-orcid": false,
+        "given": "Chris T.",
+        "family": "Evelo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4368-8058",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Finkers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3499-8262",
+        "authenticated-orcid": false,
+        "given": "Alejandra",
+        "family": "Gonzalez-Beltran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5711-4872",
+        "authenticated-orcid": false,
+        "given": "Alasdair J.G.",
+        "family": "Gray",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0183-6910",
+        "authenticated-orcid": false,
+        "given": "Paul",
+        "family": "Groth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1219-2137",
+        "authenticated-orcid": false,
+        "given": "Carole",
+        "family": "Goble",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5212-7052",
+        "authenticated-orcid": false,
+        "given": "Jeffrey S.",
+        "family": "Grethe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8641-4930",
+        "authenticated-orcid": false,
+        "given": "Jaap",
+        "family": "Heringa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4450-3112",
+        "authenticated-orcid": false,
+        "given": "Peter A.C",
+        "family": "’t Hoen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6825-9439",
+        "authenticated-orcid": false,
+        "given": "Rob",
+        "family": "Hooft",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1267-0234",
+        "authenticated-orcid": false,
+        "given": "Tobias",
+        "family": "Kuhn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruben",
+        "family": "Kok",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7352-1400",
+        "authenticated-orcid": false,
+        "given": "Joost",
+        "family": "Kok",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2401-4223",
+        "authenticated-orcid": false,
+        "given": "Scott J.",
+        "family": "Lusher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8406-3871",
+        "authenticated-orcid": false,
+        "given": "Maryann E.",
+        "family": "Martone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Albert",
+        "family": "Mons",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9610-5728",
+        "authenticated-orcid": false,
+        "given": "Abel L.",
+        "family": "Packer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3165-5344",
+        "authenticated-orcid": false,
+        "given": "Bengt",
+        "family": "Persson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9853-5668",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Rocca-Serra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8691-772X",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Roos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rene",
+        "family": "van Schaik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5306-5690",
+        "authenticated-orcid": false,
+        "given": "Susanna-Assunta",
+        "family": "Sansone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8888-635X",
+        "authenticated-orcid": false,
+        "given": "Erik",
+        "family": "Schultes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7516-6246",
+        "authenticated-orcid": false,
+        "given": "Thierry",
+        "family": "Sengstag",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1386-0731",
+        "authenticated-orcid": false,
+        "given": "Ted",
+        "family": "Slater",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "George",
+        "family": "Strawn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0979-3401",
+        "authenticated-orcid": false,
+        "given": "Morris A.",
+        "family": "Swertz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7633-1442",
+        "authenticated-orcid": false,
+        "given": "Mark",
+        "family": "Thompson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Johan",
+        "family": "van der Lei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1377-9386",
+        "authenticated-orcid": false,
+        "given": "Erik",
+        "family": "van Mulligen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4836-6568",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Velterop",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9773-4008",
+        "authenticated-orcid": false,
+        "given": "Andra",
+        "family": "Waagmeester",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Wittenburg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1279-5133",
+        "authenticated-orcid": false,
+        "given": "Katherine",
+        "family": "Wolstencroft",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6935-9028",
+        "authenticated-orcid": false,
+        "given": "Jun",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3934-0072",
+        "authenticated-orcid": false,
+        "given": "Barend",
+        "family": "Mons",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2016,
+    "venue": [
+      "Scientific Data"
+    ],
+    "volume": "3",
+    "page": null,
+    "url": "https://doi.org/10.1038/sdata.2016.18",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders—representing academia, industry, funding agencies, and scholarly publishers—have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comment is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata; not a new full-text systematic review."
+  },
+  "leigh2020": {
+    "doi": "10.1016/j.scitotenv.2020.139931",
+    "title": "Rice-shrimp ecosystems in the Mekong Delta: Linking water quality, shrimp and their natural food sources",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4186-1678",
+        "authenticated-orcid": false,
+        "given": "Catherine",
+        "family": "Leigh",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Stewart-Koster",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nguyen Van",
+        "family": "Sang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Le Van",
+        "family": "Truc",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Le Huu",
+        "family": "Hiep",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vo Bich",
+        "family": "Xoan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nguyen Thi Ngoc",
+        "family": "Tinh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "La Thuy",
+        "family": "An",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1105-7291",
+        "authenticated-orcid": false,
+        "given": "Jesmond",
+        "family": "Sammut",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michele A.",
+        "family": "Burford",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2020,
+    "venue": [
+      "Science of The Total Environment"
+    ],
+    "volume": "739",
+    "page": "139931",
+    "url": "https://doi.org/10.1016/j.scitotenv.2020.139931",
+    "abstract": null,
+    "verification": "Crossref title query; exact identity requires inspection before citation."
+  },
+  "wyban": {
+    "doi": "10.1016/0044-8486(95)00032-1",
+    "title": "Temperature effects on growth, feeding rate and feed conversion of the Pacific white shrimp (Penaeus vannamei)",
+    "authors": [
+      {
+        "given": "James",
+        "family": "Wyban",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William A.",
+        "family": "Walsh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David M.",
+        "family": "Godin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 1995,
+    "venue": [
+      "Aquaculture"
+    ],
+    "volume": "138",
+    "page": "267-279",
+    "url": "https://doi.org/10.1016/0044-8486(95)00032-1",
+    "abstract": null,
+    "verification": "Crossref title query; exact identity requires inspection before citation."
+  },
+  "moult": {
+    "doi": "10.1016/j.aquaculture.2019.734222",
+    "title": "The effect of short-term feed-deprivation and moult status on feeding behaviour of the Pacific white shrimp (Litopenaeus vannamei)",
+    "authors": [
+      {
+        "given": "Guillermo",
+        "family": "Bardera",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew A.G.",
+        "family": "Owen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Pountney",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mhairi E.",
+        "family": "Alexander",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katherine A.",
+        "family": "Sloman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2019,
+    "venue": [
+      "Aquaculture"
+    ],
+    "volume": "511",
+    "page": "734222",
+    "url": "https://doi.org/10.1016/j.aquaculture.2019.734222",
+    "abstract": null,
+    "verification": "Crossref title query; exact identity requires inspection before citation."
+  },
+  "recent_wang": {
+    "doi": "10.1016/j.compag.2025.110509",
+    "title": "Optimized learning pipeline for predicting future dissolved oxygen levels in aquaculture using time-series data",
+    "authors": [
+      {
+        "given": "Mingyan",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shahbaz Gul",
+        "family": "Hassan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ferdous",
+        "family": "Sohel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tonglai",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Min",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuekai",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Caijin",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiwen",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuangyin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Longqin",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2025,
+    "venue": [
+      "Computers and Electronics in Agriculture"
+    ],
+    "volume": "236",
+    "page": "110509",
+    "url": "https://doi.org/10.1016/j.compag.2025.110509",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata, retrieved 2026-10-22. Identity verification is not a full-text performance audit."
+  },
+  "recent_shao": {
+    "doi": "10.1016/j.compag.2025.110329",
+    "title": "Improving multi-step dissolved oxygen prediction in aquaculture using adaptive temporal convolution and optimized transformer",
+    "authors": [
+      {
+        "given": "Kaixuan",
+        "family": "Shao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daoliang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yonghui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bo",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Uzair Aslam",
+        "family": "Bhatti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2025,
+    "venue": [
+      "Computers and Electronics in Agriculture"
+    ],
+    "volume": "235",
+    "page": "110329",
+    "url": "https://doi.org/10.1016/j.compag.2025.110329",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata, retrieved 2026-10-22. Identity verification is not a full-text performance audit."
+  },
+  "frugal": {
+    "doi": "10.1109/mcas.2020.3005467",
+    "title": "TinyML-Enabled Frugal Smart Objects: Challenges and Opportunities",
+    "authors": [
+      {
+        "given": "Ramon",
+        "family": "Sanchez-Iborra",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antonio F.",
+        "family": "Skarmeta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2020,
+    "venue": [
+      "IEEE Circuits and Systems Magazine"
+    ],
+    "volume": "20",
+    "page": "4-18",
+    "url": "https://doi.org/10.1109/mcas.2020.3005467",
+    "abstract": null,
+    "verification": "Publisher-deposited Crossref metadata, retrieved 2026-10-22. Identity verification is not a full-text performance audit."
+  },
+  "leakage": {
+    "doi": "10.1145/2382577.2382579",
+    "title": "Leakage in data mining",
+    "authors": [
+      {
+        "given": "Shachar",
+        "family": "Kaufman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University, Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saharon",
+        "family": "Rosset",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tel Aviv University, Israel"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Claudia",
+        "family": "Perlich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "m6d"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ori",
+        "family": "Stitelman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "m6d"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2012,
+    "venue": [
+      "ACM Transactions on Knowledge Discovery from Data"
+    ],
+    "volume": "6",
+    "page": "1-21",
+    "url": "https://doi.org/10.1145/2382577.2382579",
+    "abstract": "<jats:p>Deemed “one of the top ten data mining mistakes”, leakage is the introduction of information about the data mining target that should not be legitimately available to mine from. In addition to our own industry experience with real-life projects, controversies around several major public data mining competitions held recently such as the INFORMS 2010 Data Mining Challenge and the IJCNN 2011 Social Network Challenge are evidence that this issue is as relevant today as it has ever been. While acknowledging the importance and prevalence of leakage in both synthetic competitions and real-life data mining projects, existing literature has largely left this idea unexplored. What little has been said turns out not to be broad enough to cover more complex cases of leakage, such as those where the classical independently and identically distributed (i.i.d.) assumption is violated, that have been recently documented. In our new approach, these cases and others are explained by explicitly defining modeling goals and analyzing the broader framework of the data mining problem. The resulting definition enables us to derive general methodology for dealing with the issue. We show that it is possible to avoid leakage with a simple specific approach to data management followed by what we call a learn-predict separation, and present several ways of detecting leakage when the modeler has no control over how the data have been collected. We also offer an alternative point of view on leakage that is based on causal graph modeling concepts.</jats:p>",
+    "verification": "Publisher-deposited Crossref metadata, retrieved 2026-10-22. Identity verification is not a full-text performance audit."
+  },
+  "water_management": {
+    "doi": "10.1017/wat.2024.6",
+    "title": "Water quality management in aquaculture",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4438-9065",
+        "authenticated-orcid": false,
+        "given": "Fatimah M.",
+        "family": "Yusoff",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Universiti Putra Malaysia"
+          },
+          {
+            "name": "International Institute of Aquaculture and Aquatic Sciences"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wahidah A. D.",
+        "family": "Umi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Universiti Putra Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Norulhuda M.",
+        "family": "Ramli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "International Institute of Aquaculture and Aquatic Sciences"
+          },
+          {
+            "name": "Universiti Putra Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Razif",
+        "family": "Harun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "International Institute of Aquaculture and Aquatic Sciences"
+          },
+          {
+            "name": "Universiti Putra Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2024,
+    "venue": [
+      "Cambridge Prisms: Water"
+    ],
+    "volume": "2",
+    "page": null,
+    "url": "https://doi.org/10.1017/wat.2024.6",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The aquaculture industry requires good water quality for its successful operation but produces wastes that can cause environmental deterioration and pose high risks to the sector. Adequate waste treatment and recycling are necessary to make aquaculture a sustainable and profitable industry and contribute to the circular economy. Polluted water sources, excess feeding, overstocking, use of antibiotics/chemicals and harmful algal blooms are major causes of water quality deterioration and low production in aquaculture systems. Discharges of untreated wastes would have serious impacts on the receiving water bodies, and eventually on the aquaculture industry itself. Possible solutions include technological innovations in environmentally friendly production systems, use of efficient processes in water quality management and improved legislation and governance. Environmentally feasible aquaculture production technologies such as recycling aquaculture system, integrated multi-trophic aquaculture and aquaponics including features of waste recycling are viable options in aquaculture schemes. Best aquaculture practices integrating advanced water quality treatment processes and technologies, supported by automation and sensors, modeling and artificial intelligence-internet of things are necessary for a sustainable aquaculture environment, production and stable value chain. In general, low-cost technologies for aquaculture waste treatment and environmental impact reduction through good governance are crucial for achieving sustainability in the aquaculture industry and natural environmental management.</jats:p>",
+    "verification": "Publisher-deposited Crossref identity verified 2026-10-22; reuses archived source audit."
+  }
+}

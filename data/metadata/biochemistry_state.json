@@ -1,0 +1,91 @@
+{
+  "snapshot": {
+    "id": "y78ty2g293",
+    "version": 1,
+    "name": "Aquaculture - Water Quality Dataset",
+    "description": "This dataset is useful to train and test deep learning models that developed to assess the quality of the water in fish ponds based on the parameters like Temperature, Turbidity, Dissolved Oxygen, Biochemical oxygen demand (BOD), $CO_{2}$, pH, Alkalinity, Hardness, Calcium, Ammonia,\tNitrite, Phosphorus, $H_{2}S$ and Plankton. The quality of water in fish ponds is classified in three categories like Excellent, Good and Poor quality. This dataset is prepared based on the threshold values of each input feature for acceptable range, desirable range and stress range for the growth of fishes in ponds. This AWD dataset consists of three different quality samples. They are excellent represented with 0, good quality is labelled with 1 and poor quality id labelled with 2. The developed dataset consists total 1500 poor quality water samples, 1400 excellent quality water samples and  1400 good quality water samples. The developed dataset consists of total 4300 samples with 14 input feature and one output label column.",
+    "doi": "10.17632/y78ty2g293.1",
+    "publish_date": "2024-10-01T10:43:24.394Z",
+    "last_modification_date": "2024-09-30T03:52:55.312Z",
+    "is_confidential": false,
+    "customer": {
+      "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+      "name": "Mendeley Guests",
+      "chief_id": 810289,
+      "config": {
+        "repository_id": "MENDELEY_DATA",
+        "dataset_size_limit": 10737418240,
+        "doi_prefix": "10.17632"
+      },
+      "is_user_mendeley_admin": false,
+      "customer_roles": [],
+      "is_guest": true,
+      "is_user_customer_moderator": false
+    },
+    "owner": {
+      "id": "724afb1f-c5dc-3b8c-93fc-59edf9afe41d",
+      "first_name": "Venkataramana",
+      "last_name": "Veeramsetty",
+      "display_name": "Venkataramana Veeramsetty",
+      "$ref": "/profiles/724afb1f-c5dc-3b8c-93fc-59edf9afe41d"
+    },
+    "categories": [
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-209694420",
+        "label": "Fish"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-210636186",
+        "label": "Aquaculture"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253046084",
+        "label": "Water Quality"
+      }
+    ],
+    "licence": {
+      "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+      "short_name": "CC BY 4.0",
+      "full_name": "Creative Commons Attribution 4.0 International",
+      "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+      "url": "http://creativecommons.org/licenses/by/4.0",
+      "category": "Creative",
+      "customer_id": null
+    },
+    "institutions": [
+      {
+        "id": "252ff041-ff96-56bf-966b-914566bdadb3",
+        "name": "SR Engineering College"
+      },
+      {
+        "id": "a2981cea-c16b-5728-9eab-2c0d18425836",
+        "name": "Sathyabama University"
+      }
+    ],
+    "funders": [],
+    "organisational_unit_names": [],
+    "contributors": [
+      {
+        "id": "724afb1f-c5dc-3b8c-93fc-59edf9afe41d",
+        "first_name": "Venkataramana",
+        "last_name": "Veeramsetty",
+        "$ref": "/profiles/724afb1f-c5dc-3b8c-93fc-59edf9afe41d"
+      },
+      {
+        "first_name": "Rajeshwarrao",
+        "last_name": "Arabelli"
+      },
+      {
+        "first_name": "T.",
+        "last_name": "Bernatin"
+      }
+    ],
+    "related_links": [],
+    "custom_metadata": {},
+    "is_metadata_only": false
+  },
+  "contributors": [],
+  "doi": "",
+  "status": 200,
+  "loading": false
+}

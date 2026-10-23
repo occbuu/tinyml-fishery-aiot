@@ -1,0 +1,11 @@
+/* Generated from training/validation only; feature order below. */
+#pragma once
+#include <math.h>
+#define MODEL_INPUTS 11
+/* y_lag0, y_lag1, y_lag2, y_lag3, y_lag6, y_mean6, y_delta, clock_sin, clock_cos, temperature, tds */
+static const float model_median[11] = {8.039999962e+00f,8.050000191e+00f,8.050000191e+00f,8.045000076e+00f,8.034999847e+00f,8.018333435e+00f,0.000000000e+00f,2.164396197e-01f,2.164396197e-01f,2.425000000e+01f,3.400000000e+02f};
+static const float model_center[11] = {8.152433395e+00f,8.148400307e+00f,8.148384094e+00f,8.140103340e+00f,8.135348320e+00f,8.149225235e+00f,2.767044585e-03f,1.076178029e-01f,1.326395571e-01f,2.410674667e+01f,3.416668701e+02f};
+static const float model_scale[11] = {1.411459208e+00f,1.389611244e+00f,1.382085323e+00f,1.371185422e+00f,1.366844535e+00f,1.388835907e+00f,3.978717625e-01f,7.096473575e-01f,6.835391521e-01f,9.313215613e-01f,4.612086487e+01f};
+static inline float model_predict(const float *raw) { float x[MODEL_INPUTS]; for(int i=0;i<MODEL_INPUTS;i++) x[i]=((isfinite(raw[i])?raw[i]:model_median[i])-model_center[i])/model_scale[i];
+if(x[5]<=5.065958761e-02f){if(x[5]<=-7.797120810e-01f){if(x[5]<=-1.110984743e+00f){if(x[9]<=-7.481273711e-01f){return 5.962027027e+00f;}else{return 6.468946429e+00f;}}else{if(x[5]<=-9.627790749e-01f){return 6.711991786e+00f;}else{return 6.933135135e+00f;}}}else{if(x[5]<=-3.777567446e-01f){if(x[5]<=-5.459131598e-01f){return 7.333847352e+00f;}else{return 7.533477860e+00f;}}else{if(x[5]<=-2.211507782e-01f){return 7.754443207e+00f;}else{return 8.053623047e+00f;}}}}else{if(x[5]<=1.196103275e+00f){if(x[5]<=4.832760841e-01f){if(x[5]<=2.810683697e-01f){return 8.377071535e+00f;}else{return 8.662452830e+00f;}}else{if(x[5]<=8.480899930e-01f){return 9.090859375e+00f;}else{return 9.482183406e+00f;}}}else{if(x[9]<=-1.468312889e-01f){if(x[5]<=1.803926468e+00f){return 1.046589595e+01f;}else{return 1.102413580e+01f;}}else{if(x[4]<=1.682452798e+00f){return 1.000305310e+01f;}else{return 8.652500000e+00f;}}}}}
+static inline void model_reset(void) {}

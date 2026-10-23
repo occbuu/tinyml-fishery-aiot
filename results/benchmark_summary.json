@@ -1,0 +1,2087 @@
+{
+  "seed": 20261021,
+  "python": "3.14.8",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.3",
+  "tasks": [
+    {
+      "key": "tilapia_do",
+      "source": "10.17632/dgdr2kfbyt.1",
+      "target": "do",
+      "unit": "mg/L",
+      "step_minutes": 60,
+      "horizon_steps": 1,
+      "extras": [
+        "temperature",
+        "ph",
+        "turbidity"
+      ]
+    },
+    {
+      "key": "pond_ph",
+      "source": "10.17632/34rczh25kc.4",
+      "target": "ph",
+      "unit": "pH units",
+      "step_minutes": 5,
+      "horizon_steps": 6,
+      "extras": [
+        "temperature",
+        "turbidity",
+        "bottom_temperature"
+      ]
+    },
+    {
+      "key": "aquaponic_ph",
+      "source": "10.17632/yd36bx6f8f.2",
+      "target": "ph",
+      "unit": "pH units",
+      "step_minutes": 5,
+      "horizon_steps": 6,
+      "extras": [
+        "temperature",
+        "tds"
+      ]
+    },
+    {
+      "key": "marine_temperature",
+      "source": "Marine Institute sbe37_macehead, 2019-05 to 2019-07",
+      "target": "temperature",
+      "unit": "degC",
+      "step_minutes": 30,
+      "horizon_steps": 2,
+      "extras": [
+        "salinity"
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "Forest16",
+      "mae": 0.5778328444296997,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.4685720824150256,
+        0.8639574515371303
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "HistBoost",
+      "mae": 0.6833097983463007,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.5733005626979185,
+        0.9615341191337473
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "MLP8",
+      "mae": 0.38915160702754037,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.2939260053249434,
+        0.5522820538799953
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "Mean",
+      "mae": 1.7136011175158279,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.5083196599872108,
+        2.090645412936991
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "Persistence",
+      "mae": 0.23775023386342378,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.16804376693888215,
+        0.4155515104311787
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "mae": 0.2614525985596042,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.20825193440909873,
+        0.4572506469538739
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "MultiSensor",
+      "method": "Tree4",
+      "mae": 0.6624634390458235,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.5151768120854073,
+        1.0104472394817
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "NoTarget",
+      "method": "Forest16",
+      "mae": 2.0339232642421083,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.7059067922068611,
+        2.350528508279709
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "NoTarget",
+      "method": "HistBoost",
+      "mae": 1.9427211675268399,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.5851693378494247,
+        2.25812539398681
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "NoTarget",
+      "method": "MLP8",
+      "mae": 2.17712925078214,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.4420727925656163,
+        2.482506901058642
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "NoTarget",
+      "method": "Mean",
+      "mae": 1.7136011175158279,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.5083196599872108,
+        2.090645412936991
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "NoTarget",
+      "method": "Ridge",
+      "mae": 2.0984664183996022,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.7934195090341665,
+        2.4380266212220763
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "NoTarget",
+      "method": "Tree4",
+      "mae": 2.1432962431941336,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.7896169818539782,
+        2.4620329314394622
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "Forest16",
+      "mae": 0.4749305146611798,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.40767919342109926,
+        0.727383003821353
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "HistBoost",
+      "mae": 0.464727686602602,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.41178381729777863,
+        0.723662183715127
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "MLP8",
+      "mae": 0.360642546405194,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.2938772549420791,
+        0.5460504287389361
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "Mean",
+      "mae": 1.7136011175158279,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        1.5083196599872108,
+        2.090645412936991
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "Persistence",
+      "mae": 0.23775023386342378,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.16804376693888215,
+        0.4155515104311787
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "mae": 0.2493590958306199,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.18938872274079513,
+        0.44623698280545276
+      ]
+    },
+    {
+      "task": "aquaponic_ph",
+      "package": "TargetOnly",
+      "method": "Tree4",
+      "mae": 0.3946748997164823,
+      "n": 3207,
+      "test_days": 19,
+      "daily_mean_mae_interval": [
+        0.3182643171022008,
+        0.6452814734111619
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "Forest16",
+      "mae": 1.2495144833998604,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        1.0534331223183842,
+        1.4733864960293153
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "HistBoost",
+      "mae": 1.216698933756346,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        1.0234696845345748,
+        1.4402866726337895
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "MLP8",
+      "mae": 0.0852121992598651,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        0.0723791052333024,
+        0.09653137231878162
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "Mean",
+      "mae": 3.2480839509254507,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        3.0024816742741147,
+        3.497447559747641
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "Persistence",
+      "mae": 0.07413936446173801,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        0.05978742097051694,
+        0.08770548858146678
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "mae": 0.07110780673384785,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        0.056775369921408955,
+        0.08363791580795346
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "MultiSensor",
+      "method": "Tree4",
+      "mae": 1.2509188522014703,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        1.050925661682291,
+        1.4768139257745982
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "NoTarget",
+      "method": "Forest16",
+      "mae": 2.8440110104287686,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        2.5718376724811365,
+        3.1665275262246593
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "NoTarget",
+      "method": "HistBoost",
+      "mae": 2.844056220951408,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        2.5706576525889577,
+        3.1737618504713865
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "NoTarget",
+      "method": "MLP8",
+      "mae": 3.0974735227909616,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        2.8537133580380667,
+        3.3576537821977026
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "NoTarget",
+      "method": "Mean",
+      "mae": 3.2480839509254507,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        3.0024816742741147,
+        3.497447559747641
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "NoTarget",
+      "method": "Ridge",
+      "mae": 2.7798713068571472,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        2.508384161660223,
+        3.094268400527676
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "NoTarget",
+      "method": "Tree4",
+      "mae": 2.858791644309562,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        2.589509214631929,
+        3.173623240440848
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "Forest16",
+      "mae": 1.2495144833998628,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        1.0534331223183862,
+        1.473386496029318
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "HistBoost",
+      "mae": 1.1993063019769388,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        1.00292932395049,
+        1.423254927704193
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "MLP8",
+      "mae": 0.07872080600815998,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        0.06584905398615284,
+        0.09125247003390059
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "Mean",
+      "mae": 3.2480839509254507,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        3.0024816742741147,
+        3.497447559747641
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "Persistence",
+      "mae": 0.07413936446173801,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        0.05978742097051694,
+        0.08770548858146678
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "mae": 0.07075594313910773,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        0.0560760722079889,
+        0.08354986577153442
+      ]
+    },
+    {
+      "task": "marine_temperature",
+      "package": "TargetOnly",
+      "method": "Tree4",
+      "mae": 1.2509188522014667,
+      "n": 1542,
+      "test_days": 33,
+      "daily_mean_mae_interval": [
+        1.0509256616822877,
+        1.4768139257745947
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "Forest16",
+      "mae": 0.035934360229069796,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.02067815181007084,
+        0.046617465984036564
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "HistBoost",
+      "mae": 0.039612172675918114,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.037293861012842405,
+        0.04316120938012041
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "MLP8",
+      "mae": 0.37738575381174144,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.05405030756646028,
+        0.8006441456147865
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "Mean",
+      "mae": 0.46761947275595067,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.3595293093495708,
+        0.6555763994318023
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "Persistence",
+      "mae": 0.04297550432276658,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.01722797927461143,
+        0.05773755656108596
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "mae": 0.025153359909768344,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.019510555808984257,
+        0.02984672409679996
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "MultiSensor",
+      "method": "Tree4",
+      "mae": 0.0524162921509353,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.03667595720044775,
+        0.06639783011063749
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "NoTarget",
+      "method": "Forest16",
+      "mae": 0.5486548507678333,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.44465924883050106,
+        0.791209056180937
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "NoTarget",
+      "method": "HistBoost",
+      "mae": 0.4842644574805855,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.3831009841801006,
+        0.6686397744469224
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "NoTarget",
+      "method": "MLP8",
+      "mae": 0.961499361381888,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.3946668488228449,
+        1.450233907171442
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "NoTarget",
+      "method": "Mean",
+      "mae": 0.46761947275595067,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.3595293093495708,
+        0.6555763994318023
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "NoTarget",
+      "method": "Ridge",
+      "mae": 0.8256555248172731,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.8110954216730408,
+        0.8439430462365495
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "NoTarget",
+      "method": "Tree4",
+      "mae": 0.5016029681217351,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.38115721140151076,
+        0.7871336353988877
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "Forest16",
+      "mae": 0.03646089254407125,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.0206991442035072,
+        0.04719700405795707
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "HistBoost",
+      "mae": 0.03742858494727609,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.024210907825016562,
+        0.04963056370356258
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "MLP8",
+      "mae": 0.04021877469459589,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.015226999284958555,
+        0.061586412222074706
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "Mean",
+      "mae": 0.46761947275595067,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.3595293093495708,
+        0.6555763994318023
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "Persistence",
+      "mae": 0.04297550432276658,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.01722797927461143,
+        0.05773755656108596
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "mae": 0.02355779243875897,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.02009982623855632,
+        0.025436855953692133
+      ]
+    },
+    {
+      "task": "pond_ph",
+      "package": "TargetOnly",
+      "method": "Tree4",
+      "mae": 0.05126994661690628,
+      "n": 694,
+      "test_days": 3,
+      "daily_mean_mae_interval": [
+        0.03667595720044737,
+        0.06337993019048814
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "Forest16",
+      "mae": 0.4983058679451984,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4775085061204594,
+        0.5161019656914906
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "HistBoost",
+      "mae": 0.50403274106007,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4837696465631929,
+        0.522321090405377
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "MLP8",
+      "mae": 0.5151168940967071,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.49280560964764303,
+        0.5349258479138276
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "Mean",
+      "mae": 0.497844213343712,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.47777794106473737,
+        0.5157049993144506
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "Persistence",
+      "mae": 0.7106784134453721,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.6756716951063658,
+        0.7406679227680774
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "mae": 0.49839425865911385,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4782614181653325,
+        0.5166620421741281
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "MultiSensor",
+      "method": "Tree4",
+      "mae": 0.5092697247779153,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4891416598764662,
+        0.5279920792174103
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "NoTarget",
+      "method": "Forest16",
+      "mae": 0.4987890237937618,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4781049046117779,
+        0.516713783109214
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "NoTarget",
+      "method": "HistBoost",
+      "mae": 0.5086880774779827,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.487752773532129,
+        0.5278621310421507
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "NoTarget",
+      "method": "MLP8",
+      "mae": 0.5016927768039079,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4808254404587229,
+        0.520685854486741
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "NoTarget",
+      "method": "Mean",
+      "mae": 0.497844213343712,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.47777794106473737,
+        0.5157049993144506
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "NoTarget",
+      "method": "Ridge",
+      "mae": 0.49728146036969817,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4773197177599625,
+        0.5153813253588034
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "NoTarget",
+      "method": "Tree4",
+      "mae": 0.5119193610779039,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4916311339276397,
+        0.5310021997745553
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "Forest16",
+      "mae": 0.4983110650037837,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.477942468113616,
+        0.5166543248516149
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "HistBoost",
+      "mae": 0.5046366586148113,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.48438760068849324,
+        0.5227658416963347
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "MLP8",
+      "mae": 0.509446114919023,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.48753090635822094,
+        0.5294454221737744
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "Mean",
+      "mae": 0.497844213343712,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.47777794106473737,
+        0.5157049993144506
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "Persistence",
+      "mae": 0.7106784134453721,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.6756716951063658,
+        0.7406679227680774
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "mae": 0.4988587219171734,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4786198062494995,
+        0.5170934763612688
+      ]
+    },
+    {
+      "task": "tilapia_do",
+      "package": "TargetOnly",
+      "method": "Tree4",
+      "mae": 0.5072547878033054,
+      "n": 1519,
+      "test_days": 64,
+      "daily_mean_mae_interval": [
+        0.4849519017397712,
+        0.5272425092037119
+      ]
+    }
+  ],
+  "selection": [
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "package": "TargetOnly",
+      "method": "Mean",
+      "validation_mae": 0.5091404356670063,
+      "mae": 0.49623300634215234,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "package": "MultiSensor",
+      "method": "Mean",
+      "validation_mae": 0.5091404356670063,
+      "mae": 0.49623300634215234,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "package": "NoTarget",
+      "method": "Mean",
+      "validation_mae": 0.5091404356670063,
+      "mae": 0.49623300634215234,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "package": "TargetOnly",
+      "method": "Mean",
+      "validation_mae": 0.49624494249392825,
+      "mae": 0.4990526185948818,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "package": "MultiSensor",
+      "method": "Mean",
+      "validation_mae": 0.49624494249392825,
+      "mae": 0.4990526185948818,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "package": "NoTarget",
+      "method": "Mean",
+      "validation_mae": 0.49624494249392825,
+      "mae": 0.4990526185948818,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "validation_mae": 0.0262548339827253,
+      "mae": 0.02582487017664822,
+      "parameter_bytes": 148
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "validation_mae": 0.02709447118209802,
+      "mae": 0.028426047964523322,
+      "parameter_bytes": 196
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "package": "NoTarget",
+      "method": "Mean",
+      "validation_mae": 0.4691343028527586,
+      "mae": 0.38709027864377654,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "validation_mae": 0.023791043212731473,
+      "mae": 0.021861767027793973,
+      "parameter_bytes": 148
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "validation_mae": 0.024321631913876214,
+      "mae": 0.02270502652875517,
+      "parameter_bytes": 196
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "package": "NoTarget",
+      "method": "Mean",
+      "validation_mae": 0.374658565228086,
+      "mae": 0.5278642351018342,
+      "parameter_bytes": 4
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "validation_mae": 0.4030024629537616,
+      "mae": 0.16347234549557307,
+      "parameter_bytes": 148
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "validation_mae": 0.4028066081189987,
+      "mae": 0.17861971699279625,
+      "parameter_bytes": 180
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "package": "NoTarget",
+      "method": "Ridge",
+      "validation_mae": 1.849914076807063,
+      "mae": 2.1954433979464665,
+      "parameter_bytes": 68
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "package": "TargetOnly",
+      "method": "Persistence",
+      "validation_mae": 0.13914169629253426,
+      "mae": 0.39458400646203556,
+      "parameter_bytes": 0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "package": "MultiSensor",
+      "method": "Persistence",
+      "validation_mae": 0.13914169629253426,
+      "mae": 0.39458400646203556,
+      "parameter_bytes": 0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "package": "NoTarget",
+      "method": "MLP8",
+      "validation_mae": 1.439356314309517,
+      "mae": 1.7412415603164593,
+      "parameter_bytes": 252
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "validation_mae": 0.06769528919847849,
+      "mae": 0.08033475936813417,
+      "parameter_bytes": 148
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "validation_mae": 0.0677265246942411,
+      "mae": 0.08027321248137087,
+      "parameter_bytes": 164
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "package": "NoTarget",
+      "method": "Ridge",
+      "validation_mae": 1.5388342359656493,
+      "mae": 2.379628349546645,
+      "parameter_bytes": 52
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "package": "TargetOnly",
+      "method": "Ridge",
+      "validation_mae": 0.07798608306723262,
+      "mae": 0.06358812147112876,
+      "parameter_bytes": 148
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "package": "MultiSensor",
+      "method": "Ridge",
+      "validation_mae": 0.07798793729989817,
+      "mae": 0.06424933984794627,
+      "parameter_bytes": 164
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "package": "NoTarget",
+      "method": "Ridge",
+      "validation_mae": 1.7548412992384397,
+      "mae": 3.079372839538476,
+      "parameter_bytes": 52
+    }
+  ],
+  "stress": [
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49623300634215234,
+      "rmse": 0.6243054111082531,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49623300634215234,
+      "rmse": 0.6243054111082531,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49623300634215234,
+      "rmse": 0.6243054111082531,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49492496948401143,
+      "rmse": 0.6221409162220525,
+      "fallback_fraction": 0.006144393241167435
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49623300634215234,
+      "rmse": 0.6243054111082531,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49623300634215234,
+      "rmse": 0.6243054111082531,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.49623300634215234,
+      "rmse": 0.6243054111082531,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 651,
+      "eligible_targets": 651,
+      "prediction_coverage": 1.0,
+      "mae": 0.528576542885234,
+      "rmse": 0.6606089161538266,
+      "fallback_fraction": 0.250384024577573
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.4990526185948818,
+      "rmse": 0.6290103024204043,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "tilapia_do",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 868,
+      "eligible_targets": 868,
+      "prediction_coverage": 1.0,
+      "mae": 0.5934912022378983,
+      "rmse": 0.7483217696207137,
+      "fallback_fraction": 0.25
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.028426047964523322,
+      "rmse": 0.03724505781193985,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.028426047964523322,
+      "rmse": 0.03724505781193985,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.4801817945826806,
+      "rmse": 2.0836196777384535,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.031393732347045795,
+      "rmse": 0.04360279336904432,
+      "fallback_fraction": 0.04713804713804714
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.1355418426450971,
+      "rmse": 0.3077153755712896,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.1264331388014062,
+      "rmse": 0.23689770599200338,
+      "fallback_fraction": 0.003367003367003367
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.1153047405316772,
+      "rmse": 0.1889396304768275,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 297,
+      "eligible_targets": 297,
+      "prediction_coverage": 1.0,
+      "mae": 0.059332816470788495,
+      "rmse": 0.08265507355405712,
+      "fallback_fraction": 0.25252525252525254
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.02270502652875517,
+      "rmse": 0.027848290361344234,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.02270502652875517,
+      "rmse": 0.027848290361344234,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.5142052541231873,
+      "rmse": 2.2904977108488858,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.03269982009831852,
+      "rmse": 0.04775998352120272,
+      "fallback_fraction": 0.04534005037783375
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.14447760901766152,
+      "rmse": 0.3281620463180701,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.13689228698961484,
+      "rmse": 0.2681452672358778,
+      "fallback_fraction": 0.0025188916876574307
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.10890329447397877,
+      "rmse": 0.2100804966034343,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "pond_ph",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.18928864861422415,
+      "rmse": 0.38466225522981246,
+      "fallback_fraction": 0.25440806045340053
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.17861971699279625,
+      "rmse": 0.2387768452816456,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.17861971699279625,
+      "rmse": 0.2387768452816456,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.2932630532045996,
+      "rmse": 0.4473245967384408,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.24147916354340124,
+      "rmse": 0.34649760622280357,
+      "fallback_fraction": 0.047232097511427124
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.451223691983993,
+      "rmse": 0.7205518753364875,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.451223691983993,
+      "rmse": 0.7205518753364875,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.556681108938792,
+      "rmse": 0.9320684158712401,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 1969,
+      "eligible_targets": 1969,
+      "prediction_coverage": 1.0,
+      "mae": 0.902046389955552,
+      "rmse": 1.685121968367428,
+      "fallback_fraction": 0.2844083291010665
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.39458400646203556,
+      "rmse": 0.7061564461890479,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.3987802907915994,
+      "rmse": 0.722831361872171,
+      "fallback_fraction": 0.0016155088852988692
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.5608961305049566,
+      "rmse": 1.3108060944118058,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.41832749673385594,
+      "rmse": 0.807346170671006,
+      "fallback_fraction": 0.048465266558966075
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.8182609992626502,
+      "rmse": 1.219914444317348,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.8224572835922139,
+      "rmse": 1.2296420221616273,
+      "fallback_fraction": 0.0016155088852988692
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.6710177705977383,
+      "rmse": 1.11082585819627,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "aquaponic_ph",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 0.6752140549273021,
+      "rmse": 1.1215000394333974,
+      "fallback_fraction": 0.2972536348949919
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.08027321248137087,
+      "rmse": 0.11688896914337066,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.08027321248137087,
+      "rmse": 0.11688896914337066,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.19327986646813414,
+      "rmse": 0.6275317194166316,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.09298095766793918,
+      "rmse": 0.13472433855695606,
+      "fallback_fraction": 0.04242424242424243
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.22877785271114462,
+      "rmse": 0.4095377108169571,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.23045946425261715,
+      "rmse": 0.413055591713848,
+      "fallback_fraction": 0.0015151515151515152
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.6033382822867298,
+      "rmse": 1.0997057713846963,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 0,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 660,
+      "eligible_targets": 660,
+      "prediction_coverage": 1.0,
+      "mae": 0.10942824239933398,
+      "rmse": 0.16700869515233638,
+      "fallback_fraction": 0.25
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "Selected",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.06424933984794627,
+      "rmse": 0.11065829351329136,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "clean",
+      "policy": "QualityFallback",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.06424933984794627,
+      "rmse": 0.11065829351329136,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "Selected",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.24282341058732057,
+      "rmse": 0.9403657474636667,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "spikes",
+      "policy": "QualityFallback",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.08184456701091516,
+      "rmse": 0.14009939270292826,
+      "fallback_fraction": 0.04308390022675737
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "Selected",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.3107464302846633,
+      "rmse": 0.6168586296687977,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "positive_drift",
+      "policy": "QualityFallback",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.31260921751096243,
+      "rmse": 0.6205261520309103,
+      "fallback_fraction": 0.0011337868480725624
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "Selected",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.8141813557692379,
+      "rmse": 1.537530723655803,
+      "fallback_fraction": 0.0
+    },
+    {
+      "task": "marine_temperature",
+      "fold": 1,
+      "fault": "dropout",
+      "policy": "QualityFallback",
+      "n": 882,
+      "eligible_targets": 882,
+      "prediction_coverage": 1.0,
+      "mae": 0.0907627357997872,
+      "rmse": 0.14936208836718967,
+      "fallback_fraction": 0.25056689342403626
+    }
+  ],
+  "telemetry": [
+    {
+      "task": "tilapia_do",
+      "threshold": 1.4804503005137555,
+      "heartbeat_minutes": 180,
+      "periodic_packets": 869,
+      "event_packets": 322,
+      "reduction": 0.6294591484464902,
+      "reconstruction_mae": 0.4037298268148837,
+      "invalid_notifications": 0,
+      "nominal_frame_bytes": 32,
+      "radio_tx_joule_assumption": 0.1,
+      "periodic_tx_j": 86.9,
+      "event_tx_j": 32.2,
+      "note": "Assumed radio-only energy, not measured. No sensor sampling reduction or aerator saving is claimed."
+    },
+    {
+      "task": "pond_ph",
+      "threshold": 0.025000000000000355,
+      "heartbeat_minutes": 180,
+      "periodic_packets": 405,
+      "event_packets": 65,
+      "reduction": 0.8395061728395061,
+      "reconstruction_mae": 0.00964108910891093,
+      "invalid_notifications": 1,
+      "nominal_frame_bytes": 32,
+      "radio_tx_joule_assumption": 0.1,
+      "periodic_tx_j": 40.5,
+      "event_tx_j": 6.5,
+      "note": "Assumed radio-only energy, not measured. No sensor sampling reduction or aerator saving is claimed."
+    },
+    {
+      "task": "aquaponic_ph",
+      "threshold": 0.3099999999999996,
+      "heartbeat_minutes": 180,
+      "periodic_packets": 3186,
+      "event_packets": 689,
+      "reduction": 0.7837413684871312,
+      "reconstruction_mae": 0.0776086956521739,
+      "invalid_notifications": 148,
+      "nominal_frame_bytes": 32,
+      "radio_tx_joule_assumption": 0.1,
+      "periodic_tx_j": 318.6,
+      "event_tx_j": 68.9,
+      "note": "Assumed radio-only energy, not measured. No sensor sampling reduction or aerator saving is claimed."
+    },
+    {
+      "task": "marine_temperature",
+      "threshold": 0.1260999999999992,
+      "heartbeat_minutes": 180,
+      "periodic_packets": 884,
+      "event_packets": 193,
+      "reduction": 0.7816742081447964,
+      "reconstruction_mae": 0.0338785067873303,
+      "invalid_notifications": 0,
+      "nominal_frame_bytes": 32,
+      "radio_tx_joule_assumption": 0.1,
+      "periodic_tx_j": 88.4,
+      "event_tx_j": 19.3,
+      "note": "Assumed radio-only energy, not measured. No sensor sampling reduction or aerator saving is claimed."
+    }
+  ],
+  "device_context": [
+    {
+      "board": "NUCLEO_L4R5ZI-P",
+      "task": "MLPerf Tiny anomaly detection (audio)",
+      "mean_latency_ms": 4.793677727272727,
+      "source_file": "closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__performance__results.json",
+      "applies_to": "Published external reference workload; not our water-quality model, not ESP32 timing."
+    },
+    {
+      "board": "NUCLEO_U575ZI_Q",
+      "task": "MLPerf Tiny anomaly detection (audio)",
+      "mean_latency_ms": 3.2094577142857146,
+      "source_file": "closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__performance__results.json",
+      "applies_to": "Published external reference workload; not our water-quality model, not ESP32 timing."
+    }
+  ],
+  "runtime_s": 26.06236710003577,
+  "epistemic_limit": "Public observed-target prediction and injected-stream replay; no new device, field intervention or mortality trial."
+}

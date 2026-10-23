@@ -1,0 +1,188 @@
+{
+  "compiler": "Zig 0.16.0",
+  "target": "x86_64-windows-gnu",
+  "scope": "Compiled C host parity only, not ESP32 timing or SRAM measurement.",
+  "rows": [
+    {
+      "task": "tilapia_do",
+      "method": "Ridge",
+      "n": 272,
+      "max_absolute_error": 1.2503250923501241e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "4c9fe61c1e4e1c18045393e6c7559fe5380630dffcc418748b56d4057627d272"
+    },
+    {
+      "task": "tilapia_do",
+      "method": "Mean",
+      "n": 272,
+      "max_absolute_error": 8.80524435586949e-08,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "3f97e9b1c4bac8796f50adcb0c0caa675c76d22a0474a4a3393f38a8fd6de069"
+    },
+    {
+      "task": "tilapia_do",
+      "method": "Persistence",
+      "n": 272,
+      "max_absolute_error": 4.543647058596889e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "eb3555b2fe15ec1f4767b9f842501a645b75fed2644ed40acb66874aa1a8ef6f"
+    },
+    {
+      "task": "tilapia_do",
+      "method": "Tree4",
+      "n": 272,
+      "max_absolute_error": 2.2436383684265593e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "0aae3eadc3b13da1bb07b0b28fd7f559395c4f6dc0fa1daa8b6f676ac3b9b4f3"
+    },
+    {
+      "task": "tilapia_do",
+      "method": "MLP8",
+      "n": 272,
+      "max_absolute_error": 1.3920219039675885e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "36c84d67348548486f2fedc993d9e33d0169b0c76e9755e5cd6dd5fe038c6d4e"
+    },
+    {
+      "task": "pond_ph",
+      "method": "Ridge",
+      "n": 272,
+      "max_absolute_error": 3.1081579656699887e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "59c1a8e412876357b90c2e2e3b071d3e5e231c109e1eca5ea948d1c78c76f2fb"
+    },
+    {
+      "task": "pond_ph",
+      "method": "Mean",
+      "n": 272,
+      "max_absolute_error": 4.551865817603584e-08,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "ade6b61a669a8ba162886ddd6c4f4fbbe1a83b35af8af29965a319d2a9bb7880"
+    },
+    {
+      "task": "pond_ph",
+      "method": "Persistence",
+      "n": 272,
+      "max_absolute_error": 4.5776367230132564e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "3316d11b791d5f3fb0e2b5dc3121c8e84e62c62fe2ab5678ebf9c6c47bcdb113"
+    },
+    {
+      "task": "pond_ph",
+      "method": "Tree4",
+      "n": 272,
+      "max_absolute_error": 4.7243558398690766e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "5945dbb845ef0c41a9349d2b8dfcc1c666660a91ee906bdc67e1e34343c7b97e"
+    },
+    {
+      "task": "pond_ph",
+      "method": "MLP8",
+      "n": 272,
+      "max_absolute_error": 1.0577214801799073e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "d858d299fe27c0c1777a4f9a09ed675dfa6e4eb0674836b3e0c884d2b06bd16b"
+    },
+    {
+      "task": "aquaponic_ph",
+      "method": "Ridge",
+      "n": 272,
+      "max_absolute_error": 1.5676425695332341e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "0c6947f16fdd239c468c71a8314b78c4903608625c7db39f6c7e04a332826f23"
+    },
+    {
+      "task": "aquaponic_ph",
+      "method": "Mean",
+      "n": 272,
+      "max_absolute_error": 1.1111914588468608e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "082727fd7b408c1a9fcad0954ba75012d4943f47cbc025285b0fec62afd6b736"
+    },
+    {
+      "task": "aquaponic_ph",
+      "method": "Persistence",
+      "n": 272,
+      "max_absolute_error": 2.2888183615066282e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "f3eb89333970971a4b56577e426e81ffa57ed0623f29d964784a52954892f33f"
+    },
+    {
+      "task": "aquaponic_ph",
+      "method": "Tree4",
+      "n": 272,
+      "max_absolute_error": 2.8337752588925014e-08,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "a5352f7a8c69792d4686e452f54b860c15efd7bc0898c1ae627d7dd748fed3a1"
+    },
+    {
+      "task": "aquaponic_ph",
+      "method": "MLP8",
+      "n": 272,
+      "max_absolute_error": 1.1844569307584152e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "58b2f82b8905807c5a0d17b0de0e2f67c2b7c5d58e02b33bb863a1232290a41f"
+    },
+    {
+      "task": "marine_temperature",
+      "method": "Ridge",
+      "n": 272,
+      "max_absolute_error": 3.125461187636347e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "3940a862dac134dee08055184c85ccd1b0dd0ce7dc584ee1133e7d902e1f513c"
+    },
+    {
+      "task": "marine_temperature",
+      "method": "Mean",
+      "n": 272,
+      "max_absolute_error": 3.8225559251259256e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "bf18de51a33718ad85397d1c3fae0c1fd39694ab6be791efdd0d6ee871ad3dbc"
+    },
+    {
+      "task": "marine_temperature",
+      "method": "Persistence",
+      "n": 272,
+      "max_absolute_error": 9.460449206244448e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "f0cbdf7a25c50f280066eca85c38fee2583c22c4efe4018b354721a0cf9afb50"
+    },
+    {
+      "task": "marine_temperature",
+      "method": "Tree4",
+      "n": 272,
+      "max_absolute_error": 4.339384762630516e-07,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "7cc07432c300900205880df8a49805fde400aaad4cbf365a7702280faa05dd7c"
+    },
+    {
+      "task": "marine_temperature",
+      "method": "MLP8",
+      "n": 272,
+      "max_absolute_error": 2.0908893141324825e-06,
+      "passed": true,
+      "failure_count": 0,
+      "header_sha256": "da34aa7eda342f5a131b2d93469ec2ea491ed73937a217ff956685571063c9b6"
+    }
+  ],
+  "all_passed": true
+}

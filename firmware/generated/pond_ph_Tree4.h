@@ -1,0 +1,11 @@
+/* Generated from training/validation only; feature order below. */
+#pragma once
+#include <math.h>
+#define MODEL_INPUTS 12
+/* y_lag0, y_lag1, y_lag2, y_lag3, y_lag6, y_mean6, y_delta, clock_sin, clock_cos, temperature, turbidity, bottom_temperature */
+static const float model_median[12] = {7.800000191e+00f,7.800000191e+00f,7.800000191e+00f,7.800000191e+00f,7.800000191e+00f,7.800000191e+00f,0.000000000e+00f,-6.540312618e-02f,1.736481786e-01f,2.002000046e+01f,2.080000000e+02f,2.162000084e+01f};
+static const float model_center[12] = {7.810773849e+00f,7.811249256e+00f,7.811889172e+00f,7.812647343e+00f,7.814929485e+00f,7.811528683e+00f,-2.945797460e-04f,-4.079594091e-02f,7.802145183e-02f,2.021142960e+01f,2.074395142e+02f,2.180347252e+01f};
+static const float model_scale[12] = {4.152210653e-01f,4.143498838e-01f,4.137651920e-01f,4.131744206e-01f,4.114876688e-01f,4.141126275e-01f,1.253007445e-02f,7.046040893e-01f,7.041174769e-01f,1.850394011e+00f,9.438823700e+00f,1.431905866e+00f};
+static inline float model_predict(const float *raw) { float x[MODEL_INPUTS]; for(int i=0;i<MODEL_INPUTS;i++) x[i]=((isfinite(raw[i])?raw[i]:model_median[i])-model_center[i])/model_scale[i];
+if(x[0]<=5.232450739e-02f){if(x[0]<=-8.748924136e-01f){if(x[0]<=-1.404730678e+00f){if(x[0]<=-1.693733335e+00f){return 7.043474576e+00f;}else{return 7.197808989e+00f;}}else{if(x[6]<=-5.750500411e-01f){return 7.263730159e+00f;}else{return 7.412500000e+00f;}}}else{if(x[0]<=-4.173048586e-01f){if(x[6]<=2.230297690e-01f){return 7.502262774e+00f;}else{return 7.619328358e+00f;}}else{if(x[6]<=-5.750500411e-01f){return 7.641119403e+00f;}else{return 7.785215517e+00f;}}}}else{if(x[0]<=7.989147604e-01f){if(x[6]<=4.225497311e-01f){if(x[0]<=3.955151737e-01f){return 7.814024390e+00f;}else{return 7.973448276e+00f;}}else{if(x[0]<=4.617449790e-01f){return 8.012900000e+00f;}else{return 8.157368421e+00f;}}}else{if(x[0]<=1.238439679e+00f){if(x[7]<=1.363022804e+00f){return 8.260432526e+00f;}else{return 8.148846154e+00f;}}else{if(x[8]<=1.095172644e+00f){return 8.401470588e+00f;}else{return 8.328125000e+00f;}}}}}
+static inline void model_reset(void) {}

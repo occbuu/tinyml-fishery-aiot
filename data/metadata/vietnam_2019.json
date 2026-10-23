@@ -1,0 +1,521 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 3653766,
+    "identifier": "DVN/VJEDSU",
+    "persistentUrl": "https://doi.org/10.7910/DVN/VJEDSU",
+    "protocol": "doi",
+    "authority": "10.7910",
+    "separator": "/",
+    "publisher": "Harvard Dataverse",
+    "publicationDate": "2020-01-02",
+    "storageIdentifier": "s3://10.7910/DVN/VJEDSU",
+    "guestbookId": 218,
+    "effectiveDatasetFileCountLimit": 1000,
+    "datasetFileUploadsAvailable": 992,
+    "datasetType": "dataset",
+    "locks": [],
+    "latestVersion": {
+      "id": 438522,
+      "datasetId": 3653766,
+      "datasetPersistentId": "doi:10.7910/DVN/VJEDSU",
+      "datasetType": "dataset",
+      "storageIdentifier": "s3://10.7910/DVN/VJEDSU",
+      "versionNumber": 2,
+      "internalVersionNumber": 5,
+      "versionMinorNumber": 1,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "deaccessionLink": "",
+      "productionDate": "2019-12-01",
+      "UNF": "UNF:6:lLib0Wa3Q7K6/4qg4mGdkw==",
+      "lastUpdateTime": "2025-03-04T03:43:48Z",
+      "releaseTime": "2025-03-04T03:43:48Z",
+      "createTime": "2025-03-04T03:41:43Z",
+      "publicationDate": "2020-01-02",
+      "citationDate": "2020-01-02",
+      "guestbookId": 218,
+      "effectiveDatasetFileCountLimit": 1000,
+      "datasetFileUploadsAvailable": 992,
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "fileAccessRequest": true,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Nutritious Pond On-farm field experiment in Vietnam- 2019"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Joffre, Olivier"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-7857-5766"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Verdegem, Marc"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Wageningen University"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Marc.Verdegem@wur.nl"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Data set and protocols for 2019 experiments in Vietnam. For each year the data comprise:\n-\tExperimental protocol\n-\tGrowth data\n-\tInput and output pond data\n-\tMonitoring form\n-\tWater quality data\nIn 2018 and 2019, monitoring data for growth and water includes daily and weekly recording."
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Medicine, Health and Life Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Fish feed"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Olivier Joffre, Marc Verdegem. (1/6/2019). Feeding both pond and fish: A pathway to ecological intensification of aquaculture systems. Infofish International, 3, pp. 55-58."
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "handle"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "20.500.12348/3847"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://hdl.handle.net/20.500.12348/3847"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "language",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "English",
+                "Vietnamese"
+              ]
+            },
+            {
+              "typeName": "producer",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "producerName": {
+                    "typeName": "producerName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "producerAffiliation": {
+                    "typeName": "producerAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "producerURL": {
+                    "typeName": "producerURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/"
+                  },
+                  "producerLogoURL": {
+                    "typeName": "producerLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/sites/default/files/logo.svg"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "productionDate",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2019-12-01"
+            },
+            {
+              "typeName": "contributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Funder"
+                  },
+                  "contributorName": {
+                    "typeName": "contributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "FISH CRP"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "distributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "distributorAffiliation": {
+                    "typeName": "distributorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WorldFish"
+                  },
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/"
+                  },
+                  "distributorLogoURL": {
+                    "typeName": "distributorLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.worldfishcenter.org/sites/default/files/logo.svg"
+                  }
+                },
+                {
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Wageningen University"
+                  },
+                  "distributorAffiliation": {
+                    "typeName": "distributorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Wageningen University"
+                  },
+                  "distributorAbbreviation": {
+                    "typeName": "distributorAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "WUR"
+                  },
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.wur.nl/en/wageningen-university.htm"
+                  },
+                  "distributorLogoURL": {
+                    "typeName": "distributorLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.wur.nl/upload/58340fb4-e33a-4d0b-af17-8d596fa93663_WUR_RGB_standard.png"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "WorldFish RDM Team"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2019-12-30"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "description": "Methodology",
+          "label": "Experimental_protocol_2019.pdf",
+          "restricted": false,
+          "directoryLabel": "NPP/1. Method Documentation",
+          "version": 3,
+          "datasetVersionId": 438522,
+          "categories": [
+            "Documentation",
+            "1. Method documentation"
+          ],
+          "dataFile": {
+            "id": 3653771,
+            "persistentId": "doi:10.7910/DVN/VJEDSU/LHNQ5S",
+            "pidURL": "https://doi.org/10.7910/DVN/VJEDSU/LHNQ5S",
+            "filename": "Experimental_protocol_2019.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 203849,
+            "description": "Methodology",
+            "categories": [
+              "Documentation",
+              "1. Method documentation"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:16f59ea75f7-ace9a186ba03",
+            "rootDataFileId": -1,
+            "md5": "f642ab05da06db3403c8bdb16bca35f1",
+            "checksum": {
+              "type": "MD5",
+              "value": "f642ab05da06db3403c8bdb16bca35f1"
+            },
+            "tabularData": false,
+            "creationDate": "2019-12-30",
+            "publicationDate": "2020-01-02",
+            "directoryLabel": "NPP/1. Method Documentation",
+            "lastUpdateTime": "2025-03-04T03:43:48Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Input_output_data_2019.xlsx",
+          "restricted": false,
+          "directoryLabel": "NPP/6. Raw and Verified Data",
+          "version": 1,
+          "datasetVersionId": 438522,
+          "categories": [
+            "6. Raw and Verified Data"
+          ],
+          "dataFile": {
+            "id": 7266265,
+            "persistentId": "",
+            "filename": "Input_output_data_2019.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 46630,
+            "categories": [
+              "6. Raw and Verified Data"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:189aafd05d5-55c10e166c96",
+            "rootDataFileId": -1,
+            "md5": "410359ad56d9a10b8a87b911437d5be0",
+            "checksum": {
+              "type": "MD5",
+              "value": "410359ad56d9a10b8a87b911437d5be0"
+            },
+            "tabularData": false,
+            "creationDate": "2023-07-31",
+            "publicationDate": "2023-07-31",
+            "directoryLabel": "NPP/6. Raw and Verified Data",
+            "lastUpdateTime": "2025-03-04T03:43:48Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Input_water_daily_2019.xlsx",
+          "restricted": false,
+          "directoryLabel": "NPP/6. Raw and Verified Data",
+          "version": 1,
+          "datasetVersionId": 438522,
+          "categories": [
+            "6. Raw and Verified Data"
+          ],
+          "dataFile": {
+            "id": 7266263,
+            "persistentId": "",
+            "filename": "Input_water_daily_2019.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 52613,
+            "categories": [
+              "6. Raw and Verified Data"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:189aafd0715-59ff5fd562c6",
+            "rootDataFileId": -1,
+            "md5": "1d59e06274baa4f937d52c9a715b788c",
+            "checksum": {
+              "type": "MD5",
+              "value": "1d59e06274baa4f937d52c9a715b788c"
+            },
+            "tabularData": false,
+            "creationDate": "2023-07-31",
+            "publicationDate": "2023-07-31",
+            "directoryLabel": "NPP/6. Raw and Verified Data",
+            "lastUpdateTime": "2025-03-04T03:43:48Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "Questionnaire",
+          "label": "Monitoring_form_2019.docx",
+          "restricted": false,
+          "directoryLabel": "NPP/2. Questionnaires",
+          "version": 2,
+          "datasetVersionId": 438522,
+          "categories": [
+            "Documentation",
+            "2. Questionnaires "
+          ],
+          "dataFile": {
+            "id": 3653767,
+            "persistentId": "doi:10.7910/DVN/VJEDSU/HCUJTC",
+            "pidURL": "https://doi.org/10.7910/DVN/VJEDSU/HCUJTC",
+            "filename": "Monitoring_form_2019.docx",
+            "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "friendlyType": "MS Word",
+            "filesize": 64526,
+            "description": "Questionnaire",
+            "categories": [
+              "Documentation",
+              "2. Questionnaires "
+            ],
+            "storageIdentifier": "s3://dvn-cloud:16f59ea7f78-5872e45e6c22",
+            "rootDataFileId": -1,
+            "md5": "7828245e7b62f8c976d62c2251eedfb7",
+            "checksum": {
+              "type": "MD5",
+              "value": "7828245e7b62f8c976d62c2251eedfb7"
+            },
+            "tabularData": false,
+            "creationDate": "2019-12-30",
+            "publicationDate": "2020-01-02",
+            "directoryLabel": "NPP/2. Questionnaires",
+            "lastUpdateTime": "2025-03-04T03:43:48Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Water_growth_weekly_2019.xlsx",
+          "restricted": false,
+          "directoryLabel": "NPP/6. Raw and Verified Data",
+          "version": 1,
+          "datasetVersionId": 438522,
+          "categories": [
+            "6. Raw and Verified Data"
+          ],
+          "dataFile": {
+            "id": 7266264,
+            "persistentId": "",
+            "filename": "Water_growth_weekly_2019.xlsx",
+            "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "friendlyType": "MS Excel Spreadsheet",
+            "filesize": 30047,
+            "categories": [
+              "6. Raw and Verified Data"
+            ],
+            "storageIdentifier": "s3://dvn-cloud:189aafd084c-f089aac45431",
+            "rootDataFileId": -1,
+            "md5": "66f02e2e2d434e1500d8bcd9f453f463",
+            "checksum": {
+              "type": "MD5",
+              "value": "66f02e2e2d434e1500d8bcd9f453f463"
+            },
+            "tabularData": false,
+            "creationDate": "2023-07-31",
+            "publicationDate": "2023-07-31",
+            "directoryLabel": "NPP/6. Raw and Verified Data",
+            "lastUpdateTime": "2025-03-04T03:43:48Z",
+            "fileAccessRequest": true
+          }
+        }
+      ]
+    }
+  }
+}

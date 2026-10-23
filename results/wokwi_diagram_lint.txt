@@ -1,0 +1,4 @@
+Wokwi CLI v0.29.0 (940b7237d26f)
+
+Found 1 info
+ℹ [unsupported-part] Part "esp" uses undocumented type "board-esp32-devkit-c-v4". This part may change or be removed in future versions. (esp)

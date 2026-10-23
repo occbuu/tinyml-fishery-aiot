@@ -1,0 +1,106 @@
+{
+  "snapshot": {
+    "id": "8s73jfvgr5",
+    "version": 1,
+    "name": "Environmental Parameters in Aquaculture: Temperature, pH, Oxygen, and Turbidity Measurements",
+    "description": "This dataset contains key water quality measurements from aquaculture ponds, collected through a real-time monitoring system based on IoT sensors. The measured parameters include temperature, dissolved oxygen, pH, and turbidity, which are essential for assessing and maintaining water health in aquaculture systems.\n\nThe dataset was collected from aquaculture ponds located in Montería, Colombia, during the year 2024. The data is organized in columns corresponding to the following variables:\n\nTemperature (°C): Water temperature measurement.\nDissolved Oxygen (mg/L): Concentration of oxygen in the water.\npH: Acidity or alkalinity level of the water.\nTurbidity (NTU): Water clarity or turbidity level.\nDate and time: Temporal information including hour, day, and month.\nNormalized values: Scaled variables for temperature and dissolved oxygen, used for predictive modeling.\n\nThis dataset was used in the study titled \"Intelligent Prediction and Continuous Monitoring of Water Quality in Aquaculture: Integration of Machine Learning and IoT for Sustainable Management\" and is intended to support the reproducibility of the results and facilitate future research in the field of environmental monitoring in aquaculture.\n\nThe data can be used for water quality analysis, predictive modeling, and sustainability studies in aquaculture.\n\nFormat: .xlsx (Excel)",
+    "doi": "10.17632/8s73jfvgr5.1",
+    "publish_date": "2024-10-11T14:46:08.660Z",
+    "last_modification_date": "2024-10-11T14:22:57.277Z",
+    "is_confidential": false,
+    "customer": {
+      "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+      "name": "Mendeley Guests",
+      "chief_id": 810289,
+      "config": {
+        "repository_id": "MENDELEY_DATA",
+        "dataset_size_limit": 10737418240,
+        "doi_prefix": "10.17632"
+      },
+      "is_user_mendeley_admin": false,
+      "customer_roles": [],
+      "is_guest": true,
+      "is_user_customer_moderator": false
+    },
+    "owner": {
+      "id": "db6eec3e-1108-3a09-82ef-150c63125496",
+      "first_name": "Rubén",
+      "last_name": "Baena-Navarro",
+      "display_name": "Rubén Baena-Navarro",
+      "$ref": "/profiles/db6eec3e-1108-3a09-82ef-150c63125496"
+    },
+    "categories": [
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-189723281",
+        "label": "Environmental Science"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-210636186",
+        "label": "Aquaculture"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-210638715",
+        "label": "Data Science"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249523402",
+        "label": "Machine Learning"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249602224",
+        "label": "Internet of Things"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253046084",
+        "label": "Water Quality"
+      }
+    ],
+    "licence": {
+      "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+      "short_name": "CC BY 4.0",
+      "full_name": "Creative Commons Attribution 4.0 International",
+      "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+      "url": "http://creativecommons.org/licenses/by/4.0",
+      "category": "Creative",
+      "customer_id": null
+    },
+    "institutions": [
+      {
+        "id": "a96fae95-4d57-5e87-95d2-fc35ad11b0ca",
+        "name": "Universidad Cooperativa de Colombia"
+      },
+      {
+        "id": "e7db6c2c-8baf-5f50-806e-07138f111caa",
+        "name": "Universidad de Cordoba"
+      }
+    ],
+    "funders": [],
+    "organisational_unit_names": [],
+    "contributors": [
+      {
+        "id": "db6eec3e-1108-3a09-82ef-150c63125496",
+        "first_name": "Rubén",
+        "last_name": "Baena-Navarro",
+        "$ref": "/profiles/db6eec3e-1108-3a09-82ef-150c63125496"
+      },
+      {
+        "id": "036bd234-0f08-4e73-a728-a23296bd4efc",
+        "first_name": "Yulieth",
+        "last_name": "Carriazo-Regino",
+        "$ref": "/profiles/036bd234-0f08-4e73-a728-a23296bd4efc"
+      },
+      {
+        "first_name": "Francisco",
+        "last_name": "Torres-Hoyos",
+        "institution": "Universidad de Cordoba"
+      }
+    ],
+    "related_links": [],
+    "custom_metadata": {},
+    "is_metadata_only": false
+  },
+  "contributors": [],
+  "doi": "",
+  "status": 200,
+  "loading": false
+}

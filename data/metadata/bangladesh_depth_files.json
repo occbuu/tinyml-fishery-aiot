@@ -1,0 +1,36 @@
+[
+  {
+    "filename": "Sensor data for 30 cm.xlsx",
+    "id": "a5011d8f-f6f7-426e-9549-d0c3d0845987",
+    "content_details": {
+      "id": "251e37f0-4564-4f94-98ff-3c5fb1d0a6b7",
+      "sha256_hash": "524f6cdecf15cb83e2e82d5db743233034e9e212b4e46c3e1b57cc0b305eb3e8",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 285192,
+      "created_date": "2020-08-29T15:21:45.028Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/34rczh25kc/files/a5011d8f-f6f7-426e-9549-d0c3d0845987/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/34rczh25kc/files/a5011d8f-f6f7-426e-9549-d0c3d0845987/file_viewed",
+      "download_expiry_time": "2126-10-21T07:50:24.624333728Z"
+    },
+    "size": 285192,
+    "last_modified_date": "2020-08-29T15:21:45.028Z",
+    "status": "COMPLETED"
+  },
+  {
+    "filename": "Sensor data for 60 cm.xlsx",
+    "id": "7f1b9909-78f1-49e1-b1a7-5f6636e7785a",
+    "content_details": {
+      "id": "8b9f7b5e-7dd7-4731-bd1f-c7a6b637eedc",
+      "sha256_hash": "b4495c7860d614ff9487bb656514e70c53357bb05a94c980f9845ad8a620ce8e",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 228702,
+      "created_date": "2020-08-29T15:21:45.048Z",
+      "download_url": "https://data.mendeley.com/public-files/datasets/34rczh25kc/files/7f1b9909-78f1-49e1-b1a7-5f6636e7785a/file_downloaded",
+      "view_url": "https://data.mendeley.com/public-files/datasets/34rczh25kc/files/7f1b9909-78f1-49e1-b1a7-5f6636e7785a/file_viewed",
+      "download_expiry_time": "2126-10-21T07:50:24.624338858Z"
+    },
+    "size": 228702,
+    "last_modified_date": "2020-08-29T15:21:45.048Z",
+    "status": "COMPLETED"
+  }
+]

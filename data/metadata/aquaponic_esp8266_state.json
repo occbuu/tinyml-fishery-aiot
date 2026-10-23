@@ -1,0 +1,114 @@
+{
+  "snapshot": {
+    "id": "yd36bx6f8f",
+    "version": 2,
+    "name": "A Simple Dataset of Aquaponic Fish Pond Water Quality Measurement using Internet of Things devices",
+    "description": "This dataset contains measurements of pH, TDS, and water temperature using internet of things devices and sensors. The dataset is collected using an IoT sensor with ESP8266 as the microcontroller. Measurements were made on aquaculture consisting of a 1m x 1m x 1m pond media with a water volume of 1m x 1m x 70cm and hydroponic media with the Nutrient Film Technique (NFT) system. Measurements were made for 3 months from January 2023 to March 2023 with data dimensions of 118286 rows and 5 columns. The data provided has been filtered according to the optimal recommended value, pH data is in the range of 6.5-8.5, TDS data <= 500 mg/L (ppm), water temperature data ranges from 24-27 degrees Celcius",
+    "method": "Data collection is carried out in real time using internet of things devices and sensors. The sensors used are PH-4502C to measure water pH, DFROBOT Analog TDS Sensor to measure TDS values, DS18B20 to measure water temperature, and NodeMCU ESP8266 as a microcontroller. The series of IoT devices were immersed in the pool from January 2023 to March 2023 for 24 hours. The read data is sent to a table in the MySQL database located on the cloud server.",
+    "doi": "10.17632/yd36bx6f8f.2",
+    "publish_date": "2023-03-27T14:06:42.959Z",
+    "last_modification_date": "2023-03-27T09:07:03.590Z",
+    "is_confidential": false,
+    "customer": {
+      "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+      "name": "Mendeley Guests",
+      "chief_id": 810289,
+      "config": {
+        "repository_id": "MENDELEY_DATA",
+        "dataset_size_limit": 10737418240,
+        "doi_prefix": "10.17632"
+      },
+      "is_user_mendeley_admin": false,
+      "customer_roles": [],
+      "is_guest": true,
+      "is_user_customer_moderator": false
+    },
+    "owner": {
+      "id": "586fcb2d-9e12-31da-8f8e-193f9a91cc7d",
+      "first_name": "Boby",
+      "last_name": "Siswanto",
+      "display_name": "Boby Siswanto",
+      "$ref": "/profiles/586fcb2d-9e12-31da-8f8e-193f9a91cc7d",
+      "profile": {
+        "id": "586fcb2d-9e12-31da-8f8e-193f9a91cc7d",
+        "$ref": "/profiles/586fcb2d-9e12-31da-8f8e-193f9a91cc7d"
+      }
+    },
+    "categories": [
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-191544418",
+        "label": "Data Mining"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-210636186",
+        "label": "Aquaculture"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249602224",
+        "label": "Internet of Things"
+      },
+      {
+        "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253046084",
+        "label": "Water Quality"
+      }
+    ],
+    "licence": {
+      "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+      "short_name": "CC BY 4.0",
+      "full_name": "Creative Commons Attribution 4.0 International",
+      "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+      "url": "http://creativecommons.org/licenses/by/4.0",
+      "category": "Creative",
+      "customer_id": null
+    },
+    "institutions": [
+      {
+        "id": "3bfef41a-d03e-5722-bd55-dd245235fa78",
+        "name": "Bina Nusantara University",
+        "url": "www.binus.ac.id",
+        "location": {
+          "name": "West Jakarta",
+          "country": "ID",
+          "country_code": "ID",
+          "country_subdivision": "DKI Jakarta"
+        },
+        "edm:identifier": [
+          {
+            "type": "idtype:ROR",
+            "value": "https://ror.org/03zmf4s77"
+          }
+        ]
+      }
+    ],
+    "funders": [
+      {
+        "grant_id": "060/VR.RTT/IV/2022",
+        "identity": "https://ror.org/03zmf4s77",
+        "name": "Binus University",
+        "parent_name": null,
+        "location": "Indonesia",
+        "subdivision_location": "Jakarta"
+      }
+    ],
+    "organisational_unit_names": [],
+    "contributors": [
+      {
+        "id": "586fcb2d-9e12-31da-8f8e-193f9a91cc7d",
+        "first_name": "Boby",
+        "last_name": "Siswanto",
+        "$ref": "/profiles/586fcb2d-9e12-31da-8f8e-193f9a91cc7d",
+        "profile": {
+          "id": "586fcb2d-9e12-31da-8f8e-193f9a91cc7d",
+          "$ref": "/profiles/586fcb2d-9e12-31da-8f8e-193f9a91cc7d"
+        }
+      }
+    ],
+    "related_links": [],
+    "custom_metadata": {},
+    "is_metadata_only": false
+  },
+  "contributors": [],
+  "doi": "",
+  "status": 200,
+  "loading": false
+}

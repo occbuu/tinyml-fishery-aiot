@@ -1,0 +1,235 @@
+{
+  "ph_transfer": [
+    {
+      "source": "pond_ph",
+      "destination": "aquaponic_ph",
+      "calibration_days": 0,
+      "calibration_samples": 0,
+      "intercept_adjustment": 0.0,
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 1.5578861783122795,
+      "rmse": 2.2548638374150527
+    },
+    {
+      "source": "pond_ph",
+      "destination": "aquaponic_ph",
+      "calibration_days": 1,
+      "calibration_samples": 237,
+      "intercept_adjustment": -0.019424374381294365,
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 1.5584926200161306,
+      "rmse": 2.254971992179116
+    },
+    {
+      "source": "pond_ph",
+      "destination": "aquaponic_ph",
+      "calibration_days": 3,
+      "calibration_samples": 350,
+      "intercept_adjustment": -0.04617225289473278,
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 1.559643743309686,
+      "rmse": 2.255394722458138
+    },
+    {
+      "source": "pond_ph",
+      "destination": "aquaponic_ph",
+      "calibration_days": 7,
+      "calibration_samples": 1221,
+      "intercept_adjustment": -0.022550587278094638,
+      "n": 1238,
+      "eligible_targets": 1238,
+      "prediction_coverage": 1.0,
+      "mae": 1.5586037293597972,
+      "rmse": 2.255005029914246
+    },
+    {
+      "source": "aquaponic_ph",
+      "destination": "pond_ph",
+      "calibration_days": 0,
+      "calibration_samples": 0,
+      "intercept_adjustment": 0.0,
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.09967583161213292,
+      "rmse": 0.1293618718209486
+    },
+    {
+      "source": "aquaponic_ph",
+      "destination": "pond_ph",
+      "calibration_days": 1,
+      "calibration_samples": 266,
+      "intercept_adjustment": -0.08213819179765337,
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.08520316499208609,
+      "rmse": 0.09298590166926804
+    },
+    {
+      "source": "aquaponic_ph",
+      "destination": "pond_ph",
+      "calibration_days": 3,
+      "calibration_samples": 825,
+      "intercept_adjustment": -0.07284940251573647,
+      "n": 397,
+      "eligible_targets": 397,
+      "prediction_coverage": 1.0,
+      "mae": 0.08512036847341403,
+      "rmse": 0.09425687586195801
+    }
+  ],
+  "freshwater_ammonia_sensitivity": [
+    {
+      "temperature_c": 20,
+      "ph": 6.5,
+      "fraction_nh3_n": 0.0012500031512250116,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 20,
+      "ph": 7,
+      "fraction_nh3_n": 0.003942201844671703,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 20,
+      "ph": 7.5,
+      "fraction_nh3_n": 0.012360970246408236,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 20,
+      "ph": 8,
+      "fraction_nh3_n": 0.03807125722264818,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 20,
+      "ph": 8.5,
+      "fraction_nh3_n": 0.11123495476786685,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 20,
+      "ph": 9,
+      "fraction_nh3_n": 0.2835549360592965,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 25,
+      "ph": 6.5,
+      "fraction_nh3_n": 0.0017899684848845373,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 25,
+      "ph": 7,
+      "fraction_nh3_n": 0.00563855384336188,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 25,
+      "ph": 7.5,
+      "fraction_nh3_n": 0.01761589773287226,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 25,
+      "ph": 8,
+      "fraction_nh3_n": 0.053662336661957265,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 25,
+      "ph": 8.5,
+      "fraction_nh3_n": 0.15205215967469626,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 25,
+      "ph": 9,
+      "fraction_nh3_n": 0.3618593852293677,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 30,
+      "ph": 6.5,
+      "fraction_nh3_n": 0.002532443846904208,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 30,
+      "ph": 7,
+      "fraction_nh3_n": 0.007964677250612354,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 30,
+      "ph": 7.5,
+      "fraction_nh3_n": 0.024760106260313452,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 30,
+      "ph": 8,
+      "fraction_nh3_n": 0.07431940204910682,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 30,
+      "ph": 8.5,
+      "fraction_nh3_n": 0.2024801846215887,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 30,
+      "ph": 9,
+      "fraction_nh3_n": 0.44532645669026,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 35,
+      "ph": 6.5,
+      "fraction_nh3_n": 0.0035417423575601543,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 35,
+      "ph": 7,
+      "fraction_nh3_n": 0.01111485263330316,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 35,
+      "ph": 7.5,
+      "fraction_nh3_n": 0.03432334361615567,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 35,
+      "ph": 8,
+      "fraction_nh3_n": 0.10104102173455042,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 35,
+      "ph": 8.5,
+      "fraction_nh3_n": 0.2622284281528307,
+      "salinity_psu": 0
+    },
+    {
+      "temperature_c": 35,
+      "ph": 9,
+      "fraction_nh3_n": 0.5291853559113256,
+      "salinity_psu": 0
+    }
+  ],
+  "note": "Ammonia grid is an illustrative equilibrium calculation, not field NH3 measurement. Source biochemistry labels excluded from predictive validation."
+}

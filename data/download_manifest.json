@@ -1,0 +1,259 @@
+{
+  "records": [
+    {
+      "dataset": "colombia_pond",
+      "file": "Data IoTMLCQ.xlsx",
+      "path": "data/raw/colombia_pond/Data IoTMLCQ.xlsx",
+      "bytes": 3644463,
+      "sha256": "a93c35045672a49f54153572fb84f8f569de3d2c728db24c20d9ce5bb22c21c7",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/8s73jfvgr5.1",
+      "download_url": "https://data.mendeley.com/public-files/datasets/8s73jfvgr5/files/cea90e46-0c19-4aea-aaf7-267c9b445ec3/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:49:15.269189+00:00"
+    },
+    {
+      "dataset": "biochemistry",
+      "file": "WQD.xlsx",
+      "path": "data/raw/biochemistry/WQD.xlsx",
+      "bytes": 925902,
+      "sha256": "5f50c56347c6314e1ac9bd3ce27e7edabd9a005eecd02713ad059cb388ece261",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/y78ty2g293.1",
+      "download_url": "https://data.mendeley.com/public-files/datasets/y78ty2g293/files/c62340d2-0cdc-44eb-b68d-603f6b3e1193/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:49:14.878770+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "LICENSE.md",
+      "path": "data/raw/mlperf_tiny/LICENSE.md",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/LICENSE.md",
+      "retrieved_utc": "2026-10-21T07:49:10.589531+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__accuracy__results.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__accuracy__results.json",
+      "bytes": 15336553,
+      "sha256": "9817e5efc60096d7b3670cec6a41ca76ab89317ef0a3307b501073a3de8e1cde",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/results/NUCLEO_L4R5ZI-P/ad/accuracy/results.json",
+      "retrieved_utc": "2026-10-21T07:49:13.429867+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__energy__results.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__energy__results.json",
+      "bytes": 1059668,
+      "sha256": "21a2cc422b1fd4e6e24e219d0bd46c16efa0ce934e3a03fbdaeff490d5828c6c",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/results/NUCLEO_L4R5ZI-P/ad/energy/results.json",
+      "retrieved_utc": "2026-10-21T07:49:14.287714+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__performance__results.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__results__NUCLEO_L4R5ZI-P__ad__performance__results.json",
+      "bytes": 1746,
+      "sha256": "93443b6edd156d6e26ee5646efd009ff8777ee31f7883889e0d9181c91294cd9",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/results/NUCLEO_L4R5ZI-P/ad/performance/results.json",
+      "retrieved_utc": "2026-10-21T07:49:14.721281+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__accuracy__results.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__accuracy__results.json",
+      "bytes": 15326698,
+      "sha256": "62548d17c38a36fc8cacdf8a9791b298264d6888af29de7a3cc22b912278aeee",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/results/NUCLEO_U575ZI_Q/ad/accuracy/results.json",
+      "retrieved_utc": "2026-10-21T07:49:17.439330+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__energy__results.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__energy__results.json",
+      "bytes": 1094527,
+      "sha256": "1e4ad0bc14ef7a47ca3804786d1090c1b9fca7ac0e70ba9e4a6c74d2f29dc5fb",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/results/NUCLEO_U575ZI_Q/ad/energy/results.json",
+      "retrieved_utc": "2026-10-21T07:49:15.791057+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__performance__results.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__results__NUCLEO_U575ZI_Q__ad__performance__results.json",
+      "bytes": 1756,
+      "sha256": "b16eb813197e6876684cf42deb183a342fcbff8125d7d74dba4e7c592301d1bd",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/results/NUCLEO_U575ZI_Q/ad/performance/results.json",
+      "retrieved_utc": "2026-10-21T07:49:15.674483+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__systems__NUCLEO_L4R5ZI-P.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__systems__NUCLEO_L4R5ZI-P.json",
+      "bytes": 1406,
+      "sha256": "94a545a41ba2106bcee0ca24b9d15a14d614dd0eea6eb6a119cac575d2c701dc",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/systems/NUCLEO_L4R5ZI-P.json",
+      "retrieved_utc": "2026-10-21T07:49:16.271019+00:00"
+    },
+    {
+      "dataset": "mlperf_tiny",
+      "file": "closed__STMicroelectronics__systems__NUCLEO_U575ZI_Q.json",
+      "path": "data/raw/mlperf_tiny/closed__STMicroelectronics__systems__NUCLEO_U575ZI_Q.json",
+      "bytes": 1342,
+      "sha256": "510040f734bab788955977f4b45c9f11647caffbadb723422eb3ee953d9045f9",
+      "licence": "See downloaded LICENSE.md; submission notices apply",
+      "source": "https://github.com/mlcommons/tiny_results_v1.3/tree/cd605ea0981306693c9e19765a15801c776988dc",
+      "download_url": "https://raw.githubusercontent.com/mlcommons/tiny_results_v1.3/cd605ea0981306693c9e19765a15801c776988dc/closed/STMicroelectronics/systems/NUCLEO_U575ZI_Q.json",
+      "retrieved_utc": "2026-10-21T07:49:16.300127+00:00"
+    },
+    {
+      "dataset": "bangladesh_depth",
+      "file": "Sensor data for 30 cm.xlsx",
+      "path": "data/raw/bangladesh_depth/Sensor data for 30 cm.xlsx",
+      "bytes": 285192,
+      "sha256": "524f6cdecf15cb83e2e82d5db743233034e9e212b4e46c3e1b57cc0b305eb3e8",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/34rczh25kc.4",
+      "download_url": "https://data.mendeley.com/public-files/datasets/34rczh25kc/files/a5011d8f-f6f7-426e-9549-d0c3d0845987/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:51:17.522704+00:00"
+    },
+    {
+      "dataset": "bangladesh_depth",
+      "file": "Sensor data for 60 cm.xlsx",
+      "path": "data/raw/bangladesh_depth/Sensor data for 60 cm.xlsx",
+      "bytes": 228702,
+      "sha256": "b4495c7860d614ff9487bb656514e70c53357bb05a94c980f9845ad8a620ce8e",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/34rczh25kc.4",
+      "download_url": "https://data.mendeley.com/public-files/datasets/34rczh25kc/files/7f1b9909-78f1-49e1-b1a7-5f6636e7785a/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:51:17.525429+00:00"
+    },
+    {
+      "dataset": "tilapia_colombia",
+      "file": "Monteria_Aquaculture_Data.xlsx",
+      "path": "data/raw/tilapia_colombia/Monteria_Aquaculture_Data.xlsx",
+      "bytes": 364345,
+      "sha256": "c7504451fe0d2d19a7796d3901cdec16b3789c1952820ba0e4685b3a21db61b3",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/dgdr2kfbyt.1",
+      "download_url": "https://data.mendeley.com/public-files/datasets/dgdr2kfbyt/files/cce2f96b-33b9-4ff8-ba02-9a07e3b2b870/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:51:17.765591+00:00"
+    },
+    {
+      "dataset": "aquaponic_esp8266",
+      "file": "pond_iot_2023.csv",
+      "path": "data/raw/aquaponic_esp8266/pond_iot_2023.csv",
+      "bytes": 4431680,
+      "sha256": "ea2a2569107912f151141bcad67a39c41c25b9b4ddca775d40346d66e39f2c07",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/yd36bx6f8f.2",
+      "download_url": "https://data.mendeley.com/public-files/datasets/yd36bx6f8f/files/53cca9ef-d980-46f1-bd0a-29c37296fcf8/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:51:21.709540+00:00"
+    },
+    {
+      "dataset": "aquaponic_esp8266",
+      "file": "pond_iot_2023_raw.csv",
+      "path": "data/raw/aquaponic_esp8266/pond_iot_2023_raw.csv",
+      "bytes": 19026532,
+      "sha256": "ac69aff715a31f3f35439247b02d9e7bf95e409652bf88e5f15329c6effb9dba",
+      "licence": "CC BY 4.0",
+      "source": "https://doi.org/10.17632/yd36bx6f8f.2",
+      "download_url": "https://data.mendeley.com/public-files/datasets/yd36bx6f8f/files/bba672a4-a016-42e1-ba60-bc2381d76187/file_downloaded",
+      "retrieved_utc": "2026-10-21T07:51:28.367148+00:00"
+    },
+    {
+      "dataset": "marine_macehead",
+      "file": "macehead_2019_may_july.csv",
+      "path": "data/raw/marine_macehead/macehead_2019_may_july.csv",
+      "bytes": 285770,
+      "sha256": "009c5219c740e7212bbb265077e5fe38f681ac5bce89488451277da084f2dc55",
+      "licence": "CC BY 4.0",
+      "source": "https://erddap.marine.ie/erddap/info/sbe37_macehead/index.html",
+      "download_url": "https://erddap.marine.ie/erddap/tabledap/sbe37_macehead.csv?station_id,SBE37_serial_number,time,depth,temperature,salinity,oxygen,temperature_qc,salinity_qc,oxygen_qc&time%3E=2019-05-01T00:00:00Z&time%3C2019-08-01T00:00:00Z",
+      "retrieved_utc": "2026-10-21T07:53:44.338242+00:00"
+    },
+    {
+      "dataset": "espressif_performance",
+      "file": "esp-nn__README.md",
+      "path": "data/raw/espressif_performance/esp-nn__README.md",
+      "bytes": 9639,
+      "sha256": "c739d708b438c36745d01176ebbaf1edfd0af88ac9b052ba6917cb94db3dd4dc",
+      "licence": "Apache-2.0; vendor/dependency notices apply",
+      "source": "https://github.com/espressif/esp-nn/tree/f1bfc45cb0edfdbe8fd4871f3abc0adfc7fe1c47",
+      "download_url": "https://raw.githubusercontent.com/espressif/esp-nn/f1bfc45cb0edfdbe8fd4871f3abc0adfc7fe1c47/README.md",
+      "retrieved_utc": "2026-10-21T08:22:00.844667+00:00"
+    },
+    {
+      "dataset": "espressif_performance",
+      "file": "esp-nn__LICENSE",
+      "path": "data/raw/espressif_performance/esp-nn__LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licence": "Apache-2.0; vendor/dependency notices apply",
+      "source": "https://github.com/espressif/esp-nn/tree/f1bfc45cb0edfdbe8fd4871f3abc0adfc7fe1c47",
+      "download_url": "https://raw.githubusercontent.com/espressif/esp-nn/f1bfc45cb0edfdbe8fd4871f3abc0adfc7fe1c47/LICENSE",
+      "retrieved_utc": "2026-10-21T08:22:01.355105+00:00"
+    },
+    {
+      "dataset": "espressif_performance",
+      "file": "esp-tflite-micro__README.md",
+      "path": "data/raw/espressif_performance/esp-tflite-micro__README.md",
+      "bytes": 6133,
+      "sha256": "f977c51f4182f7720f1ab7ee746c0a01ea68671061a57d09471607f405d5339c",
+      "licence": "Apache-2.0; vendor/dependency notices apply",
+      "source": "https://github.com/espressif/esp-tflite-micro/tree/dd4085950a119d9e33a6de1d7be1fc7fe29e0cfc",
+      "download_url": "https://raw.githubusercontent.com/espressif/esp-tflite-micro/dd4085950a119d9e33a6de1d7be1fc7fe29e0cfc/README.md",
+      "retrieved_utc": "2026-10-21T08:22:02.307526+00:00"
+    },
+    {
+      "dataset": "espressif_performance",
+      "file": "esp-tflite-micro__LICENSE",
+      "path": "data/raw/espressif_performance/esp-tflite-micro__LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licence": "Apache-2.0; vendor/dependency notices apply",
+      "source": "https://github.com/espressif/esp-tflite-micro/tree/dd4085950a119d9e33a6de1d7be1fc7fe29e0cfc",
+      "download_url": "https://raw.githubusercontent.com/espressif/esp-tflite-micro/dd4085950a119d9e33a6de1d7be1fc7fe29e0cfc/LICENSE",
+      "retrieved_utc": "2026-10-21T08:22:02.797003+00:00"
+    }
+  ],
+  "blocked": [
+    {
+      "dataset": "vietnam_2017",
+      "reason": "Automatic Guestbook download not attempted; user-supplied files available in DataVietNam, see data/vietnam_manifest.json for current analytical use."
+    },
+    {
+      "dataset": "vietnam_2018",
+      "reason": "Automatic Guestbook download not attempted; user-supplied files available in DataVietNam, see data/vietnam_manifest.json for current analytical use."
+    },
+    {
+      "dataset": "vietnam_2019",
+      "reason": "Automatic Guestbook download not attempted; user-supplied files available in DataVietNam, see data/vietnam_manifest.json for current analytical use."
+    },
+    {
+      "dataset": "shrimp_respirometry",
+      "reason": "Zenodo file access denied: unusual network traffic; metadata retained, no bypass attempted"
+    },
+    {
+      "dataset": "estuary_telemetry",
+      "reason": "Zenodo file access denied: unusual network traffic; metadata retained, no bypass attempted"
+    }
+  ],
+  "total_bytes": 62064944,
+  "mlperf_commit": "cd605ea0981306693c9e19765a15801c776988dc"
+}

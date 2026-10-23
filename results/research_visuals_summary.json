@@ -1,0 +1,172 @@
+{
+  "rows": 679,
+  "censor": {
+    "N-NO2-": 64,
+    "P-PO43-": 165,
+    "TSS": 1,
+    "Vibrio_CFU": 13
+  },
+  "min_pair_n": 679,
+  "max_pair_n": 679,
+  "target_associations": [
+    {
+      "variable": "Temp",
+      "spearman": -0.01383714383869981,
+      "pearson": -0.041937630134486224,
+      "n": 679
+    },
+    {
+      "variable": "pH",
+      "spearman": -0.1647595782053266,
+      "pearson": -0.20158908687886762,
+      "n": 679
+    },
+    {
+      "variable": "DO",
+      "spearman": 0.010247235097657629,
+      "pearson": 0.04036461148382348,
+      "n": 679
+    },
+    {
+      "variable": "Sal",
+      "spearman": 0.12401564439674725,
+      "pearson": 0.16380214882814487,
+      "n": 679
+    },
+    {
+      "variable": "Alk",
+      "spearman": 0.13666731258785583,
+      "pearson": 0.10836052340127732,
+      "n": 679
+    },
+    {
+      "variable": "N-NO2-",
+      "spearman": 0.26291957482374617,
+      "pearson": 0.12028468847273084,
+      "n": 679
+    },
+    {
+      "variable": "N-NH4+",
+      "spearman": 0.4840463840552112,
+      "pearson": 0.37850398721910417,
+      "n": 679
+    },
+    {
+      "variable": "P-PO43-",
+      "spearman": 0.3674250099244132,
+      "pearson": 0.22304316822876102,
+      "n": 679
+    },
+    {
+      "variable": "TSS",
+      "spearman": 0.16007790319506557,
+      "pearson": 0.14368923201241074,
+      "n": 679
+    },
+    {
+      "variable": "COD",
+      "spearman": 0.31615125256699644,
+      "pearson": 0.29951860321045976,
+      "n": 679
+    }
+  ],
+  "scope": "Post-hoc descriptive EDA including held-out years; not used to fit/select features, tune thresholds or infer causal effects. Half-LOQ substitution; no persistent pond IDs.",
+  "daily_ph_traces": [
+    {
+      "year": 2018,
+      "pond": "C1",
+      "observed_n": 58,
+      "adjacent_pair_n": 57,
+      "lag1_pearson": 0.8287428610856679,
+      "mean_absolute_daily_change": 0.026315789473684258
+    },
+    {
+      "year": 2018,
+      "pond": "C2",
+      "observed_n": 82,
+      "adjacent_pair_n": 81,
+      "lag1_pearson": 0.023319641263949777,
+      "mean_absolute_daily_change": 0.2592592592592592
+    },
+    {
+      "year": 2018,
+      "pond": "C3",
+      "observed_n": 58,
+      "adjacent_pair_n": 57,
+      "lag1_pearson": 0.7891961687442456,
+      "mean_absolute_daily_change": 0.0824561403508772
+    },
+    {
+      "year": 2018,
+      "pond": "T1",
+      "observed_n": 66,
+      "adjacent_pair_n": 65,
+      "lag1_pearson": 0.7906158525185887,
+      "mean_absolute_daily_change": 0.024615384615384595
+    },
+    {
+      "year": 2018,
+      "pond": "T2",
+      "observed_n": 82,
+      "adjacent_pair_n": 81,
+      "lag1_pearson": 0.89785205271269,
+      "mean_absolute_daily_change": 0.06543209876543207
+    },
+    {
+      "year": 2018,
+      "pond": "T3",
+      "observed_n": 67,
+      "adjacent_pair_n": 66,
+      "lag1_pearson": 0.6858996274625194,
+      "mean_absolute_daily_change": 0.16969696969696968
+    },
+    {
+      "year": 2019,
+      "pond": "C1",
+      "observed_n": 80,
+      "adjacent_pair_n": 79,
+      "lag1_pearson": 0.2591211392427962,
+      "mean_absolute_daily_change": 0.20000000000000015
+    },
+    {
+      "year": 2019,
+      "pond": "C2",
+      "observed_n": 80,
+      "adjacent_pair_n": 79,
+      "lag1_pearson": 0.16289972899729013,
+      "mean_absolute_daily_change": 0.22278481012658233
+    },
+    {
+      "year": 2019,
+      "pond": "C3",
+      "observed_n": 78,
+      "adjacent_pair_n": 77,
+      "lag1_pearson": 0.4368543942841807,
+      "mean_absolute_daily_change": 0.17792207792207787
+    },
+    {
+      "year": 2019,
+      "pond": "T1",
+      "observed_n": 80,
+      "adjacent_pair_n": 79,
+      "lag1_pearson": 0.340279449518453,
+      "mean_absolute_daily_change": 0.16582278481012658
+    },
+    {
+      "year": 2019,
+      "pond": "T2",
+      "observed_n": 77,
+      "adjacent_pair_n": 76,
+      "lag1_pearson": 0.24544103741726359,
+      "mean_absolute_daily_change": 0.2078947368421052
+    },
+    {
+      "year": 2019,
+      "pond": "T3",
+      "observed_n": 78,
+      "adjacent_pair_n": 77,
+      "lag1_pearson": 0.20229734650234343,
+      "mean_absolute_daily_change": 0.1935064935064935
+    }
+  ]
+}

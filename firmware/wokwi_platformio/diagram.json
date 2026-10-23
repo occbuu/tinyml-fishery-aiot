@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Fishery AIoT benchmark",
+  "editor": "wokwi",
+  "parts": [
+    {"type":"board-esp32-devkit-c-v4","id":"esp","top":0,"left":0,"attrs":{}},
+    {"type":"wokwi-potentiometer","id":"do_input","top":-10,"left":220,"attrs":{"value":"700"}},
+    {"type":"wokwi-pushbutton","id":"invalid","top":130,"left":220,"attrs":{"color":"red","label":"INVALID"}}
+  ],
+  "connections": [
+    ["do_input:VCC","esp:3V3","red",[]],
+    ["do_input:GND","esp:GND.1","black",[]],
+    ["do_input:SIG","esp:34","green",[]],
+    ["invalid:1.l","esp:27","orange",[]],
+    ["invalid:2.l","esp:GND.1","black",[]]
+  ]
+}

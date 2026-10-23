@@ -1,0 +1,440 @@
+{
+  "source_root": "../DataVietNam",
+  "records": [
+    {
+      "path": "DataVietNam/03_NutritiousPond_Vietnam_2019/_metadata.json",
+      "bytes": 15517,
+      "sha256": "3520df2672507fdd062297a4af16409198c4677f0f561eb59778988e591ce657",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "03_NutritiousPond_Vietnam_2019",
+      "doi": "https://doi.org/10.7910/DVN/VJEDSU",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/03_NutritiousPond_Vietnam_2019/Experimental_protocol_2019.pdf",
+      "bytes": 203849,
+      "sha256": "44423270aad5c7f31a0c174186d642c66ee5d8e9afa1df9a64f294143be1f00e",
+      "source_checksum": "md5:f642ab05da06db3403c8bdb16bca35f1",
+      "source_checksum_verified": true,
+      "dataset": "03_NutritiousPond_Vietnam_2019",
+      "doi": "https://doi.org/10.7910/DVN/VJEDSU",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/03_NutritiousPond_Vietnam_2019/Input_output_data_2019.xlsx",
+      "bytes": 46630,
+      "sha256": "3b37413b74bc7e03c149401029af7cf5034d80fd238c66bc6db5db67fd3fb353",
+      "source_checksum": "md5:410359ad56d9a10b8a87b911437d5be0",
+      "source_checksum_verified": true,
+      "dataset": "03_NutritiousPond_Vietnam_2019",
+      "doi": "https://doi.org/10.7910/DVN/VJEDSU",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/03_NutritiousPond_Vietnam_2019/Input_water_daily_2019.xlsx",
+      "bytes": 52613,
+      "sha256": "3c722b2e8bc8c22afcf78e39f77c1962ce4543d9ff0a3d7baa9232bdac1684d4",
+      "source_checksum": "md5:1d59e06274baa4f937d52c9a715b788c",
+      "source_checksum_verified": true,
+      "dataset": "03_NutritiousPond_Vietnam_2019",
+      "doi": "https://doi.org/10.7910/DVN/VJEDSU",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/03_NutritiousPond_Vietnam_2019/Water_growth_weekly_2019.xlsx",
+      "bytes": 30047,
+      "sha256": "33a725479a8a471df9dfb701786a1604973dd9cbabfc9f058740b6d9985cb24e",
+      "source_checksum": "md5:66f02e2e2d434e1500d8bcd9f453f463",
+      "source_checksum_verified": true,
+      "dataset": "03_NutritiousPond_Vietnam_2019",
+      "doi": "https://doi.org/10.7910/DVN/VJEDSU",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/04_NutritiousPond_Vietnam_2018/_metadata.json",
+      "bytes": 15594,
+      "sha256": "8e46d6e064b02563e866230a8e94f9d3a57494c44aeb2733c27f9567ca891275",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "04_NutritiousPond_Vietnam_2018",
+      "doi": "https://doi.org/10.7910/DVN/FUCDMC",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/04_NutritiousPond_Vietnam_2018/Experimental_protocol_2018.docx",
+      "bytes": 37228,
+      "sha256": "8e238508563236f05cf1dd8c0ffac348e37693cf48de80e96833d204695f3a9e",
+      "source_checksum": "md5:f1a0c832fa65224f08ca2eb533ea0e0e",
+      "source_checksum_verified": true,
+      "dataset": "04_NutritiousPond_Vietnam_2018",
+      "doi": "https://doi.org/10.7910/DVN/FUCDMC",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/04_NutritiousPond_Vietnam_2018/Input_output_data_2018.xlsx",
+      "bytes": 48605,
+      "sha256": "918d8d03ea30d961a033852ba211daa9b8c093a55f022d2740e4f389517afcc4",
+      "source_checksum": "md5:341aafc0e7b89ad1fb24d6d9a1163e3f",
+      "source_checksum_verified": true,
+      "dataset": "04_NutritiousPond_Vietnam_2018",
+      "doi": "https://doi.org/10.7910/DVN/FUCDMC",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/04_NutritiousPond_Vietnam_2018/Input_water_daily_monitoring_2018.xlsx",
+      "bytes": 45382,
+      "sha256": "199428d6774414b54997a1fc8542368a802ac54f6fe89d376127e280f48ce9c2",
+      "source_checksum": "md5:0ccdd1364a67a226d9a104eb339155e9",
+      "source_checksum_verified": true,
+      "dataset": "04_NutritiousPond_Vietnam_2018",
+      "doi": "https://doi.org/10.7910/DVN/FUCDMC",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/04_NutritiousPond_Vietnam_2018/Water_growth_weekly_2018.xlsx",
+      "bytes": 25599,
+      "sha256": "cf562307011ed055784d5096838ed6f50dea47e78ff5ee76302f8e778f54665b",
+      "source_checksum": "md5:2900a86a41c0560e07313f7456fae991",
+      "source_checksum_verified": true,
+      "dataset": "04_NutritiousPond_Vietnam_2018",
+      "doi": "https://doi.org/10.7910/DVN/FUCDMC",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/_metadata.json",
+      "bytes": 5858,
+      "sha256": "1e3959f5f21bc4e002253673f9287a2f37aa3783e74752c3cac1d0ead4c27508",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/data.rar",
+      "bytes": 645865,
+      "sha256": "22b97d209fe8926c7583163ac3e3bde830ea8382faf95d16a22c530dff305036",
+      "source_checksum": "md5:db29ba92c856a3672a5c028d98ad8875",
+      "source_checksum_verified": true,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/giai_nen/data/data/analytical_methods.csv",
+      "bytes": 707,
+      "sha256": "e3692d5f47c2e55f0be88f618670680faa62969166e8824179f782ef70a7ca85",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/giai_nen/data/data/data_dictionary.csv",
+      "bytes": 1539,
+      "sha256": "df03553775b1ab29524f3bb42769294c689f74e4f9883ad5d2f4884983d34196",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/giai_nen/data/data/sampling_campaigns.csv",
+      "bytes": 3217,
+      "sha256": "55ecf3828988f81741a273e05f016ded522d0da693c01f973f5a531248906d1b",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/giai_nen/data/data/vibrio_dataset_2022_2025.xlsx",
+      "bytes": 56001,
+      "sha256": "c510c99059bd91fe5a8a2d08e357fd41b82e42a01973f85d5606253146478f63",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/giai_nen/data/data/vibrio_dataset_2022_2025_raw.xlsx",
+      "bytes": 48677,
+      "sha256": "710f059fccd7049b173714b897d2ccde15321d2451788b4db92bab580e29c529",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025/giai_nen/data/README.pdf",
+      "bytes": 545556,
+      "sha256": "8d6102cc22a94533864d7ccfc142b91b2677c295ec0855e6018907dd3e1cc520",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024/_metadata.json",
+      "bytes": 4687,
+      "sha256": "7b69172ea528fec061df70b6af8c9886b272cbb155764387c4181429c0a9fa79",
+      "source_checksum": null,
+      "source_checksum_verified": false,
+      "dataset": "08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024",
+      "doi": "https://doi.org/10.5281/zenodo.14560499",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024/Sediment data.xlsx",
+      "bytes": 13872,
+      "sha256": "9dd90bac7c76a551ad4da089ee1cf98b2edd43f72cd23e2c0145f0e04c072ddc",
+      "source_checksum": "md5:632912d2a3cd4dfa35a207461ae32b9f",
+      "source_checksum_verified": true,
+      "dataset": "08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024",
+      "doi": "https://doi.org/10.5281/zenodo.14560499",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    },
+    {
+      "path": "DataVietNam/08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024/Water data.xlsx",
+      "bytes": 47448,
+      "sha256": "e9966c962b940c558889b5df9aff39b83448a44f0120d99c09391cb44bd6601c",
+      "source_checksum": "md5:29d13c953e5ecd73ee3f853f1a830dda",
+      "source_checksum_verified": true,
+      "dataset": "08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024",
+      "doi": "https://doi.org/10.5281/zenodo.14560499",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "acquisition": "User-supplied local download; download time and Guestbook identity not inferred."
+    }
+  ],
+  "inventory": [
+    {
+      "folder": "01_Shrimp_cluster_trust_MekongDelta_2020",
+      "doi": "https://doi.org/10.7910/DVN/UCSIDM",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "02_Shrimp_innovation_system_MekongDelta_2020",
+      "doi": "https://doi.org/10.7910/DVN/LDCXIZ",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "03_NutritiousPond_Vietnam_2019",
+      "doi": "https://doi.org/10.7910/DVN/VJEDSU",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "used_in_analysis": true,
+      "role": "Daily forecasting/economics"
+    },
+    {
+      "folder": "04_NutritiousPond_Vietnam_2018",
+      "doi": "https://doi.org/10.7910/DVN/FUCDMC",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "used_in_analysis": true,
+      "role": "Daily forecasting/economics"
+    },
+    {
+      "folder": "05_NutritiousPond_Vietnam_2017",
+      "doi": "https://doi.org/10.7910/DVN/HFMRNF",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "06_NutritiousPond_Vietnam_2016",
+      "doi": "https://doi.org/10.7910/DVN/0RTJP3",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "07_Zenodo_Vibrio_WaterQuality_ShrimpPonds_CaMau_2022-2025",
+      "doi": "https://doi.org/10.5281/zenodo.22057734",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "used_in_analysis": true,
+      "role": "Contemporaneous assay observability"
+    },
+    {
+      "folder": "08_Zenodo_MangroveShrimp_Water_Sediment_Mekong_2024",
+      "doi": "https://doi.org/10.5281/zenodo.14560499",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "used_in_analysis": true,
+      "role": "Repeated chemistry context"
+    },
+    {
+      "folder": "09_Mendeley_EcoShrimp_118hh_CaMau_2024",
+      "doi": "{'id': '10.17632/cxdyfnvc82.2', 'status': 'allocated', 'prefix': '10.17632'}",
+      "license": {
+        "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+        "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+        "url": "http://creativecommons.org/licenses/by/4.0",
+        "category": "Creative",
+        "short_name": "CC BY 4.0",
+        "full_name": "Creative Commons Attribution 4.0 International"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "10_Zenodo_MudCrab_Ponds_CaMau_2025",
+      "doi": "https://doi.org/10.5281/zenodo.22867315",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "11_Zenodo_Antibiotics_Aquaculture_VN_2022-2024",
+      "doi": "https://doi.org/10.5281/zenodo.23078531",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "12_Mendeley_Microbiome_ShrimpPond_NinhThuan_2021",
+      "doi": "{'id': '10.17632/4m7wdx3sk8.1', 'status': 'allocated', 'prefix': '10.17632'}",
+      "license": {
+        "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+        "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+        "url": "http://creativecommons.org/licenses/by/4.0",
+        "category": "Creative",
+        "short_name": "CC BY 4.0",
+        "full_name": "Creative Commons Attribution 4.0 International"
+      },
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    },
+    {
+      "folder": "13_SciDB_CoastalAquaculturePonds_10m_CN-VN_2015-2020",
+      "doi": "",
+      "license": {},
+      "used_in_analysis": false,
+      "role": "Inventory only: heterogeneous survey, protocol, growth, host, microbiome or spatial data; no forced IoT task."
+    }
+  ],
+  "total_bytes": 1894491,
+  "source_files_unchanged": true,
+  "status": "Vietnam sources are locally available; supersedes historical pending-access notes for these sources."
+}

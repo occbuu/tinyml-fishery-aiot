@@ -1,0 +1,3 @@
+platformio==6.2.0
+ziglang==0.16.0
+pyelftools==0.33
