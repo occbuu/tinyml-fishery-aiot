@@ -298,5 +298,5 @@
   ],
   "selected_method": "Persistence",
   "parameter_bytes": 0,
-  "note": "Prediction fixture from the forecasting run; see c_reference_validation.json and esp32_build_summary.json for separate implementation verification."
+  "note": "Prediction fixture from the forecasting run; see separate c_reference_validation.json and esp32_build_summary.json for implementation verification."
 }

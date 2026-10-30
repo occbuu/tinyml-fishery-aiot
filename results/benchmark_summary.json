@@ -2082,6 +2082,6 @@
       "applies_to": "Published external reference workload; not our water-quality model, not ESP32 timing."
     }
   ],
-  "runtime_s": 26.06236710003577,
+  "runtime_s": 25.92226569999184,
   "epistemic_limit": "Public observed-target prediction and injected-stream replay; no new device, field intervention or mortality trial."
 }

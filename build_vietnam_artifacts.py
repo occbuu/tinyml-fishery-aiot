@@ -1,5 +1,6 @@
 """Generate Vietnam manuscript tables and numerical statements from results."""
 from pathlib import Path
+from artifact_paths import ASSETS
 import json,shutil
 
 ROOT=Path(__file__).resolve().parent
@@ -10,12 +11,12 @@ def table(name,columns,header,rows):
     text=[r'\begin{tabular}{'+columns+'}',r'\toprule',header+r' \\',r'\midrule']
     text.extend(row+r' \\' for row in rows)
     text.extend([r'\bottomrule',r'\end{tabular}'])
-    (PAPER/'tables'/name).write_text('\n'.join(text),encoding='utf-8')
+    (ASSETS/'tables'/name).write_text('\n'.join(text),encoding='utf-8')
 
 
 def main():
     r=json.loads((ROOT/'results/vietnam_summary.json').read_text(encoding='utf-8'))
-    (PAPER/'tables').mkdir(exist_ok=True);(PAPER/'figures').mkdir(exist_ok=True)
+    (ASSETS/'tables').mkdir(exist_ok=True);(PAPER/'figures').mkdir(exist_ok=True)
     daily=[x for x in r['daily']['trials'] if not x['domain_qc'] and x['package']=='MultiSensor']
     rows=[]
     for name in ('Mean','Persistence','Ridge','Tree4','Forest16','MLP8','HistBoost'):
@@ -56,8 +57,8 @@ def main():
     lines.append(f"Validation-only selection chooses persistence for both daily tasks: 2019 DO MAE {d['test_mae']:.4f} on {d['test_n']} eligible forecasts, and pH MAE {p['test_mae']:.4f} on {p['test_n']}. Ridge has a lower post-hoc pH point MAE than persistence, but this marginal comparison does not quantify a paired advantage and it was not chosen by the frozen validation rule; the test winner is not relabelled as the selected model. The stricter domain-QC sensitivity leaves both selected model names unchanged. Selected persistence needs no learned coefficient payload, while still requiring sampling and state storage.")
     v=r['vibrio'];s=next(x for x in v['selection'] if x['censor']=='half' and x['package']=='Field4')
     lines.append(f"The Vibrio experiment has {v['rows']} paired observations: {s['train_n']} training, {s['validation_n']} validation and {s['test_n']} test rows. For all three input packages the resource rule selects the training mean, with 2025 MAE {s['test_mae']:.4f} log units. Across zero/half-LOQ/LOQ replacements the selected mean remains unchanged; its MAE spans {min(x['test_mae'] for x in v['selection']):.4f}--{max(x['test_mae'] for x in v['selection']):.4f}. These observations include {v['do_below3']} source DO values below 3 mg/L, but provide no prospective illness or mechanically verified failure endpoint.")
-    (PAPER/'tables/vietnam_findings.tex').write_text('\n\n'.join(lines[:2]),encoding='utf-8')
-    (PAPER/'tables/vietnam_vibrio_findings.tex').write_text(lines[2],encoding='utf-8')
+    (ASSETS/'tables/vietnam_findings.tex').write_text('\n\n'.join(lines[:2]),encoding='utf-8')
+    (ASSETS/'tables/vietnam_vibrio_findings.tex').write_text(lines[2],encoding='utf-8')
     shutil.copy2(ROOT/'results/vietnam_benchmark.pdf',PAPER/'figures/vietnam_benchmark.pdf')
 
 

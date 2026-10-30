@@ -1,0 +1,12 @@
+{
+  "command": [
+    "subst",
+    "W:",
+    "/d"
+  ],
+  "start_utc": "2026-10-30T05:53:21.526748+00:00",
+  "duration_s": 0.0,
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

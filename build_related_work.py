@@ -1,5 +1,6 @@
 """Render verified references without padding the list with uncited entries."""
 from pathlib import Path
+from artifact_paths import ASSETS
 import html,json,re
 
 ROOT=Path(__file__).resolve().parent
@@ -33,7 +34,8 @@ def main():
       ('platformio','PlatformIO. Espressif ESP32 Dev Module. Official board and build documentation. Accessed 21 October 2026.','https://docs.platformio.org/en/stable/boards/espressif32/esp32dev.html'),
     ]
     for key,title,url in extras:lines.append(r'\bibitem{lit_'+key+'} '+title+r' \url{'+url+'}')
-    (PAPER/'related_references.tex').write_text('\n'.join(lines),encoding='utf-8')
+    # Legacy reference rendering is diagnostic only; curated references.bib is canonical.
+    (ASSETS/'related_references.tex').write_text('\n'.join(lines),encoding='utf-8')
     print('Related-work references:',len(lines))
 
 

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-venv\\Scripts\\python.exe",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-core\\packages\\tool-esptoolpy\\esptool.py",
+    "--port",
+    "COM4",
+    "--baud",
+    "460800",
+    "chip_id"
+  ],
+  "start_utc": "2026-10-30T05:51:06.599192+00:00",
+  "duration_s": 1.875,
+  "exit_code": 0,
+  "stdout": "esptool.py v4.5.1\r\nSerial port COM4\r\nConnecting....\r\nDetecting chip type... Unsupported detection protocol, switching and trying again...\r\nConnecting....\r\nDetecting chip type... ESP8266\r\nChip is ESP8266EX\r\nFeatures: WiFi\r\nCrystal is 26MHz\r\nMAC: c8:c9:a3:2d:61:9f\r\nUploading stub...\r\nRunning stub...\r\nStub running...\r\nChanging baud rate to 460800\r\nChanged.\r\nChip ID: 0x002d619f\r\nHard resetting via RTS pin...\r\n",
+  "stderr": ""
+}

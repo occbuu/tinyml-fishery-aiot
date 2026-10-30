@@ -1,0 +1,20 @@
+.pio/build/esp32s3_16m/FrameworkArduino/WMath.cpp.o: \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/cores/esp32/WMath.cpp \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/include/esp_system.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_err.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_compiler.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_attr.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_bit_defs.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_idf_version.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/esp_mac.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/esp_chip_info.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/esp_random.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_timer/include/esp_timer.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include/esp_log.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp_rom_sys.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/reset_reasons.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp32s3/rom/ets_sys.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/soc.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_assert.h \
+ W:/.tooling/platformio-core/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include/esp_log_internal.h

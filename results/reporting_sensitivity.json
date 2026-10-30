@@ -550,6 +550,32 @@
       "test_mae": 0.9328804874095914
     }
   ],
+  "budget_breakpoints": [
+    {
+      "package": "Field4",
+      "budget_bytes": 4,
+      "method": "Mean",
+      "tolerance": 0.05
+    },
+    {
+      "package": "Field5",
+      "budget_bytes": 4,
+      "method": "Mean",
+      "tolerance": 0.05
+    },
+    {
+      "package": "Laboratory10",
+      "budget_bytes": 4,
+      "method": "Mean",
+      "tolerance": 0.05
+    },
+    {
+      "package": "Laboratory10",
+      "budget_bytes": 4952,
+      "method": "Forest16",
+      "tolerance": 0.05
+    }
+  ],
   "vibrio_comparison": {
     "package": "Laboratory10",
     "forest": {
@@ -583,6 +609,86 @@
     "date_bootstrap_ci95": [
       -0.20391571533022784,
       -0.05411713531753387
+    ],
+    "date_influence": [
+      {
+        "date": "2025-06-20",
+        "n": 16,
+        "mean_error_difference": 0.013558895323421971,
+        "leave_one_date_out_difference": -0.14447666132289458
+      },
+      {
+        "date": "2025-06-27",
+        "n": 16,
+        "mean_error_difference": -0.25312357815622116,
+        "leave_one_date_out_difference": -0.12023280009747248
+      },
+      {
+        "date": "2025-07-04",
+        "n": 16,
+        "mean_error_difference": 0.10003052217073477,
+        "leave_one_date_out_difference": -0.1523377183090139
+      },
+      {
+        "date": "2025-07-11",
+        "n": 16,
+        "mean_error_difference": -0.22424325122269445,
+        "leave_one_date_out_difference": -0.12285828436415672
+      },
+      {
+        "date": "2025-07-18",
+        "n": 16,
+        "mean_error_difference": -0.24156494068038215,
+        "leave_one_date_out_difference": -0.12128358532254874
+      },
+      {
+        "date": "2025-07-25",
+        "n": 16,
+        "mean_error_difference": -0.2416097645906325,
+        "leave_one_date_out_difference": -0.12127951042161689
+      },
+      {
+        "date": "2025-07-30",
+        "n": 16,
+        "mean_error_difference": -0.23615762164837756,
+        "leave_one_date_out_difference": -0.1217751597800037
+      },
+      {
+        "date": "2025-08-08",
+        "n": 16,
+        "mean_error_difference": -0.17576405670895417,
+        "leave_one_date_out_difference": -0.12726548386540582
+      },
+      {
+        "date": "2025-08-15",
+        "n": 16,
+        "mean_error_difference": -0.16637348784864872,
+        "leave_one_date_out_difference": -0.1281191719436154
+      },
+      {
+        "date": "2025-08-22",
+        "n": 16,
+        "mean_error_difference": -0.24652832187353052,
+        "leave_one_date_out_difference": -0.12083236885044434
+      },
+      {
+        "date": "2025-08-29",
+        "n": 16,
+        "mean_error_difference": 0.04859314368947065,
+        "leave_one_date_out_difference": -0.14766159299253537
+      },
+      {
+        "date": "2025-09-05",
+        "n": 16,
+        "mean_error_difference": 0.04749808231739533,
+        "leave_one_date_out_difference": -0.14756204195871034
+      }
+    ],
+    "dates_favoring_forest": 8,
+    "equally_weighted_date_difference": -0.1313070316023682,
+    "leave_one_date_out_range": [
+      -0.1523377183090139,
+      -0.12023280009747248
     ],
     "shifted_count_geometric_fold_error": 6.332474590183849,
     "scope": "Descriptive date-block bootstrap; pond identities absent. Fold error uses CFU/mL + 1, not clinical error or a per-sample bound."

@@ -1,0 +1,30 @@
+{
+  "command": [
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-venv\\Scripts\\python.exe",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-core\\packages\\tool-esptoolpy\\esptool.py",
+    "--port",
+    "COM5",
+    "--baud",
+    "460800",
+    "--chip",
+    "esp32s3",
+    "write_flash",
+    "--flash_mode",
+    "dio",
+    "--flash_size",
+    "16MB",
+    "0",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\simulateCode-v4\\firmware\\primary_hardware\\.pio\\build\\esp32s3_16m\\bootloader.bin",
+    "0x8000",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\simulateCode-v4\\firmware\\primary_hardware\\.pio\\build\\esp32s3_16m\\partitions.bin",
+    "0xe000",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-core\\packages\\framework-arduinoespressif32\\tools\\partitions\\boot_app0.bin",
+    "0x10000",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\simulateCode-v4\\firmware\\primary_hardware\\.pio\\build\\esp32s3_16m\\firmware.bin"
+  ],
+  "start_utc": "2026-10-30T05:51:25.574991+00:00",
+  "duration_s": 5.75,
+  "exit_code": 0,
+  "stdout": "esptool.py v4.5.1\r\nSerial port COM5\r\nConnecting....\r\nChip is ESP32-S3 (revision v0.2)\r\nFeatures: WiFi, BLE\r\nCrystal is 40MHz\r\nMAC: 7c:e8:b1:a3:f3:64\r\nUploading stub...\r\nRunning stub...\r\nStub running...\r\nChanging baud rate to 460800\r\nChanged.\r\nConfiguring flash size...\r\nFlash will be erased from 0x00000000 to 0x00003fff...\r\nFlash will be erased from 0x00008000 to 0x00008fff...\r\nFlash will be erased from 0x0000e000 to 0x0000ffff...\r\nFlash will be erased from 0x00010000 to 0x00054fff...\r\nCompressed 14032 bytes to 9808...\r\nWriting at 0x00000000... (100 %)\r\nWrote 14032 bytes (9808 compressed) at 0x00000000 in 0.4 seconds (effective 311.2 kbit/s)...\r\nHash of data verified.\r\nCompressed 3072 bytes to 146...\r\nWriting at 0x00008000... (100 %)\r\nWrote 3072 bytes (146 compressed) at 0x00008000 in 0.0 seconds (effective 572.1 kbit/s)...\r\nHash of data verified.\r\nCompressed 8192 bytes to 47...\r\nWriting at 0x0000e000... (100 %)\r\nWrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 1023.5 kbit/s)...\r\nHash of data verified.\r\nCompressed 280272 bytes to 159012...\r\nWriting at 0x00010000... (10 %)\r\nWriting at 0x0001c4c2... (20 %)\r\nWriting at 0x00024a95... (30 %)\r\nWriting at 0x0002a149... (40 %)\r\nWriting at 0x0002f540... (50 %)\r\nWriting at 0x00034aff... (60 %)\r\nWriting at 0x0003addd... (70 %)\r\nWriting at 0x00045095... (80 %)\r\nWriting at 0x0004ac5f... (90 %)\r\nWriting at 0x00050320... (100 %)\r\nWrote 280272 bytes (159012 compressed) at 0x00010000 in 3.6 seconds (effective 625.6 kbit/s)...\r\nHash of data verified.\r\n\r\nLeaving...\r\nHard resetting via RTS pin...\r\n",
+  "stderr": ""
+}

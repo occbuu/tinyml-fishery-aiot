@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-venv\\Scripts\\python.exe",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-core\\packages\\tool-esptoolpy\\esptool.py",
+    "--port",
+    "COM5",
+    "--baud",
+    "460800",
+    "chip_id"
+  ],
+  "start_utc": "2026-10-30T05:51:23.234982+00:00",
+  "duration_s": 1.1560000000026776,
+  "exit_code": 0,
+  "stdout": "esptool.py v4.5.1\r\nSerial port COM5\r\nConnecting....\r\nDetecting chip type... ESP32-S3\r\nChip is ESP32-S3 (revision v0.2)\r\nFeatures: WiFi, BLE\r\nCrystal is 40MHz\r\nMAC: 7c:e8:b1:a3:f3:64\r\nUploading stub...\r\nRunning stub...\r\nStub running...\r\nChanging baud rate to 460800\r\nChanged.\r\nWarning: ESP32-S3 has no Chip ID. Reading MAC instead.\r\nMAC: 7c:e8:b1:a3:f3:64\r\nHard resetting via RTS pin...\r\n",
+  "stderr": ""
+}

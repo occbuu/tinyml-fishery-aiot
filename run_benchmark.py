@@ -127,12 +127,22 @@ def export_c(model,name,feature_names,path,mean):
             lines.pop(); arr('model_w',m.coef_)
             lines.append('static inline float model_predict(const float *raw) { float x[MODEL_INPUTS]; for(int i=0;i<MODEL_INPUTS;i++) x[i]=((isfinite(raw[i])?raw[i]:model_median[i])-model_center[i])/model_scale[i];')
             lines.append(f'float out={float(m.intercept_):.9e}f; for(int i=0;i<MODEL_INPUTS;i++) out+=x[i]*model_w[i]; return out; }}')
-        elif name=='Tree4':
-            tree=m.tree_
+        elif name in ('Tree4','Forest16'):
+            tree=m.tree_ if name=='Tree4' else None
             def node(k):
                 if tree.children_left[k]<0:return f'return {float(tree.value[k,0,0]):.9e}f;'
                 return f'if(x[{tree.feature[k]}]<={float(tree.threshold[k]):.9e}f){{'+node(tree.children_left[k])+'}else{'+node(tree.children_right[k])+'}'
-            lines.append(node(0)+'}')
+            if name=='Tree4':
+                lines.append(node(0)+'}')
+            else:
+                # Unrolled trees share the train-only preprocessing above.
+                # The portable node allowance remains an estimate, not this code size.
+                lines.append('float total=0;')
+                for estimator in m.estimators_:
+                    tree=estimator.tree_
+                    expression=node(0).replace('return ', 'total+=')
+                    lines.append('{'+expression+'}')
+                lines.append(f'return total/{len(m.estimators_):.1f}f; }}')
         elif name=='MLP8':
             lines.pop(); nn=m.regressor_; arr('model_w1',nn.coefs_[0]);arr('model_b1',nn.intercepts_[0]);arr('model_w2',nn.coefs_[1])
             lines.append('static inline float model_predict(const float *raw) { float x[MODEL_INPUTS]; for(int i=0;i<MODEL_INPUTS;i++) x[i]=((isfinite(raw[i])?raw[i]:model_median[i])-model_center[i])/model_scale[i];')

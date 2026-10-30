@@ -1,3 +1,48 @@
+# Cập nhật Paper 2 và thử hai board thật — 30/10/2026
+
+Code đã đồng bộ với hai nguồn `manuscript.tex` / `supplement.tex`. Các đoạn bảng tự sinh đặt tại `results/manuscript_assets/`, sau đó ghép vào đúng float theo label bằng `sync_manuscript_assets.py`. Thư mục LaTeX không tái tạo `tables/` hoặc các file .tex con. BibTeX/aux/log được build ngoài thư mục nộp bài. `references.bib` được giữ làm thư viện chuẩn; generator tham khảo cũ không được ghi đè nó.
+
+## Tái lập trên máy tính
+
+```powershell
+python simulateCode-v4/run_all.py
+python -m unittest discover -s simulateCode-v4 -p "test_*.py"
+```
+
+Mặc định không nạp hay giao tiếp với board. `primary_export` xuất đúng các fitted model theo split gốc, xác nhận lại predictions so với CSV đã đóng băng. `artifacts` dựng bảng, sensitivity/rolling-origin, gộp chúng vào hai nguồn, kiểm tra bằng chứng board đã có rồi build PDF. Muốn chỉ dựng lại bản thảo: `python simulateCode-v4/run_all.py --only artifacts`.
+
+## Đã chạy board thật
+
+ESP8266EX/COM4 (80 MHz, flash 4 MB) và ESP32-S3 rev v0.2/COM5 (240 MHz, flash 16 MB) đã được nhận diện, nạp và replay trực tiếp cho Paper 2. Mỗi board: 468 pH × 3 mô hình + 192 Laboratory10 × 2 mô hình = 1.788 đối chiếu, tất cả đạt tolerance. Xem `results/primary_hardware/RESULTS_VI.md` và `hardware_summary.json`.
+
+Lần xuất forest all-float32 đầu có 5 pH + 4 Vibrio mismatch trên mỗi board. Log lỗi giữ nguyên. Bản sửa giữ double cho preprocessing/ngưỡng/leaf accumulation của forest, float32 cho transformed tree input/output; các estimator khác float32. Đây là triển khai unrolled giữ precision, không phải cấu trúc bảng node float32 của ước tính 4.748/4.952 byte trong frontier. Không đổi cây đã học, không thay split và không nới tolerance để đạt pass.
+
+## Chạy lại board
+
+```powershell
+python simulateCode-v4/prepare_primary_hardware.py
+$hwPython = './.tooling/platformio-venv/Scripts/python.exe'
+& $hwPython simulateCode-v4/run_primary_hardware.py build --target esp8266_4m
+& $hwPython simulateCode-v4/run_primary_hardware.py build --target esp32s3_16m
+& $hwPython simulateCode-v4/run_primary_hardware.py flash --target esp8266_4m --port COM4
+& $hwPython simulateCode-v4/run_primary_hardware.py flash --target esp32s3_16m --port COM5
+& $hwPython simulateCode-v4/run_primary_hardware.py collect --target esp8266_4m --port COM4
+& $hwPython simulateCode-v4/run_primary_hardware.py collect --target esp32s3_16m --port COM5
+python simulateCode-v4/run_all.py --only artifacts
+```
+
+Build dùng W: tạm và kiểm tra drive chưa bị dùng; chạy build lần lượt. Flash kiểm tra MAC, hash backup firmware gốc và security flags S3; không chỉnh eFuse. Bản gốc đầy đủ giữ tại `Code/HardwareTests_20261030/backups/`, firmware/log Paper 1 cũng được giữ. Hiện hai board để lại firmware replay Paper 2; firmware này không kích GPIO/relay hay Wi-Fi. Số COM có thể đổi khi cắm lại.
+
+Collector lưu từng dòng serial TX/RX, từng dự đoán, batch timing/heap, binary/source SHA-256 và snapshot. Phiên chạy lỗi mới không được tự bỏ qua để chọn pass cũ khi tổng hợp. Để tái lập số đo đã công bố, dùng snapshot trong từng run; file nguồn hiện tại có thể tiếp tục cải thiện collector.
+
+## Giới hạn phép đo
+
+Đặc trưng lịch sử/clock pH chuẩn bị nhân quả trên host; MCU thực hiện imputation, scaling và inference. Timer ở MCU bao quanh 64 lần gọi sau warm-up, gồm dispatch, conversion, optimizer barrier và volatile output, ngoài serial parse/UART. Median/p95 là phân vị của thời gian trung bình mỗi call trong các batch, không phải single-call latency. Min free heap quan sát trước/sau batch không phải peak SRAM. Chưa đo power, RF, cảm biến, vòng điều khiển, hoặc lợi ích sinh học. Lab features vẫn cần hóa nghiệm. Thử board xác lập thực thi/numerical agreement cho estimator, không biến bài thành thử nghiệm thực địa mới.
+
+---
+
+## Tài liệu pipeline cũ (tham khảo lịch sử)
+
 # Phạm vi bản thảo chính và phân tích bổ sung
 
 Bài chính `../Paper2_FisheryAIoT_V4_Research/main.tex` tập trung pH Việt Nam qua hai năm và ước lượng total Vibrio. `supplementary.tex` giữ benchmark tần suất cao, DO chưa rõ đơn vị, telemetry, firmware và kinh tế. Không coi compiled C/cross-build là số đo thiết bị thật; Wokwi chưa thực thi.

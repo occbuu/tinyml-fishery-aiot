@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrl}
+\toprule
+Model & Validation MAE & Test MAE & Payload (B) & 4 KiB eligible \\
+\midrule
+Mean & 0.6015 & 0.9329 & 4 & Yes \\
+Ridge & 0.6412 & 0.8506 & 164 & Yes \\
+Tree4 & 0.6425 & 0.8734 & 520 & Yes \\
+Forest16 & 0.5719 & 0.8016 & 4952 & Over budget \\
+MLP8 & 0.8318 & 1.2326 & 516 & Yes \\
+HistBoost & 0.6426 & 0.8539 & -- & No export \\
+\bottomrule
+\end{tabular}

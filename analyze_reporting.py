@@ -1,5 +1,6 @@
 """Post-review reporting sensitivities; original test splits/fits remain frozen."""
 from pathlib import Path
+from artifact_paths import ASSETS
 import json
 import itertools
 import numpy as np
@@ -24,7 +25,7 @@ def tex_table(name,columns,header,rows):
     lines=[r'\begin{tabular}{'+columns+'}',r'\toprule',header+r' \\',r'\midrule']
     lines += [r+r' \\' for r in rows]
     lines += [r'\bottomrule',r'\end{tabular}']
-    (PAPER/'tables'/name).write_text('\n'.join(lines),encoding='utf-8')
+    (ASSETS/'tables'/name).write_text('\n'.join(lines),encoding='utf-8')
 
 
 def paired_ph_comparison(predictions):
@@ -67,16 +68,29 @@ def main():
     ph_pair=paired_ph_comparison(pd.read_csv(OUT/'vietnam_daily_predictions.csv'))
     base=[r for r in original['vibrio']['trials'] if r['censor']=='half']
     sensitivity=[]
+    breakpoints=[]
     for package in ('Field4','Field5','Laboratory10'):
         rows=[r for r in base if r['package']==package]
         for budget in (512,1024,2048,4096,8192,16384):
             for tolerance in (0.,.05,.10):
                 pick=select_at_budget(rows,budget,tolerance)
                 sensitivity.append(dict(package=package,budget_bytes=budget,tolerance=tolerance,**{k:pick[k] for k in ('method','parameter_bytes','validation_mae','test_mae')}))
+        previous=None
+        for budget in sorted({r['parameter_bytes'] for r in rows if r['parameter_bytes'] is not None}):
+            pick=select_at_budget(rows,budget,.05)
+            if pick['method']!=previous:
+                breakpoints.append(dict(package=package,budget_bytes=budget,method=pick['method'],tolerance=.05))
+                previous=pick['method']
     pred=pd.read_csv(OUT/'vietnam_vibrio_predictions.csv')
     g=pred[pred.package=='Laboratory10'].pivot(index=['source_row','date'],columns='method',values=['observed','prediction'])
     difference=abs(g['prediction']['Forest16']-g['observed']['Forest16'])-abs(g['prediction']['Mean']-g['observed']['Mean'])
     per_date=difference.groupby(level='date').agg(['sum','count'])
+    date_rows=[]
+    for date,row in per_date.iterrows():
+        remainder_n=int(per_date['count'].sum()-row['count'])
+        date_rows.append(dict(date=str(date),n=int(row['count']),mean_error_difference=float(row['sum']/row['count']),
+                              leave_one_date_out_difference=float((per_date['sum'].sum()-row['sum'])/remainder_n)))
+    pd.DataFrame(date_rows).to_csv(OUT/'vibrio_date_influence.csv',index=False)
     rng=np.random.default_rng(SEED+900);boot=[]
     for _ in range(5000):
         sample=per_date.iloc[rng.integers(0,len(per_date),len(per_date))]
@@ -86,6 +100,10 @@ def main():
     comparison=dict(package='Laboratory10',forest=forest,mean=mean,
                     paired_test_mae_difference=float(difference.mean()),date_blocks=len(per_date),
                     date_bootstrap_ci95=[float(x) for x in np.quantile(boot,[.025,.975])],
+                    date_influence=date_rows,
+                    dates_favoring_forest=sum(r['mean_error_difference']<0 for r in date_rows),
+                    equally_weighted_date_difference=float((per_date['sum']/per_date['count']).mean()),
+                    leave_one_date_out_range=[min(r['leave_one_date_out_difference'] for r in date_rows),max(r['leave_one_date_out_difference'] for r in date_rows)],
                     shifted_count_geometric_fold_error=float(10**forest['test_mae']),
                     scope='Descriptive date-block bootstrap; pond identities absent. Fold error uses CFU/mL + 1, not clinical error or a per-sample bound.')
     tasks=json.loads((ROOT/'data/processed/tasks.json').read_text())
@@ -96,14 +114,14 @@ def main():
                 telemetry_grid.append(dict(trigger_quantile=q,**telemetry(task,q,hb)))
     result=dict(analysis_type='Post-review sensitivity of fixed fitted models and declared policies; not retuning the primary selector on test.',
                 ph_paired_comparison=ph_pair,
-                budgets=sensitivity,vibrio_comparison=comparison,telemetry_sensitivity=telemetry_grid,
+                budgets=sensitivity,budget_breakpoints=breakpoints,vibrio_comparison=comparison,telemetry_sensitivity=telemetry_grid,
                 daily_do_status='Source workbook unit unresolved; exclude from primary physiological and numerical-accuracy claims; native-scale analysis retained in Supplement.',
                 primary_endpoint='Next-day Vietnamese pH and simultaneous total-Vibrio log count')
     (OUT/'reporting_sensitivity.json').write_text(json.dumps(result,indent=2,allow_nan=False))
     rows=[f"{p['pond']} & {p['n']} & {p['ridge_mae']:.4f} & {p['persistence_mae']:.4f} & {p['difference_mean']:.4f}" for p in ph_pair['per_pond']]
     tex_table('vietnam_ph_paired.tex','lrrrr',r'Pond label & Forecasts & Ridge MAE & Persistence MAE & Paired difference',rows)
     lo,hi=ph_pair['paired_pond_bootstrap_ci95']
-    (PAPER/'tables/vietnam_ph_paired_findings.tex').write_text(
+    (ASSETS/'tables/vietnam_ph_paired_findings.tex').write_text(
         f"The paired Ridge-minus-persistence test MAE difference is {ph_pair['difference_mean']:.4f} pH units, "
         f"with a descriptive whole-pond bootstrap interval of {lo:.4f} to {hi:.4f}. "
         f"All {ph_pair['resamples']:,} ordered resamples of the six pond-label sequences are enumerated, "
@@ -135,7 +153,7 @@ def main():
     tex_table('vietnam_ph_packages.tex','llrr','Package & Selected & Test MAE & Test forecasts',
               [f"{r['package']} & {r['method']} & {r['test_mae']:.4f} & {r['test_n']}" for r in selected])
     low,high=comparison['date_bootstrap_ci95']
-    (PAPER/'tables/vibrio_frontier_findings.tex').write_text(
+    (ASSETS/'tables/vibrio_frontier_findings.tex').write_text(
         f"Laboratory10 Forest16 improves validation MAE from {mean['validation_mae']:.4f} to {forest['validation_mae']:.4f} and test MAE from {mean['test_mae']:.4f} to {forest['test_mae']:.4f}. "
         f"Its {forest['parameter_bytes']:,}-byte estimated payload exceeds 4,096 bytes, so its exclusion is a memory-rule decision, not failure to improve validation. "
         f"The paired test-error difference is {comparison['paired_test_mae_difference']:.4f} log units (descriptive date-block bootstrap interval {low:.4f} to {high:.4f}, {len(per_date)} dates). "

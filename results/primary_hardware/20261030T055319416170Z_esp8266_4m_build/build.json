@@ -1,0 +1,19 @@
+{
+  "command": [
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-venv\\Scripts\\python.exe",
+    "-m",
+    "platformio",
+    "run",
+    "-d",
+    "W:/simulateCode-v4/firmware/primary_hardware",
+    "-e",
+    "esp8266_4m",
+    "-j",
+    "4"
+  ],
+  "start_utc": "2026-10-30T05:53:19.431828+00:00",
+  "duration_s": 2.0939999999973224,
+  "exit_code": 0,
+  "stdout": "Processing esp8266_4m (platform: espressif8266@4.2.1; board: nodemcuv2; framework: arduino)\r\n--------------------------------------------------------------------------------\r\nVerbose mode can be enabled via `-v, --verbose` option\r\nCONFIGURATION: https://docs.platformio.org/page/boards/espressif8266/nodemcuv2.html\r\nPLATFORM: Espressif 8266 (4.2.1) > NodeMCU 1.0 (ESP-12E Module)\r\nHARDWARE: ESP8266 80MHz, 80KB RAM, 4MB Flash\r\nPACKAGES: \r\n - framework-arduinoespressif8266 @ 3.30102.0 (3.1.2) \r\n - tool-esptool @ 1.413.0 (4.13) \r\n - tool-esptoolpy @ 1.30000.201119 (3.0.0) \r\n - toolchain-xtensa @ 2.100300.220621 (10.3.0)\r\nLDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf\r\nLDF Modes: Finder ~ chain, Compatibility ~ soft\r\nFound 37 compatible libraries\r\nScanning dependencies...\r\nNo dependencies\r\nBuilding in release mode\r\nCompiling .pio\\build\\esp8266_4m\\src\\main.cpp.o\r\nLinking .pio\\build\\esp8266_4m\\firmware.elf\r\nRetrieving maximum program size .pio\\build\\esp8266_4m\\firmware.elf\r\nChecking size .pio\\build\\esp8266_4m\\firmware.elf\r\nAdvanced Memory Usage is available via \"PlatformIO Home > Project Inspect\"\r\nRAM:   [====      ]  36.0% (used 29508 bytes from 81920 bytes)\r\nFlash: [===       ]  26.9% (used 280943 bytes from 1044464 bytes)\r\nBuilding .pio\\build\\esp8266_4m\\firmware.bin\r\nCreating BIN file \".pio\\build\\esp8266_4m\\firmware.bin\" using \"W:\\.tooling\\platformio-core\\packages\\framework-arduinoespressif8266\\bootloaders\\eboot\\eboot.elf\" and \".pio\\build\\esp8266_4m\\firmware.elf\"\r\n========================= [SUCCESS] Took 1.76 seconds =========================\r\n\r\nEnvironment    Status    Duration\r\n-------------  --------  ------------\r\nesp8266_4m     SUCCESS   00:00:01.761\r\n========================= 1 succeeded in 00:00:01.761 =========================\r\n",
+  "stderr": "W:\\.tooling\\platformio-core\\packages\\framework-arduinoespressif8266\\tools\\elf2bin.py:54: SyntaxWarning: invalid escape sequence '\\s'\r\n  words = re.split('\\s+', line)\r\nW:\\.tooling\\platformio-core\\packages\\framework-arduinoespressif8266\\tools\\elf2bin.py:73: SyntaxWarning: invalid escape sequence '\\s'\r\n  words = re.split('\\s+', line)\r\n"
+}

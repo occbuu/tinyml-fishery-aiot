@@ -319,5 +319,5 @@
   ],
   "selected_method": "Mean",
   "parameter_bytes": 4,
-  "note": "Prediction fixture from the forecasting run; see c_reference_validation.json and esp32_build_summary.json for separate implementation verification."
+  "note": "Prediction fixture from the forecasting run; see separate c_reference_validation.json and esp32_build_summary.json for implementation verification."
 }

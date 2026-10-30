@@ -1,5 +1,6 @@
 """Vector diagrams and descriptive biochemistry; no hardware timing invented."""
 from pathlib import Path
+from artifact_paths import ASSETS
 import json
 import numpy as np
 import pandas as pd

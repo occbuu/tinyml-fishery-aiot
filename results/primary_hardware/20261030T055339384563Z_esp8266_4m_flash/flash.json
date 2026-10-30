@@ -1,0 +1,24 @@
+{
+  "command": [
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-venv\\Scripts\\python.exe",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\.tooling\\platformio-core\\packages\\tool-esptoolpy\\esptool.py",
+    "--port",
+    "COM4",
+    "--baud",
+    "460800",
+    "--chip",
+    "esp8266",
+    "write_flash",
+    "--flash_mode",
+    "dio",
+    "--flash_size",
+    "4MB",
+    "0",
+    "C:\\OccBuu\\Paper2026\\10_AIoT_Fishery_Review\\simulateCode-v4\\firmware\\primary_hardware\\.pio\\build\\esp8266_4m\\firmware.bin"
+  ],
+  "start_utc": "2026-10-30T05:53:41.261737+00:00",
+  "duration_s": 6.687999999994645,
+  "exit_code": 0,
+  "stdout": "esptool.py v4.5.1\r\nSerial port COM4\r\nConnecting....\r\nChip is ESP8266EX\r\nFeatures: WiFi\r\nCrystal is 26MHz\r\nMAC: c8:c9:a3:2d:61:9f\r\nUploading stub...\r\nRunning stub...\r\nStub running...\r\nChanging baud rate to 460800\r\nChanged.\r\nConfiguring flash size...\r\nFlash will be erased from 0x00000000 to 0x00045fff...\r\nCompressed 285088 bytes to 209238...\r\nWriting at 0x00000000... (7 %)\r\nWriting at 0x00005c73... (15 %)\r\nWriting at 0x0000b5ad... (23 %)\r\nWriting at 0x00010a3e... (30 %)\r\nWriting at 0x00016248... (38 %)\r\nWriting at 0x0001b39f... (46 %)\r\nWriting at 0x00020372... (53 %)\r\nWriting at 0x0002553e... (61 %)\r\nWriting at 0x0002ad9c... (69 %)\r\nWriting at 0x00030529... (76 %)\r\nWriting at 0x00035938... (84 %)\r\nWriting at 0x0003af09... (92 %)\r\nWriting at 0x000413ed... (100 %)\r\nWrote 285088 bytes (209238 compressed) at 0x00000000 in 4.8 seconds (effective 477.6 kbit/s)...\r\nHash of data verified.\r\n\r\nLeaving...\r\nHard resetting via RTS pin...\r\n",
+  "stderr": ""
+}

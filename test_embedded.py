@@ -28,12 +28,14 @@ class EmbeddedEvidenceTests(unittest.TestCase):
         import sys
         sys.path.insert(0,str(ROOT.parent))
         from build_manuscript_references import read_document
-        for entry in ('main.tex','supplementary.tex'):
+        bib=set(re.findall(r'@\w+\{([^,]+),',(paper/'references.bib').read_text(encoding='utf-8')))
+        used=set()
+        for entry in ('manuscript.tex','supplement.tex'):
             texts=read_document(paper/entry)
-            ref='main_references.tex' if entry=='main.tex' else 'supplementary_references.tex'
-            bib=set(re.findall(r'\\bibitem\{([^}]+)\}',(paper/ref).read_text(encoding='utf-8')))
             cites={key.strip() for group in re.findall(r'\\cite\{([^}]+)\}',texts) for key in group.split(',')}
-            self.assertFalse(cites-bib);self.assertFalse(bib-cites)
+            self.assertFalse(cites-bib)
+            used.update(cites)
+        self.assertFalse(bib-used)
 
 
 if __name__=='__main__':unittest.main()

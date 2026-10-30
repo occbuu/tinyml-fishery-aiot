@@ -6,6 +6,7 @@ ROOT=Path(__file__).resolve().parent
 STEPS={'prepare':'prepare_data.py','benchmark':'run_benchmark.py',
        'transfer':'transfer_and_context.py','vietnam':'vietnam_benchmark.py',
        'sensitivity':'analyze_reporting.py',
+       'primary_export':'prepare_primary_hardware.py',
        'artifacts':'build_research_artifacts.py'}
 
 
