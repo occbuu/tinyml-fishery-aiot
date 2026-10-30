@@ -1,3 +1,7 @@
+# Ghi chú làm việc (tiếng Việt)
+
+Tài liệu cho người tải code kèm paper là [`README.md`](README.md) (tiếng Anh). Bản thảo hiện tại là `../Paper2_FisheryAIoT_V4_Research/manuscript.tex` và `supplement.tex`. Các đoạn cũ bên dưới còn ghi `main.tex` chỉ để lưu lịch sử.
+
 # Cập nhật Paper 2 và thử hai board thật — 30/10/2026
 
 Code đã đồng bộ với hai nguồn `manuscript.tex` / `supplement.tex`. Các đoạn bảng tự sinh đặt tại `results/manuscript_assets/`, sau đó ghép vào đúng float theo label bằng `sync_manuscript_assets.py`. Thư mục LaTeX không tái tạo `tables/` hoặc các file .tex con. BibTeX/aux/log được build ngoài thư mục nộp bài. `references.bib` được giữ làm thư viện chuẩn; generator tham khảo cũ không được ghi đè nó.
